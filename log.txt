@@ -1,0 +1,30 @@
+Order by which visited the vertices:
+1 > 6 > 2 > 3 > 4 > 5 > 7 > 12 > 8 > 9 > 10 > 11
+
+version 3 faster than version 2: 36
+version 3 as fast as version 2: 35
+version 3 less faster than version 2: 29
+
+version 3 faster than version 1: 3
+version 3 as fast as version 1: 4
+version 3 less faster than version 1: 93
+
+Mean time version 1: 4ms
+Mean time version 2: 6ms
+Mean time version 3: 6ms
+
+version 3 used less memory than version 3: 0
+version 3 used as much memory as version 3: 0
+version 3 used more memory than version 3: 100
+
+version 3 used less memory than version 2: 0
+version 3 used as much memory as version 2: 0
+version 3 used more memory than version 2: 100
+
+Mean memory version 1: 526531bytes
+Mean memory version 2: 535265bytes
+Mean memory version 3: 536064bytes
+
+Maximum color used in version 1: 2
+Maximum color used in version 2: 2
+Maximum color used in version 3: 2
