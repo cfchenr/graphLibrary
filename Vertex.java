@@ -71,9 +71,10 @@ public class Vertex {
      */
     public void setNeighbors (int k, int ps) { 
 
-        if (ps == 1) successorList.add(k);
-        else if (ps == -1) predecessorList.add(k);
-
+        if (ps == 1) 
+            successorList.add(k);
+        else if (ps == -1) 
+            predecessorList.add(k);
     }
 
     /** 

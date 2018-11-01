@@ -13,21 +13,22 @@ public class sma_1 {
     static long mem_v1, mem_v2, mem_v3;
     static long [] total_mem = new long[3];
     static int maxColor_v1, maxColor_v2, maxColor_v3;
+    static ArrayList<Vertex> vertexList;
         
     public static void main (String[] args) throws IOException {
 
         String file = "matrix_adj.txt";
         graph = new Graph(file);
-        ArrayList<Vertex> vertexList = graph.getVertexList();
+        vertexList = graph.getVertexList();
 
         long startTime, stopTime, elapsedTime;
         pw_log = new PrintWriter(new File("log.txt"));
 
-        System.out.print("         _");
-        for (int it = 0; it < 100; it++) 
-            System.out.print("_");
-        System.out.println("_");
-        System.out.print("Loading: [");
+        // System.out.print("         _");
+        // for (int it = 0; it < 100; it++) 
+        //     System.out.print("_");
+        // System.out.println("_");
+        // System.out.print("Loading: [");
 
         maxColor_v1 = 1;
         maxColor_v2 = 1;
@@ -54,7 +55,7 @@ public class sma_1 {
 
         for (int it = 0; it < numIt; it++) {
 
-            System.out.print("=");
+            //System.out.print("=");
          
             startTime = System.currentTimeMillis();
             v1(vertexList);
@@ -77,16 +78,18 @@ public class sma_1 {
             time_v3 = elapsedTime;
             total_time[2] += time_v3;
 
-            dfs(vertexList);
             if (it == 0) {
-                pw_log.println("Order by which visited the vertices:");
-                for (int it2 = 0; it2 < order.size(); it2++)
-                    if (it2 == order.size() - 1)
-                        pw_log.print(order.indexOf(it2)+1);
-                    else
-                        pw_log.print(order.indexOf(it2)+1 + " > ");
-                pw_log.println();
-                pw_log.println();
+
+                    dfs();
+
+                    pw_log.println("Order by which visited the vertices:");
+                    for (int it2 = 0; it2 < order.size(); it2++)
+                        if (it2 == order.size() - 1)
+                            pw_log.print(order.indexOf(it2)+1);
+                        else
+                            pw_log.print(order.indexOf(it2)+1 + " > ");
+                    pw_log.println();
+                    pw_log.println();
             }
 
             if (time_v3 > time_v2)
@@ -147,7 +150,7 @@ public class sma_1 {
         pw_log.println("Maximum color used in version 2: " + maxColor_v2);
         pw_log.println("Maximum color used in version 3: " + maxColor_v3);
 
-        System.out.println("]");
+        //System.out.println("]");
         pw_log.close();
 
     }
@@ -357,38 +360,101 @@ public class sma_1 {
 
     }
 
-    public static void dfs (ArrayList<Vertex> vertexList) {
+    public static void dfs () {
 
-        ArrayList<Vertex> nonVisitedVertexes = new ArrayList<Vertex>();
+        ArrayList<Vertex> nonVisitedVertex = new ArrayList<Vertex>();
+
+        Map<Vertex, Integer> order = new HashMap<Vertex, Integer>();
+
+        Integer orderIndex = 0;
 
         for (int i = 0; i < vertexList.size(); i++)
-            nonVisitedVertexes.add(vertexList.get(i));
+            nonVisitedVertex.add(vertexList.get(i));
 
-        while (!nonVisitedVertexes.isEmpty()) {
+        while (!nonVisitedVertex.isEmpty()) {
 
-            Stack<Vertex> vertexesWithSucessors = new Stack<Vertex>();
-            Vertex vertex = vertexList.get(nonVisitedVertexes.get(0).getName());
+            Stack<Integer> stack = new Stack<Integer>();
 
-            vertexesWithSucessors.add(vertex);
-            vertexList.get(vertex.getName()).setVisited();
-            nonVisitedVertexes.remove(vertex);
+            Integer vertex = nonVisitedVertex.get(0).getName();
 
-            while (!vertexesWithSucessors.isEmpty()) {
+            vertexList.get(vertex).setVisited();
 
-                Integer element = vertexesWithSucessors.pop().getName();
-                ArrayList<Integer> sucessors = vertexList.get(element).getSucessor();
+            System.out.println("Set " + (vertexList.get(vertex).getName()+1) + " as visited");        
 
-                order.add(element);
+            order.put(vertexList.get(vertex), ++orderIndex);
 
-                for (int i = 0; i < sucessors.size(); i++) {
+            nonVisitedVertex.remove(vertexList.get(vertex));
 
-                    Vertex n = vertexList.get(sucessors.get(i));
+            System.out.println("Remove " + (vertex+1) + " from a list of non visited vertexes");        
 
-                    if (n != null && !(n.isVisited())) {
+            stack.add(vertexList.get(vertex).getName());
 
-                        vertexesWithSucessors.add(n);
-                        vertexList.get(n.getName()).setVisited();
-                        nonVisitedVertexes.remove(n);
+            System.out.println("Add " + (vertexList.get(vertex).getName()+1) + " to a stack");
+
+            while (stack.size() != 0) {
+
+                vertex = stack.pop();
+            
+                System.out.println("Remove " + (vertexList.get(vertex).getName()+1) + " to a stack");
+
+                Iterator<Integer> neighbors = vertexList.get(vertex).getSucessor().listIterator();
+
+                ArrayList<Integer> temp1 = vertexList.get(vertex).getSucessor();
+
+                System.out.print("Get " + (vertexList.get(vertex).getName()+1) + " sucessors:");
+
+                if (!(temp1.size() > 0))
+                    System.out.print(" Without sucessors!");
+                else
+                    for (int i = 0; i < temp1.size(); i++)
+                        System.out.print(" " + (vertexList.get(temp1.get(i)).getName()+1) + " ");
+
+                System.out.println();
+
+                while (neighbors.hasNext()) {
+
+                    Integer n = neighbors.next();
+
+                    System.out.println("Analyze sucessor " + (vertexList.get(n).getName()+1));
+
+                    ArrayList<Integer> temp = vertexList.get(n).getPredecessor();
+
+                    System.out.println("Get " + (vertexList.get(n).getName()+1) + " predecessor");
+
+                    boolean value = true;
+
+                    for (int i = 0; i < temp.size(); i++) {
+
+                        System.out.print((vertexList.get(temp.get(i)).getName()+1) + " have a non visited predecessor of " + (vertexList.get(n).getName()+1) + "?");
+                        
+                        if (!vertexList.get(temp.get(i)).isVisited()) {
+
+                            System.out.println(" Yes");
+
+                            value = false;
+
+                            break;
+
+                        } else
+                            System.out.println(" No");
+
+                    }
+
+                    if (!vertexList.get(n).isVisited() && value) {
+
+                        vertexList.get(n).setVisited();
+            
+                        System.out.println("Set " + (vertexList.get(n).getName()+1) + " as visited");
+
+                        order.put(vertexList.get(n), ++orderIndex);
+
+                        nonVisitedVertex.remove(vertexList.get(n));
+
+                        System.out.println("Remove " + (n+1) + " from a list of non visited vertexes");        
+
+                        stack.add(vertexList.get(n).getName());
+                        
+                        System.out.println("Add " + (vertexList.get(n).getName()+1) + " to a queue");
 
                     }
 
@@ -397,6 +463,11 @@ public class sma_1 {
             }
 
         }
+
+        System.out.println();
+
+        for (int i = 0; i < order.size(); i++)
+            System.out.println((vertexList.get(i).getName()+1) + " have visited in " + order.get(vertexList.get(i)) + " place");
 
     }
 

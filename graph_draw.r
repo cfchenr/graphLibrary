@@ -3,7 +3,12 @@ library(igraph)
 
 dat=read.csv("matrix_adj.csv",header=TRUE,row.names=1,check.names=FALSE) # read .csv file
 m=as.matrix(dat)
-net=graph.adjacency(m,mode="directed",weighted=NULL,diag=FALSE) 
+
+if ('-1' %in% m) {
+  net=graph.adjacency(m,mode="directed",weighted=NULL,diag=FALSE) 
+} else {
+  net=graph.adjacency(m,mode="undirected",weighted=NULL,diag=FALSE) 
+}
 
 #import the sample_attributes file:
 a=read.csv("matrix_color_v2.csv")
