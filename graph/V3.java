@@ -9,7 +9,7 @@ public class V3 {
     /**
      * 
      */
-	private ArrayList<Vertex> vertexList;
+    private ArrayList<Vertex> vertexList;
     
     /**
      * 
@@ -48,7 +48,7 @@ public class V3 {
      * @return                       [description]
      * @throws FileNotFoundException [description]
      */
-	public V3 (Graph graph) throws FileNotFoundException {
+    public V3 (Graph graph) throws FileNotFoundException {
 
         log_v3 = new PrintWriter(new File(graph.getName() + "/log_v3_.txt"));
 
