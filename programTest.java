@@ -18,10 +18,11 @@ public class programTest {
 
         DFS dfs = new DFS(graph);
 
-        for (int i = 0; i < graph.getVertexList().size(); i++) {
+        for (int i = 0; i < graph.getVertexList().size(); i++)
             System.out.println((graph.getVertexList().get(i).getName()+1) + " has color " + graph.getVertexList().get(i).getColor());
+
+        for (int i = 0; i < graph.getVertexList().size(); i++)
             System.out.println((graph.getVertexList().get(i).getName()+1) + " was visited in " + graph.getVertexList().get(i).getOrder() + " place");
-        }
 
 
     }
