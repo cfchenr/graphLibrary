@@ -1,20 +1,24 @@
+package graph;
+
 import java.util.*; 
 import java.io.*;
 
 public class Graph {
 
     /**
-     * adjacency matrix (ArraList) of this graph
-     */
-    private ArrayList<String> matrix_adj;
-    /**
      * list (ArrayList) of the vertexes in this graph
      */
     private ArrayList<Vertex> vertexList;
     /**
+     * adjacency matrix (ArraList) of this graph
+     */
+    private ArrayList<String> matrix_adj;
+    /**
      * number of vertexes in this graph
      */
-    private int size;
+    private int size = 0;
+
+    private String name;
 
     //========================================================================================//
 
@@ -25,18 +29,20 @@ public class Graph {
 
     public Graph (String file) throws FileNotFoundException {
 
-        this.vertexList = new ArrayList<>();
+        Scanner scf = new Scanner(new File (file));
 
-        File fin = new File (file);
+        name = file.split("/")[1].split("\\.")[0];
 
-        Scanner scf = new Scanner(fin);
-
+        this.vertexList = new ArrayList<Vertex>();
         this.matrix_adj = new ArrayList<String>();
 
-        this.size = 0;
+        File dir = new File(name);
 
-        pw = new PrintWriter(new File("matrix_adj.csv"));
-        sb = new StringBuilder(); 
+        if (!dir.exists())
+            dir.mkdir();
+
+        this.pw = new PrintWriter(new File(name + "/adj.csv"));
+        this.sb = new StringBuilder(); 
 
         while (scf.hasNextLine()) {
 
@@ -60,8 +66,7 @@ public class Graph {
          */
         for(int i = 0; i < matrix_adj.size(); i++) {
 
-            Vertex v = new Vertex(i);
-            this.vertexList.add(v);       
+            this.vertexList.add(new Vertex(i));       
 
         }
 
@@ -164,6 +169,12 @@ public class Graph {
     public boolean isNeighbor (int k, int y) {
 
         return (vertexList.get(k).isNeighbor(y) || vertexList.get(y).isNeighbor(k));
+
+    }
+
+    public String getName () {
+
+        return name;
 
     }
 
