@@ -14,17 +14,22 @@ public class DFS {
     /**
      * 
      */
-    private Integer orderIndex = 0;
+    private int orderIndex = 0;
     
     /**
      * 
      */
-    private Stack<Integer> stack;
+    private Stack<Vertex> stack;
+
+    /**
+     * 
+     */
+    private Iterator<Integer> neighbors;
     
     /**
      * 
      */
-    private PrintWriter log_dfs;
+    private WriteLogFile log;
 
     /**
      * [DFS description]
@@ -34,35 +39,35 @@ public class DFS {
      */
     public DFS (Graph graph) throws IOException {
 
-        log_dfs = new PrintWriter(new File(graph.getName() + "/log_dfs.txt"));
+        log = new WriteLogFile(graph.getName() + "/log_dfs.txt");
+
+        graph.sortVertexByDegree();
 
         vertexList = graph.getVertexList();
-
-        log_dfs.printf("%-30s%-20s%-60s%-10s%s\n","[timestamp]", "action","details","vertex"," observations");    
 
         int orderVertexList = 0;  
 
         while (haveNonVisitedVertexes()) {
 
-            stack = new Stack<Integer>();
+            stack = new Stack<Vertex>();
             
-            Integer vertex = getFirstNonVisitedVertex();
+            Vertex vertex = getFirstNonVisitedVertex();
             
-            setVisited(vertexList.get(vertex));
+            setVisited(vertex);
             
-            setOrder(vertexList.get(vertex));
+            setOrder(vertex);
             
-            addToStack(vertexList.get(vertex));
+            addToStack(vertex);
 
             while (stack.size() != 0) {
 
                 vertex = getFromStack();
                 
-                Iterator<Integer> neighbors = getAllSucessors(vertexList.get(vertex));
+                neighbors = getAllSucessors(vertex);
             
                 while (neighbors.hasNext()) {
             
-                    Integer n = getNextSucessor(neighbors);
+                    int n = getNextSucessor(neighbors);
             
                     if (!getVisited(vertexList.get(n)) && !haveNonVisitedPredecessors(vertexList.get(n))) {
             
@@ -80,7 +85,7 @@ public class DFS {
 
         }
 
-        log_dfs.close();
+        log.close();
     
     }
 
@@ -88,15 +93,15 @@ public class DFS {
      * [getFirstNonVisitedVertex description]
      * @return [description]
      */
-    private Integer getFirstNonVisitedVertex () {
+    private Vertex getFirstNonVisitedVertex () {
 
         for (int i = 0; i < vertexList.size(); i++)
 
             if (!vertexList.get(i).isVisited())
             
-                return vertexList.get(i).getName();
+                return vertexList.get(i);
         
-        return vertexList.get(0).getName();
+        return vertexList.get(0);
     
     }
 
@@ -106,19 +111,19 @@ public class DFS {
      */
     private boolean haveNonVisitedVertexes () {
 
-        log_dfs.printf("%-30s%-20s%-60s%-10s","["+new Timestamp(new Date().getTime())+"]", "Check", "if the graph contains a non visited vertex","-");        
+        log.write("Check", "if the graph contains a non visited vertex", "");        
         
         for (int i = 0; i < vertexList.size(); i++)
 
             if (!vertexList.get(i).isVisited()) {
         
-                log_dfs.println(" Yes. Vertex " + (vertexList.get(i).getName()+1));
+                log.writeln("Yes. Vertex " + (vertexList.get(i).getName()+1));
             
                 return true;
         
             }
         
-        log_dfs.println(" No");
+        log.writeln("No");
 
         return false;
 
@@ -132,7 +137,7 @@ public class DFS {
 
         vertex.setOrder(++orderIndex);
         
-        log_dfs.printf("%-30s%-20s%-60s%-10s\n","["+new Timestamp(new Date().getTime())+"]", "Set", "in " + orderIndex + " the order of vertex ", (vertex.getName()+1));        
+        log.writef("Set", "in " + orderIndex + " the order of vertex ", Integer.toString(vertex.getName()+1));        
     
     }
 
@@ -144,7 +149,7 @@ public class DFS {
 
         vertex.setVisited();
     
-        log_dfs.printf("%-30s%-20s%-60s%-10s\n","["+new Timestamp(new Date().getTime())+"]", "Set","as visited vertex",(vertex.getName()+1));        
+        log.writef("Set","as visited vertex", Integer.toString(vertex.getName()+1));        
     
     }
 
@@ -154,9 +159,9 @@ public class DFS {
      */
     private void addToStack (Vertex vertex) {
 
-        stack.add(vertex.getName());
+        stack.add(vertex);
     
-        log_dfs.printf("%-30s%-20s%-60s%-10s\n","["+new Timestamp(new Date().getTime())+"]", "Add","to the stack vertex",(vertex.getName()+1));        
+        log.writef("Add","to the stack vertex", Integer.toString(vertex.getName()+1));        
     
     }
 
@@ -164,11 +169,11 @@ public class DFS {
      * [getFromStack description]
      * @return [description]
      */
-    private Integer getFromStack () {
+    private Vertex getFromStack () {
 
-        Integer vertex = stack.pop();
+        Vertex vertex = stack.pop();
     
-        log_dfs.printf("%-30s%-20s%-60s%-10s\n","["+new Timestamp(new Date().getTime())+"]", "Remove","from the stack vertex",(vertexList.get(vertex).getName()+1));        
+        log.writef("Remove","from the stack vertex", Integer.toString(vertex.getName()+1));        
         
         return vertex;
     
@@ -181,20 +186,21 @@ public class DFS {
      */
     private Iterator<Integer> getAllSucessors (Vertex vertex) {
 
-        log_dfs.printf("%-30s%-20s%-60s%-10s","["+new Timestamp(new Date().getTime())+"]", "Get","the sucessors of vertex",(vertex.getName()+1));      
+        log.write("Get","the sucessors of vertex", Integer.toString(vertex.getName()+1));      
         
         ArrayList<Integer> temp1 = vertex.getSucessor();
         
         if (!(temp1.size() > 0))
         
-            log_dfs.print(" Without sucessors");
+            log.write("Without sucessors");
+        
         else
         
             for (int i = 0; i < temp1.size(); i++)
         
-                log_dfs.print(" " + (vertexList.get(temp1.get(i)).getName()+1) + " ");
+                log.write(Integer.toString(vertexList.get(temp1.get(i)).getName()+1));
         
-        log_dfs.println();
+        log.writeln();
         
         return vertex.getSucessor().listIterator();
     
@@ -205,11 +211,11 @@ public class DFS {
      * @param  neighbors [description]
      * @return           [description]
      */
-    private Integer getNextSucessor (Iterator<Integer> neighbors) {
+    private int getNextSucessor (Iterator<Integer> neighbors) {
 
-        Integer n = neighbors.next();
+        int n = neighbors.next();
     
-        log_dfs.printf("%-30s%-20s%-60s%-10s\n","["+new Timestamp(new Date().getTime())+"]", "Analyze", "vertex",(vertexList.get(n).getName()+1));      
+        log.writef("Analyze", "vertex", Integer.toString(vertexList.get(n).getName()+1));      
     
         return n;
     
@@ -222,33 +228,33 @@ public class DFS {
      */
     private boolean haveNonVisitedPredecessors (Vertex vertex) {
 
-        log_dfs.printf("%-30s%-20s%-60s%-10s","["+new Timestamp(new Date().getTime())+"]", "Get", "the predecessors of vertex",(vertex.getName()+1));      
+        log.write("Get", "the predecessors of vertex", Integer.toString(vertex.getName()+1));      
         
         if (!(vertex.getPredecessor().size() > 0))
         
-            log_dfs.print(" Without predecessors");
+            log.write("Without predecessors");
         
         else
         
             for (int i = 0; i < vertex.getPredecessor().size(); i++)
         
-                log_dfs.print(" " + (vertexList.get(vertex.getPredecessor().get(i)).getName()+1) + " ");
+                log.write(Integer.toString(vertexList.get(vertex.getPredecessor().get(i)).getName()+1));
         
-        log_dfs.println();
+        log.writeln();
         
         for (int i = 0; i < vertex.getPredecessor().size(); i++) {
         
-            log_dfs.printf("%-30s%-20s%-60s%-10s","["+new Timestamp(new Date().getTime())+"]", "Check", "that vertex " + (vertexList.get(vertex.getPredecessor().get(i)).getName()+1) + " is a non visited predecessor of vertex",(vertex.getName()+1));        
+            log.write("Check", "that vertex " + (vertexList.get(vertex.getPredecessor().get(i)).getName()+1) + " is a non visited predecessor of vertex", Integer.toString(vertex.getName()+1));        
         
             if (!vertexList.get(vertex.getPredecessor().get(i)).isVisited()) {
         
-                log_dfs.println(" Yes");
+                log.writeln("Yes");
         
                 return true;
         
             } else        
         
-                log_dfs.println(" No");
+                log.writeln("No");
 
         }
         
@@ -263,17 +269,17 @@ public class DFS {
      */
     private boolean getVisited (Vertex vertex) {
 
-        log_dfs.printf("%-30s%-20s%-60s%-10s","["+new Timestamp(new Date().getTime())+"]", "Check", "if has already visited vertex", (vertex.getName()+1));        
+        log.write("Check", "if has already visited vertex", Integer.toString(vertex.getName()+1));        
         
         if (vertex.isVisited()) {
         
-            log_dfs.println(" Yes");
+            log.writeln("Yes");
 
             return true;
         
         } else {
         
-            log_dfs.println(" No");
+            log.writeln("No");
 
             return false;
         

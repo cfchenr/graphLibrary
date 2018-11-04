@@ -8,22 +8,51 @@ public class programTest {
 
     public static void main (String[] args) throws IOException {
 
-        Graph graph = new Graph("matrix/" + args[0] + ".txt");
+        Graph [] graph = new Graph [args.length];
+
+        for (int i = 0; i < args.length; i++) {
+
+            graph[i] = new Graph("matrix/" + args[i] + ".txt");
+
+        }
+
         
-        V3 v3;
+        V1 [] v1 = new V1 [args.length];
 
-        int numIt = 100;
-        for (int it = 0; it < numIt; it++)
-            v3 = new V3(graph);
+        V3 [] v3 = new V3 [args.length];
 
-        DFS dfs = new DFS(graph);
+        DFS [] dfs = new DFS [args.length];
 
-        for (int i = 0; i < graph.getVertexList().size(); i++)
-            System.out.println((graph.getVertexList().get(i).getName()+1) + " has color " + graph.getVertexList().get(i).getColor());
+        for (int i = 0; i < args.length; i++) {
 
-        for (int i = 0; i < graph.getVertexList().size(); i++)
-            System.out.println((graph.getVertexList().get(i).getName()+1) + " was visited in " + graph.getVertexList().get(i).getOrder() + " place");
+            v1[i] = new V1(graph[i]);
 
+            v3[i] = new V3(graph[i]);
+            
+            dfs[i] = new DFS(graph[i]);
+
+        }
+
+        // for (int i = 0; i < graph.getVertexList().size(); i++)
+        //     System.out.println((graph.getVertexList().get(i).getName()+1) + " has color " + graph.getVertexList().get(i).getColor());
+
+        // int e = 1;
+
+        // do {
+
+        //     for (int i = 0; i < graph.getVertexList().size(); i++) {
+
+        //         if (graph.getVertexList().get(i).getOrder() == e) {
+
+        //             System.out.println((graph.getVertexList().get(i).getName()+1) + " was visited in " + graph.getVertexList().get(i).getOrder() + " place");
+                    
+        //             e++;
+
+        //         }
+
+        //     }
+
+        // } while (e < graph.getVertexList().size());
 
     }
 

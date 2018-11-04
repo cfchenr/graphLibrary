@@ -1,72 +1,41 @@
 package graph;
 import java.util.*; 
 import java.io.*;
-import java.util.Date;
-import java.sql.Timestamp;
 
-public class V3 {
+public class V3 extends V1 {
     
-    /**
-     * 
-     */
-    private ArrayList<Vertex> vertexList;
-    
-    /**
-     * 
-     */
-    private HashMap<Integer, Integer> vertexDegree = new HashMap<Integer, Integer>();
-    
-    /**
-     * 
-     */
-    private ArrayList<Integer> vertexDegreeSort = new ArrayList<Integer>();
-    
-    /**
-     * 
-     */
-    private Queue<Integer> colors;
-    
-    /**
-     * 
-     */
-    private PrintWriter log_v3;
-    
-    /**
-     * 
-     */
-    private PrintWriter pw;
-    
-    /**
-     * [StringBuilder description]
-     * @return [description]
-     */
-    private StringBuilder sb = new StringBuilder();
-
     /**
      * [V3 description]
      * @param  graph                 [description]
      * @return                       [description]
-     * @throws FileNotFoundException [description]
+     * @throws IOException           [description]
      */
-    public V3 (Graph graph) throws FileNotFoundException {
+    public V3 (Graph graph) throws IOException {
 
-        log_v3 = new PrintWriter(new File(graph.getName() + "/log_v3_.txt"));
+        super();
 
-        pw = new PrintWriter(new File(graph.getName() + "/id_color.csv"));
+        log = new WriteLogFile(graph.getName() + "/log_V3.txt");
+
+        pw = new PrintWriter(new File(graph.getName() + "/id_color_V3.csv"));
         
+        init(graph);
+
+    }
+
+    @Override
+    protected void init (Graph graph) {
+
+        graph.sortVertexByDegree();
+
         vertexList = graph.getVertexList();
         
-        log_v3.printf("%-30s%-20s%-60s%-10s%s\n","[timestamp]", "action","details","vertex"," observations");      
+        setColorVertex(vertexList.get(vertexList.size()-1));
         
-        sortVertexByDegree();
-        
-        setColorVertex(vertexDegreeSort.size()-1, 1);
-        
-        for (int j = vertexDegreeSort.size()-2; j >= 0; j--) {
+        for (int j = vertexList.size()-2; j >= 0; j--) {
         
             saveNeighborColors(j);
         
-            setColorVertex(vertexDegreeSort.get(j), getFirstColorAvailable());
+            setColorVertex(vertexList.get(j));
         
         }
         
@@ -80,109 +49,9 @@ public class V3 {
         
         pw.close();
         
-        log_v3.close();
+        log.close();
 
-    }
 
-    /**
-     * [setAllVertexDegree description]
-     */
-    private void setAllVertexDegree () {
-        
-        for (int i = 0; i < vertexList.size(); i++)
-        
-            vertexDegree.put(i, vertexList.get(i).getDegree());
-    }
-
-    /**
-     * [sortVertexByDegree description]
-     */
-    private void sortVertexByDegree () {
-        
-        setAllVertexDegree();
-        
-        List<Integer> mapKeys = new ArrayList<>(vertexDegree.keySet());
-        
-        List<Integer> mapValues = new ArrayList<>(vertexDegree.values());
-        
-        Collections.sort(mapValues);
-        
-        Collections.sort(mapKeys);
-        
-        Iterator<Integer> valueIt = mapValues.iterator();
-        
-        while (valueIt.hasNext()) {
-        
-            Integer val = valueIt.next();
-        
-            Iterator<Integer> keyIt = mapKeys.iterator();
-        
-            while (keyIt.hasNext()) {
-        
-                Integer key = keyIt.next();
-        
-                Integer comp1 = vertexDegree.get(key);
-        
-                Integer comp2 = val;
-        
-                if (comp1.equals(comp2)) {
-        
-                    keyIt.remove();
-        
-                    vertexDegreeSort.add(key);
-        
-                    break;
-        
-                }
-        
-            }
-        
-        }
-    }
-
-    /**
-     * [setColorVertex description]
-     * @param vertex [description]
-     * @param color  [description]
-     */
-    private void setColorVertex (Integer vertex, Integer color) {
-    
-        log_v3.printf("%-30s%-20s%-60s%-10s\n","["+new Timestamp(new Date().getTime())+"]", "Set", "in " + color + " the color of vertex ", (vertexList.get(vertex).getName()+1));        
-    
-        vertexList.get(vertex).setColor(color);
-    
-    }
-
-    /**
-     * [saveNeighborColors description]
-     * @param j [description]
-     */
-    private void saveNeighborColors (Integer j) {
-    
-        colors = new LinkedList<Integer>();
-    
-        for (int i = vertexDegreeSort.size()-1; i > j; i--)
-    
-            if (vertexList.get(vertexDegreeSort.get(j)).isNeighbor(vertexList.get(vertexDegreeSort.get(i)).getName()))
-    
-                colors.add(vertexList.get(vertexDegreeSort.get(i)).getColor());
-    
-    }
-
-    /**
-     * [getFirstColorAvailable description]
-     * @return [description]
-     */
-    private int getFirstColorAvailable () {
-    
-        int k = 1;
-    
-        while(colors.contains(k))
-    
-            k++;
-    
-        return k;
-    
     }
 
 }

@@ -25,24 +25,27 @@ public class Graph {
     private String name;
 
     //========================================================================================//
-                                    private PrintWriter pw;
-                                    private StringBuilder sb;
+    
+    private PrintWriter pw;
+    
+    private StringBuilder sb;
+    
     //========================================================================================//
 
     /**
      * [Graph description]
      * @param  file                  [description]
      * @return                       [description]
-     * @throws FileNotFoundException [description]
+     * @throws IOException           [description]
      */
-    public Graph (String file) throws FileNotFoundException {
+    public Graph (String file) throws IOException {
    
         Scanner scf = new Scanner(new File (file));
    
         name = file.split("/")[1].split("\\.")[0];
    
         this.vertexList = new ArrayList<Vertex>();
-   
+
         this.matrix_adj = new ArrayList<String>();
    
         File dir = new File(name);
@@ -79,20 +82,20 @@ public class Graph {
          * p.s. the number of vertexes is equals to the number of lines in adjacency matrix
          */
         for(int i = 0; i < matrix_adj.size(); i++)
-     
+
             this.vertexList.add(new Vertex(i));       
      
         //========================================================================================//
      
-                                        String columnName = " ,1";
-     
-                                        for (int g = 1; g < size; g++)
-     
-                                            columnName += "," + (g+1);
-     
-                                        sb.append(columnName);
-     
-                                        sb.append("\n");
+        String columnName = " ,1";
+
+        for (int g = 1; g < size; g++)
+
+            columnName += "," + (g+1);
+
+        sb.append(columnName);
+
+        sb.append("\n");
      
         //========================================================================================//
      
@@ -111,18 +114,18 @@ public class Graph {
      
             //========================================================================================//
      
-                                            sb.append(j+1);
+            sb.append(j+1);
      
             //========================================================================================//
      
             for (int k = 0; k < line.length; k++) {
      
                 //========================================================================================//
-     
-                                                sb.append(",");
-     
-                                                sb.append(line[k]);
-     
+
+                sb.append(",");
+
+                sb.append(line[k]);
+
                 //========================================================================================//
      
                 /**
@@ -130,19 +133,25 @@ public class Graph {
                  * if is 1 then this vertex is sucessor of the vertex with index of this cell
                  * else if is -1 then this vertex is predecessor of the vertex with index of this cell
                  */
-                if (line[k].equals("1"))
+                if (line[k].equals("1")) {
      
                     vertexList.get(j).setNeighbors(k, 1);
-     
-                else if (line[k].equals("-1"))
+            
+                    vertexList.get(k).setNeighbors(j, -1);
+
+                } else if (line[k].equals("-1")) {
      
                     vertexList.get(j).setNeighbors(k, -1);
+
+                    vertexList.get(k).setNeighbors(j, 1);
+
+                }
      
             }
      
             //========================================================================================//
      
-                                            sb.append("\n");
+            sb.append("\n");
      
             //========================================================================================//
      
@@ -152,9 +161,9 @@ public class Graph {
      
         //========================================================================================//
      
-                                        pw.write(sb.toString());
-     
-                                        pw.close();
+        pw.write(sb.toString());
+
+        pw.close();
      
         //========================================================================================//
     
@@ -165,7 +174,7 @@ public class Graph {
      */
     public ArrayList<Vertex> getVertexList () {
     
-        return this.vertexList;
+        return vertexList;
     
     }
     
@@ -174,7 +183,7 @@ public class Graph {
      */
     public int getVertexNumber () {
     
-        return this.size;
+        return size;
     
     } 
     
@@ -197,6 +206,43 @@ public class Graph {
     
         return name;
     
+    }
+
+    public void sortVertexByDegree () {
+
+        ArrayList<Vertex> temp = new ArrayList<Vertex>();
+
+        int max = 0;
+
+        for (int i = 0; i < vertexList.size(); i++)
+
+            if (vertexList.get(i).getDegree() >= max) 
+
+                max = vertexList.get(i).getDegree();
+
+
+        while (max >= 0) {
+
+            for (int i = 0; i < vertexList.size(); i++) {
+                
+                if (vertexList.get(i).getDegree() == max){
+
+                    temp.add(0, vertexList.get(i));
+
+                    vertexList.remove(i);
+
+                    i--;
+
+                }
+
+            }       
+
+            max--;
+
+        }
+
+        vertexList = temp;
+
     }
 
 }
