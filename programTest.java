@@ -19,6 +19,8 @@ public class programTest {
         
         V1 [] v1 = new V1 [args.length];
 
+        V2 [] v2 = new V2 [args.length];
+
         V3 [] v3 = new V3 [args.length];
 
         DFS [] dfs = new DFS [args.length];
@@ -26,6 +28,8 @@ public class programTest {
         for (int i = 0; i < args.length; i++) {
 
             v1[i] = new V1(graph[i]);
+
+            v2[i] = new V2(graph[i]);
 
             v3[i] = new V3(graph[i]);
             

@@ -51,7 +51,37 @@ public class V3 extends V1 {
         
         log.close();
 
+    }
 
+    /**
+     * [saveNeighborColors description]
+     * @param j [description]
+     */
+    @Override
+    protected void saveNeighborColors (int j) {
+    
+        colors = new LinkedList<Integer>();
+    
+        log.writef("Clear", "queue of colors");        
+
+        for (int i = vertexList.size()-1; i > j; i--) {
+
+            log.write("Check", "if vertex " + Integer.toString(vertexList.get(j).getName()+1) + " is neighbor of vertex", Integer.toString(vertexList.get(i).getName()+1));        
+            
+            if (vertexList.get(j).isNeighbor(vertexList.get(i).getName())) {
+
+                log.writeln("Yes");
+
+                log.writef("Add", Integer.toString(vertexList.get(i).getColor()) + " to queue of colors");        
+
+                colors.add(vertexList.get(i).getColor());
+
+            } else
+
+                log.writeln("No");
+
+        }
+    
     }
 
 }

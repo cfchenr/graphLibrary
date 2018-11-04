@@ -58,9 +58,9 @@ public class V1 {
 
         vertexList = graph.getVertexList();
         
-        setColorVertex(vertexList.get(vertexList.size()-1));
+        setColorVertex(vertexList.get(0));
         
-        for (int j = vertexList.size()-2; j >= 0; j--) {
+        for (int j = 1; j < vertexList.size(); j++) {
         
             saveNeighborColors(j);
         
@@ -111,7 +111,7 @@ public class V1 {
     
         log.writef("Clear", "queue of colors");        
 
-        for (int i = vertexList.size()-1; i > j; i--) {
+        for (int i = 0; i < j; i++) {
 
             log.write("Check", "if vertex " + Integer.toString(vertexList.get(j).getName()+1) + " is neighbor of vertex", Integer.toString(vertexList.get(i).getName()+1));        
             
