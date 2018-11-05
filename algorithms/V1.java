@@ -1,4 +1,5 @@
-package graph;
+package algorithms;
+import graph.*;
 import java.util.*; 
 import java.io.*;
 
@@ -44,9 +45,9 @@ public class V1 {
      */
     public V1 (Graph graph) throws IOException {
 
-        log = new WriteLogFile(graph.getName() + "/log_V1.txt");
+        log = new WriteLogFile(graph.getId() + "/log_V1.txt");
 
-        pw = new PrintWriter(new File(graph.getName() + "/id_color_V1.csv"));
+        pw = new PrintWriter(new File(graph.getId() + "/id_color_V1.csv"));
         
         colors = new LinkedList<Integer>();
 
@@ -72,7 +73,7 @@ public class V1 {
         
         for (int p = 0; p < graph.getVertexNumber(); p++)
         
-            sb.append((vertexList.get(p).getName()+1) + "," + (vertexList.get(p).getColor()) + "\n");
+            sb.append((vertexList.get(p).getId()+1) + "," + (vertexList.get(p).getColor()) + "\n");
         
         pw.write(sb.toString());
         
@@ -89,13 +90,13 @@ public class V1 {
      */
     protected void setColorVertex (Vertex vertex) {
 
-        log.write("Get", "first color that is available for vertex", Integer.toString(vertex.getName()+1));        
+        log.write("Get", "first color that is available for vertex", Integer.toString(vertex.getId()+1));        
 
         int color = getFirstColorAvailable();
 
         log.writeln(Integer.toString(color));
 
-        log.writef("Set", "in " + color + " the color of vertex ", Integer.toString(vertex.getName()+1), "");        
+        log.writef("Set", "in " + color + " the color of vertex ", Integer.toString(vertex.getId()+1), "");        
     
         vertex.setColor(color);
     
@@ -113,9 +114,9 @@ public class V1 {
 
         for (int i = 0; i < j; i++) {
 
-            log.write("Check", "if vertex " + Integer.toString(vertexList.get(j).getName()+1) + " is neighbor of vertex", Integer.toString(vertexList.get(i).getName()+1));        
+            log.write("Check", "if vertex " + Integer.toString(vertexList.get(j).getId()+1) + " is neighbor of vertex", Integer.toString(vertexList.get(i).getId()+1));        
             
-            if (vertexList.get(j).isNeighbor(vertexList.get(i).getName())) {
+            if (vertexList.get(j).isNeighbor(vertexList.get(i).getId())) {
 
                 log.writeln("Yes");
 

@@ -20,9 +20,9 @@ public class Graph {
     private int size = 0;
 
     /**
-     * name of graph
+     * id of graph
      */
-    private String name;
+    private String id;
 
     //========================================================================================//
     
@@ -42,19 +42,19 @@ public class Graph {
    
         Scanner scf = new Scanner(new File (file));
    
-        name = file.split("/")[1].split("\\.")[0];
+        id = file.split("/")[1].split("\\.")[0];
    
         this.vertexList = new ArrayList<Vertex>();
 
         this.matrix_adj = new ArrayList<String>();
    
-        File dir = new File(name);
+        File dir = new File(id);
    
         if (!dir.exists())
    
             dir.mkdir();
    
-        this.pw = new PrintWriter(new File(name + "/adj.csv"));
+        this.pw = new PrintWriter(new File(id + "/adj.csv"));
    
         this.sb = new StringBuilder(); 
    
@@ -200,11 +200,11 @@ public class Graph {
     }
     
     /**
-     * @return the name of this graph
+     * @return the id of this graph
      */
-    public String getName () {
+    public String getId () {
     
-        return name;
+        return id;
     
     }
 

@@ -1,4 +1,5 @@
-package graph;
+package algorithms;
+import graph.*;
 import java.util.*; 
 import java.io.*;
 import java.util.Date;
@@ -39,7 +40,7 @@ public class DFS {
      */
     public DFS (Graph graph) throws IOException {
 
-        log = new WriteLogFile(graph.getName() + "/log_dfs.txt");
+        log = new WriteLogFile(graph.getId() + "/log_dfs.txt");
 
         graph.sortVertexByDegree();
 
@@ -117,7 +118,7 @@ public class DFS {
 
             if (!vertexList.get(i).isVisited()) {
         
-                log.writeln("Yes. Vertex " + (vertexList.get(i).getName()+1));
+                log.writeln("Yes. Vertex " + (vertexList.get(i).getId()+1));
             
                 return true;
         
@@ -137,7 +138,7 @@ public class DFS {
 
         vertex.setOrder(++orderIndex);
         
-        log.writef("Set", "in " + orderIndex + " the order of vertex ", Integer.toString(vertex.getName()+1));        
+        log.writef("Set", "in " + orderIndex + " the order of vertex ", Integer.toString(vertex.getId()+1));        
     
     }
 
@@ -149,7 +150,7 @@ public class DFS {
 
         vertex.setVisited();
     
-        log.writef("Set","as visited vertex", Integer.toString(vertex.getName()+1));        
+        log.writef("Set","as visited vertex", Integer.toString(vertex.getId()+1));        
     
     }
 
@@ -161,7 +162,7 @@ public class DFS {
 
         stack.add(vertex);
     
-        log.writef("Add","to the stack vertex", Integer.toString(vertex.getName()+1));        
+        log.writef("Add","to the stack vertex", Integer.toString(vertex.getId()+1));        
     
     }
 
@@ -173,7 +174,7 @@ public class DFS {
 
         Vertex vertex = stack.pop();
     
-        log.writef("Remove","from the stack vertex", Integer.toString(vertex.getName()+1));        
+        log.writef("Remove","from the stack vertex", Integer.toString(vertex.getId()+1));        
         
         return vertex;
     
@@ -186,7 +187,7 @@ public class DFS {
      */
     private Iterator<Integer> getAllSucessors (Vertex vertex) {
 
-        log.write("Get","the sucessors of vertex", Integer.toString(vertex.getName()+1));      
+        log.write("Get","the sucessors of vertex", Integer.toString(vertex.getId()+1));      
         
         ArrayList<Integer> temp1 = vertex.getSucessor();
         
@@ -198,7 +199,7 @@ public class DFS {
         
             for (int i = 0; i < temp1.size(); i++)
         
-                log.write(Integer.toString(vertexList.get(temp1.get(i)).getName()+1));
+                log.write(Integer.toString(vertexList.get(temp1.get(i)).getId()+1));
         
         log.writeln();
         
@@ -215,7 +216,7 @@ public class DFS {
 
         int n = neighbors.next();
     
-        log.writef("Analyze", "vertex", Integer.toString(vertexList.get(n).getName()+1));      
+        log.writef("Analyze", "vertex", Integer.toString(vertexList.get(n).getId()+1));      
     
         return n;
     
@@ -228,7 +229,7 @@ public class DFS {
      */
     private boolean haveNonVisitedPredecessors (Vertex vertex) {
 
-        log.write("Get", "the predecessors of vertex", Integer.toString(vertex.getName()+1));      
+        log.write("Get", "the predecessors of vertex", Integer.toString(vertex.getId()+1));      
         
         if (!(vertex.getPredecessor().size() > 0))
         
@@ -238,13 +239,13 @@ public class DFS {
         
             for (int i = 0; i < vertex.getPredecessor().size(); i++)
         
-                log.write(Integer.toString(vertexList.get(vertex.getPredecessor().get(i)).getName()+1));
+                log.write(Integer.toString(vertexList.get(vertex.getPredecessor().get(i)).getId()+1));
         
         log.writeln();
         
         for (int i = 0; i < vertex.getPredecessor().size(); i++) {
         
-            log.write("Check", "that vertex " + (vertexList.get(vertex.getPredecessor().get(i)).getName()+1) + " is a non visited predecessor of vertex", Integer.toString(vertex.getName()+1));        
+            log.write("Check", "that vertex " + (vertexList.get(vertex.getPredecessor().get(i)).getId()+1) + " is a non visited predecessor of vertex", Integer.toString(vertex.getId()+1));        
         
             if (!vertexList.get(vertex.getPredecessor().get(i)).isVisited()) {
         
@@ -269,7 +270,7 @@ public class DFS {
      */
     private boolean getVisited (Vertex vertex) {
 
-        log.write("Check", "if has already visited vertex", Integer.toString(vertex.getName()+1));        
+        log.write("Check", "if has already visited vertex", Integer.toString(vertex.getId()+1));        
         
         if (vertex.isVisited()) {
         

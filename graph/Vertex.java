@@ -4,9 +4,9 @@ import java.util.*;
 public class Vertex {
 
     /**
-     * index (name) of this vertex
+     * index (id) of this vertex
      */
-    private int vertex;
+    private int id;
     
     /**
      * color of this vertex
@@ -24,12 +24,12 @@ public class Vertex {
     private int order;    
     
     /**
-     * list (ArrayList) of integers that indicates the indexes (names) of sucessors of this vertex
+     * list (ArrayList) of integers that indicates the indexes (ids) of sucessors of this vertex
      */
     private ArrayList<Integer> successorList;
     
     /**
-     * list (ArrayList) of integers that indicates the indexes (names) of predecessors of this vertex
+     * list (ArrayList) of integers that indicates the indexes (ids) of predecessors of this vertex
      */
     private ArrayList<Integer> predecessorList;
     
@@ -37,9 +37,9 @@ public class Vertex {
      * @param vertex (index of one new vertex)
      * instance an index @param vertex, a color (initially 0), visited status (initially 0) and a list of neighbors for this new vertex
      */
-    public Vertex (int vertex) {
+    public Vertex (int id) {
     
-        this.vertex = vertex;
+        this.id = id;
     
         color = 0;
     
@@ -73,11 +73,11 @@ public class Vertex {
     }
     
     /** 
-     * @return the index (name) of this vertex
+     * @return the index (id) of this vertex
      */
-    public int getName () {
+    public int getId () {
     
-        return vertex;
+        return id;
     
     }
     

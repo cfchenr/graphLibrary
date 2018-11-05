@@ -1,22 +1,34 @@
-package graph;
+package algorithms;
+import graph.*;
 import java.util.*; 
 import java.io.*;
 
-public class V3 extends V1 {
+public class V2 extends V1 {
+
+    /**
+     * [V1 description]
+     * @return [description]
+     * @throws IOException   [description]
+     */
+    public V2 () throws IOException {
+
+        colors = new LinkedList<Integer>();
+
+    }
     
     /**
-     * [V3 description]
+     * [V2 description]
      * @param  graph                 [description]
      * @return                       [description]
      * @throws IOException           [description]
      */
-    public V3 (Graph graph) throws IOException {
+    public V2 (Graph graph) throws IOException {
 
         super();
 
-        log = new WriteLogFile(graph.getName() + "/log_V3.txt");
+        log = new WriteLogFile(graph.getId() + "/log_V2.txt");
 
-        pw = new PrintWriter(new File(graph.getName() + "/id_color_V3.csv"));
+        pw = new PrintWriter(new File(graph.getId() + "/id_color_V2.csv"));
         
         init(graph);
 
@@ -24,8 +36,6 @@ public class V3 extends V1 {
 
     @Override
     protected void init (Graph graph) {
-
-        graph.sortVertexByDegree();
 
         vertexList = graph.getVertexList();
         
@@ -43,13 +53,14 @@ public class V3 extends V1 {
         
         for (int p = 0; p < graph.getVertexNumber(); p++)
         
-            sb.append((vertexList.get(p).getName()+1) + "," + (vertexList.get(p).getColor()) + "\n");
+            sb.append((vertexList.get(p).getId()+1) + "," + (vertexList.get(p).getColor()) + "\n");
         
         pw.write(sb.toString());
         
         pw.close();
         
         log.close();
+
 
     }
 
@@ -66,9 +77,9 @@ public class V3 extends V1 {
 
         for (int i = vertexList.size()-1; i > j; i--) {
 
-            log.write("Check", "if vertex " + Integer.toString(vertexList.get(j).getName()+1) + " is neighbor of vertex", Integer.toString(vertexList.get(i).getName()+1));        
+            log.write("Check", "if vertex " + Integer.toString(vertexList.get(j).getId()+1) + " is neighbor of vertex", Integer.toString(vertexList.get(i).getId()+1));        
             
-            if (vertexList.get(j).isNeighbor(vertexList.get(i).getName())) {
+            if (vertexList.get(j).isNeighbor(vertexList.get(i).getId())) {
 
                 log.writeln("Yes");
 
