@@ -17,7 +17,8 @@ public class WriteLogFile {
 
     public void writeHead () {
 
-        log.printf("%-30s%-20s%-60s%-10s%s\n","[timestamp]", "[action]","[details]","[vertex]"," [observations]");
+        log.printf("%-30s%-20s%-60s%-10s%s","[timestamp]", "[action]","[details]","[vertex]"," [observations]");
+        log.println();
 
     }
 
@@ -60,7 +61,8 @@ public class WriteLogFile {
 
     public void writef (String string1, String string2, String string3, String string4) {
 
-        log.printf("%-30s%-20s%-60s%-10s%s\n","["+new Timestamp(new Date().getTime())+"]", string1, string2, string3, string4);
+        log.printf("%-30s%-20s%-60s%-10s%s","["+new Timestamp(new Date().getTime())+"]", string1, string2, string3, string4);
+        log.println();
 
     }
 
