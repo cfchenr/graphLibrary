@@ -4,38 +4,24 @@ import java.util.*;
 public class Vertex {
 
     /**
-     * index (id) of this vertex
+     * id, color and order of this vertex
      */
-    private int id;
+    private int id, color, order;
     
     /**
-     * color of this vertex
-     */
-    private int color;
-    
-    /**
-     * status of this vertex (visited OR non visited)
+     * status of this vertex (visited or non visited)
      */
     private boolean visited;
     
     /**
-     * order by which was visited
+     * list (ArrayList) of integers that indicates the ids of sucessors and predecessors of this vertex
      */
-    private int order;    
-    
-    /**
-     * list (ArrayList) of integers that indicates the indexes (ids) of sucessors of this vertex
-     */
-    private ArrayList<Integer> successorList;
-    
-    /**
-     * list (ArrayList) of integers that indicates the indexes (ids) of predecessors of this vertex
-     */
-    private ArrayList<Integer> predecessorList;
+    private ArrayList<Integer> successorList, predecessorList;
     
     /**
      * @param vertex (index of one new vertex)
-     * instance an index @param vertex, a color (initially 0), visited status (initially 0) and a list of neighbors for this new vertex
+     * instance an id vertex, a color (initially 0), visited status (initially false) and a list of neighbors (sucessors and predecessors) 
+     * for this new vertex
      */
     public Vertex (int id) {
     
@@ -52,14 +38,27 @@ public class Vertex {
         predecessorList = new ArrayList<Integer>();
     
     }
+
+    /** 
+     * @return the id of this vertex
+     */
+    public int getId () {
+    
+        return id;
+    
+    }
     
     /** 
      * @param color
-     * defines the color of this vertex as color @param color
+     * defines the color of this vertex
      */
     public void setColor (int color) {
+
+        assert (color > 0);
     
         this.color = color;
+
+        assert (this.color > 0);
     
     }
     
@@ -71,37 +70,82 @@ public class Vertex {
         return color;
     
     }
-    
-    /** 
-     * @return the index (id) of this vertex
+
+    /**
+     * set this vertex as visited
      */
-    public int getId () {
+    public void setVisited () {
     
-        return id;
+        visited = true;
+    
+        assert visited;
+
+    }
+    
+    /**
+     * @return true if this vertex is visited or false if this vertex isn't visited
+     */
+    public boolean isVisited () {
+    
+        return visited;
+    
+    }
+    
+    /**
+     * set order in which it was visited
+     */
+    public void setOrder (int order) {
+
+       assert (order > 0);
+    
+       this.order = order;
+
+       assert (this.order > 0);
+    
+    }
+    
+    /**
+     * @return return order in wich it was visited
+     */
+    public int getOrder () {
+    
+        return order;
     
     }
     
     /**
      * @param k (index of one vertex)
-     * defines the vertex @param k as the neighbor of this vertex
+     * defines the vertex k as the neighbor of this vertex
      */
-    public void setNeighbors (int k, int ps) { 
+    public void setNeighbors (int k, int ps) {
+
+        assert (k >= 0 && (ps == -1 || ps == 1)); 
     
-        if (ps == 1)
+        if (ps == 1) {
+            
+            if (!successorList.contains(k))
+                
+                successorList.add(k);
+        }
     
-            successorList.add(k);
+        else if (ps == -1) {
+
+            if (!predecessorList.contains(k))
     
-        else if (ps == -1)
-    
-            predecessorList.add(k);
+                predecessorList.add(k);
+        }
+
+        assert (successorList.contains(k) || predecessorList.contains(k));
     
     }
     
     /** 
      * @param k (index of one vertex)
-     * @return true if the vertex @param k is neighbor of this vertex OR false if the vertex @param k isn't neighbor of this vertex
+     * @return true if the vertex k is neighbor of this vertex or false if the vertex k isn't neighbor of this vertex
      */
     public boolean isNeighbor (int k) {
+
+        assert (k >= 0);
     
         return (isSucessor(k) || isPredecessor(k));
     
@@ -109,9 +153,11 @@ public class Vertex {
     
     /** 
      * @param k (index of one vertex)
-     * @return true if the vertex @param k is sucessor of this vertex OR false if the vertex @param k isn't sucessor of this vertex
+     * @return true if the vertex k is sucessor of this vertex or false if the vertex k isn't sucessor of this vertex
      */
     private boolean isSucessor (int k) {
+
+        assert (k >= 0);
     
         return successorList.contains(k);
     
@@ -119,9 +165,11 @@ public class Vertex {
     
     /** 
      * @param k (index of one vertex)
-     * @return true if the vertex @param k is predecessor of this vertex OR false if the vertex @param k isn't predecessor of this vertex
+     * @return true if the vertex k is predecessor of this vertex or false if the vertex k isn't predecessor of this vertex
      */
     private boolean isPredecessor (int k) {
+
+        assert (k >= 0);
     
         return predecessorList.contains(k);
     
@@ -172,42 +220,6 @@ public class Vertex {
         set.addAll(predecessorList);
     
         return new ArrayList<Integer>(set).size();
-    
-    }
-    
-    /**
-     * set this vertex as visited
-     */
-    public void setVisited () {
-    
-        visited = true;
-    
-    }
-    
-    /**
-     * @return true if this vertex is visited OR false if this vertex isn't visited
-     */
-    public boolean isVisited () {
-    
-        return visited;
-    
-    }
-    
-    /**
-     * set order in which it was visited
-     */
-    public void setOrder (int order) {
-    
-       this.order = order;
-    
-    }
-    
-    /**
-     * @return return order in wich it was visited
-     */
-    public int getOrder () {
-    
-        return order;
     
     }
 

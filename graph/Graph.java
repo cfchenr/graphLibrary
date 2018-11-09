@@ -5,33 +5,29 @@ import java.io.*;
 public class Graph {
 
     /**
-     * list (ArrayList) of the vertexes in this graph
+     * list that contains all the vertices of the graph
      */
     private ArrayList<Vertex> vertexList;
 
     /**
-     * adjacency matrix (ArraList) of this graph
+     * adjacency matrix of this graph
      */
     private ArrayList<String> matrix_adj;
 
     /**
-     * number of vertexes in this graph
+     * order of this graph
      */
-    private int size = 0;
+    private int order = 0;
 
     /**
      * id of graph
      */
     private String id;
 
-    //========================================================================================//
-    
     private PrintWriter pw;
     
     private StringBuilder sb;
     
-    //========================================================================================//
-
     /**
      * [Graph description]
      * @param  file                  [description]
@@ -47,14 +43,20 @@ public class Graph {
         this.vertexList = new ArrayList<Vertex>();
 
         this.matrix_adj = new ArrayList<String>();
-   
-        File dir = new File(id);
+        
+        File folder = new File("output");
+
+        if (!folder.exists())
+
+            folder.mkdirs();
+
+        File dir = new File(folder + "/" + id);
    
         if (!dir.exists())
-   
+
             dir.mkdir();
-   
-        this.pw = new PrintWriter(new File(id + "/adj.csv"));
+
+        this.pw = new PrintWriter(new File(folder + "/" + id + "/adj.csv"));
    
         this.sb = new StringBuilder(); 
    
@@ -62,7 +64,7 @@ public class Graph {
    
             matrix_adj.add(scf.nextLine());
    
-            this.size++;
+            this.order++;
    
         }
    
@@ -85,19 +87,15 @@ public class Graph {
 
             this.vertexList.add(new Vertex(i));       
      
-        //========================================================================================//
-     
         String columnName = " ,1";
 
-        for (int g = 1; g < size; g++)
+        for (int g = 1; g < order; g++)
 
             columnName += "," + (g+1);
 
         sb.append(columnName);
 
         sb.append("\n");
-     
-        //========================================================================================//
      
         int j = 0;
      
@@ -106,30 +104,21 @@ public class Graph {
          */
         while (j < matrix_adj.size()) {
      
+            sb.append(j+1);
+     
             /**
              * split by spaces the line in different cells
              */
-     
             String [] line = matrix_adj.get(j).toString().split("\\s+");
-     
-            //========================================================================================//
-     
-            sb.append(j+1);
-     
-            //========================================================================================//
-     
+          
             for (int k = 0; k < line.length; k++) {
      
-                //========================================================================================//
-
                 sb.append(",");
 
                 sb.append(line[k]);
 
-                //========================================================================================//
-     
                 /**
-                 * if this cell number is different 0 then this vertex is neighbor of the vertex with index of this cell
+                 * if this cell number is different 0 then this vertex is neighbor of the vertex with index of this cell:
                  * if is 1 then this vertex is sucessor of the vertex with index of this cell
                  * else if is -1 then this vertex is predecessor of the vertex with index of this cell
                  */
@@ -149,24 +138,16 @@ public class Graph {
      
             }
      
-            //========================================================================================//
-     
             sb.append("\n");
-     
-            //========================================================================================//
      
             j++;
      
         }
      
-        //========================================================================================//
-     
         pw.write(sb.toString());
 
         pw.close();
      
-        //========================================================================================//
-    
     }
     
     /**
@@ -181,19 +162,21 @@ public class Graph {
     /**
      * @return the number of vertexes in this graph
      */
-    public int getVertexNumber () {
+    public int getOrder () {
     
-        return size;
+        return order;
     
     } 
     
     /**
      * @param k vertex
      * @param y vertex
-     * @return true if k and y are neighbors OR false if k and y aren't neighbors
-     *         p.s k is a neighbor of y OR y is a neighbor of k is the same thing
+     * @return true if k and y are neighbors or false if k and y aren't neighbors
+     *         *k is a neighbor of y or y is a neighbor of k is the same thing
      */
     public boolean isNeighbor (int k, int y) {
+
+        assert (k >= 0 && y >= 0); 
     
         return (vertexList.get(k).isNeighbor(y) || vertexList.get(y).isNeighbor(k));
     
@@ -208,23 +191,37 @@ public class Graph {
     
     }
 
+    /**
+     * order the vertices by degree (increasing direction)
+     */
     public void sortVertexByDegree () {
 
         ArrayList<Vertex> temp = new ArrayList<Vertex>();
 
         int max = 0;
 
+        /**
+         * save the highest degree
+         */
         for (int i = 0; i < vertexList.size(); i++)
 
             if (vertexList.get(i).getDegree() >= max) 
 
                 max = vertexList.get(i).getDegree();
 
-
+        /**
+         * identify the degrees of the vertices in descending order and add to the beginning of the temporary list
+         */
         while (max >= 0) {
 
+            /**
+             * scroll through all the vertices in the list
+             */
             for (int i = 0; i < vertexList.size(); i++) {
-                
+
+                /**
+                 * if the vertex has the desired degree we add to the temporary list and remove from the list that we are analyzing
+                 */
                 if (vertexList.get(i).getDegree() == max){
 
                     temp.add(0, vertexList.get(i));
