@@ -20,11 +20,6 @@ public class DepthFirstSearch {
      * 
      */
     private Stack<Vertex> stack;
-
-    /**
-     * 
-     */
-    private Iterator<Integer> neighbors;
     
     /**
      * 
@@ -45,51 +40,7 @@ public class DepthFirstSearch {
 
         vertexList = graph.getVertexList();
 
-        init();
-
-        log.close();
-    
-    }
-
-    private void init () {
-
-        while (haveNonVisitedVertexes()) {
-
-            stack = new Stack<Vertex>();
-            
-            Vertex vertex = getFirstNonVisitedVertex();
-            
-            setVisited(vertex);
-            
-            setOrder(vertex);
-            
-            addToStack(vertex);
-
-            while (stack.size() != 0) {
-
-                vertex = getFromStack();
-                
-                neighbors = getAllSucessors(vertex);
-            
-                while (neighbors.hasNext()) {
-            
-                    Vertex n = getNextSucessor(neighbors);
-            
-                    if (!getVisited(n) && !haveNonVisitedPredecessors(n)) {
-            
-                        setVisited(n);
-                        
-                        setOrder(n);
-                        
-                        addToStack(n);
-            
-                    }
-            
-                }
-
-            }
-
-        }
+        stack = new Stack<Vertex>();
 
     }
 
@@ -97,7 +48,7 @@ public class DepthFirstSearch {
      * [getFirstNonVisitedVertex description]
      * @return [description]
      */
-    private Vertex getFirstNonVisitedVertex () {
+    public Vertex getFirstNonVisitedVertex () {
 
         for (int i = 0; i < vertexList.size(); i++)
 
@@ -113,7 +64,7 @@ public class DepthFirstSearch {
      * [haveNonVisitedVertexes description]
      * @return [description]
      */
-    private boolean haveNonVisitedVertexes () {
+    public boolean haveNonVisitedVertexes () {
 
         log.write("Check", "if the graph contains a non visited vertex", "");        
         
@@ -134,6 +85,45 @@ public class DepthFirstSearch {
     }
 
     /**
+     * [setVisited description]
+     * @param vertex [description]
+     */
+    public void setVisited (Vertex vertex) {
+
+        vertex.setVisited();
+    
+        log.writef("Set","as visited vertex", Integer.toString(vertex.getId()+1));        
+  
+        setOrder(vertex);
+
+    }
+
+    /**
+     * [getVisited description]
+     * @param  vertex [description]
+     * @return        [description]
+     */
+    public boolean getVisited (Vertex vertex) {
+
+        log.write("Check", "if has already visited vertex", Integer.toString(vertex.getId()+1));        
+        
+        if (vertex.isVisited()) {
+        
+            log.writeln("Yes");
+
+            return true;
+        
+        } else {
+        
+            log.writeln("No");
+
+            return false;
+        
+        }
+
+    }
+
+    /**
      * [setOrder description]
      * @param vertex [description]
      */
@@ -143,18 +133,8 @@ public class DepthFirstSearch {
         
         log.writef("Set", "in " + orderIndex + " the order of vertex ", Integer.toString(vertex.getId()+1));        
     
-    }
+        addToStack(vertex);
 
-    /**
-     * [setVisited description]
-     * @param vertex [description]
-     */
-    private void setVisited (Vertex vertex) {
-
-        vertex.setVisited();
-    
-        log.writef("Set","as visited vertex", Integer.toString(vertex.getId()+1));        
-    
     }
 
     /**
@@ -170,10 +150,20 @@ public class DepthFirstSearch {
     }
 
     /**
-     * [getFromStack description]
+     * @return
+     */    
+    public Stack<Vertex> getStack () {
+
+        return stack;
+
+    }
+
+
+    /**
+     * [getTopStack description]
      * @return [description]
      */
-    private Vertex getFromStack () {
+    public Vertex getTopStack () {
 
         Vertex vertex = stack.pop();
     
@@ -188,7 +178,7 @@ public class DepthFirstSearch {
      * @param  vertex [description]
      * @return        [description]
      */
-    private Iterator<Integer> getAllSucessors (Vertex vertex) {
+    public Iterator<Integer> getAllSucessors (Vertex vertex) {
 
         log.write("Get","the sucessors of vertex", Integer.toString(vertex.getId()+1));      
         
@@ -215,7 +205,7 @@ public class DepthFirstSearch {
      * @param  neighbors [description]
      * @return           [description]
      */
-    private Vertex getNextSucessor (Iterator<Integer> neighbors) {
+    public Vertex getNextSucessor (Iterator<Integer> neighbors) {
 
         Vertex n = vertexList.get(neighbors.next());
     
@@ -230,7 +220,7 @@ public class DepthFirstSearch {
      * @param  vertex [description]
      * @return        [description]
      */
-    private boolean haveNonVisitedPredecessors (Vertex vertex) {
+    public boolean haveNonVisitedPredecessors (Vertex vertex) {
 
         log.write("Get", "the predecessors of vertex", Integer.toString(vertex.getId()+1));      
         
@@ -266,28 +256,9 @@ public class DepthFirstSearch {
 
     }
 
-    /**
-     * [getVisited description]
-     * @param  vertex [description]
-     * @return        [description]
-     */
-    private boolean getVisited (Vertex vertex) {
+    public void finish () {
 
-        log.write("Check", "if has already visited vertex", Integer.toString(vertex.getId()+1));        
-        
-        if (vertex.isVisited()) {
-        
-            log.writeln("Yes");
-
-            return true;
-        
-        } else {
-        
-            log.writeln("No");
-
-            return false;
-        
-        }
+        log.close();
 
     }
 

@@ -1,114 +1,114 @@
 [timestamp]                   [action]            [details]                                                   [vertex]   [observations]
-[2018-11-09 21:45:58.375]     Get                 first color that is available for vertex                    1          1
-[2018-11-09 21:45:58.375]     Set                 in 1 the color of vertex                                    1         
-[2018-11-09 21:45:58.375]     Clear               queue of colors                                                       
-[2018-11-09 21:45:58.375]     Check               if vertex 2 is neighbor of vertex                           1          Yes
-[2018-11-09 21:45:58.375]     Add                 1 to queue of colors                                                  
-[2018-11-09 21:45:58.375]     Get                 first color that is available for vertex                    2          2
-[2018-11-09 21:45:58.375]     Set                 in 2 the color of vertex                                    2         
-[2018-11-09 21:45:58.375]     Clear               queue of colors                                                       
-[2018-11-09 21:45:58.375]     Check               if vertex 3 is neighbor of vertex                           1          Yes
-[2018-11-09 21:45:58.375]     Add                 1 to queue of colors                                                  
-[2018-11-09 21:45:58.376]     Check               if vertex 3 is neighbor of vertex                           2          No
-[2018-11-09 21:45:58.376]     Get                 first color that is available for vertex                    3          2
-[2018-11-09 21:45:58.376]     Set                 in 2 the color of vertex                                    3         
-[2018-11-09 21:45:58.376]     Clear               queue of colors                                                       
-[2018-11-09 21:45:58.376]     Check               if vertex 4 is neighbor of vertex                           1          No
-[2018-11-09 21:45:58.376]     Check               if vertex 4 is neighbor of vertex                           2          Yes
-[2018-11-09 21:45:58.376]     Add                 2 to queue of colors                                                  
-[2018-11-09 21:45:58.376]     Check               if vertex 4 is neighbor of vertex                           3          Yes
-[2018-11-09 21:45:58.376]     Add                 2 to queue of colors                                                  
-[2018-11-09 21:45:58.376]     Get                 first color that is available for vertex                    4          1
-[2018-11-09 21:45:58.376]     Set                 in 1 the color of vertex                                    4         
-[2018-11-09 21:45:58.376]     Clear               queue of colors                                                       
-[2018-11-09 21:45:58.376]     Check               if vertex 5 is neighbor of vertex                           1          No
-[2018-11-09 21:45:58.376]     Check               if vertex 5 is neighbor of vertex                           2          No
-[2018-11-09 21:45:58.376]     Check               if vertex 5 is neighbor of vertex                           3          No
-[2018-11-09 21:45:58.376]     Check               if vertex 5 is neighbor of vertex                           4          Yes
-[2018-11-09 21:45:58.376]     Add                 1 to queue of colors                                                  
-[2018-11-09 21:45:58.377]     Get                 first color that is available for vertex                    5          2
-[2018-11-09 21:45:58.377]     Set                 in 2 the color of vertex                                    5         
-[2018-11-09 21:45:58.377]     Clear               queue of colors                                                       
-[2018-11-09 21:45:58.377]     Check               if vertex 6 is neighbor of vertex                           1          No
-[2018-11-09 21:45:58.378]     Check               if vertex 6 is neighbor of vertex                           2          No
-[2018-11-09 21:45:58.378]     Check               if vertex 6 is neighbor of vertex                           3          No
-[2018-11-09 21:45:58.378]     Check               if vertex 6 is neighbor of vertex                           4          No
-[2018-11-09 21:45:58.378]     Check               if vertex 6 is neighbor of vertex                           5          Yes
-[2018-11-09 21:45:58.378]     Add                 2 to queue of colors                                                  
-[2018-11-09 21:45:58.378]     Get                 first color that is available for vertex                    6          1
-[2018-11-09 21:45:58.378]     Set                 in 1 the color of vertex                                    6         
-[2018-11-09 21:45:58.378]     Clear               queue of colors                                                       
-[2018-11-09 21:45:58.378]     Check               if vertex 7 is neighbor of vertex                           1          No
-[2018-11-09 21:45:58.378]     Check               if vertex 7 is neighbor of vertex                           2          No
-[2018-11-09 21:45:58.378]     Check               if vertex 7 is neighbor of vertex                           3          No
-[2018-11-09 21:45:58.378]     Check               if vertex 7 is neighbor of vertex                           4          No
-[2018-11-09 21:45:58.378]     Check               if vertex 7 is neighbor of vertex                           5          No
-[2018-11-09 21:45:58.378]     Check               if vertex 7 is neighbor of vertex                           6          No
-[2018-11-09 21:45:58.379]     Get                 first color that is available for vertex                    7          1
-[2018-11-09 21:45:58.379]     Set                 in 1 the color of vertex                                    7         
-[2018-11-09 21:45:58.379]     Clear               queue of colors                                                       
-[2018-11-09 21:45:58.379]     Check               if vertex 8 is neighbor of vertex                           1          No
-[2018-11-09 21:45:58.379]     Check               if vertex 8 is neighbor of vertex                           2          No
-[2018-11-09 21:45:58.379]     Check               if vertex 8 is neighbor of vertex                           3          No
-[2018-11-09 21:45:58.379]     Check               if vertex 8 is neighbor of vertex                           4          No
-[2018-11-09 21:45:58.379]     Check               if vertex 8 is neighbor of vertex                           5          No
-[2018-11-09 21:45:58.379]     Check               if vertex 8 is neighbor of vertex                           6          No
-[2018-11-09 21:45:58.379]     Check               if vertex 8 is neighbor of vertex                           7          Yes
-[2018-11-09 21:45:58.379]     Add                 1 to queue of colors                                                  
-[2018-11-09 21:45:58.379]     Get                 first color that is available for vertex                    8          2
-[2018-11-09 21:45:58.379]     Set                 in 2 the color of vertex                                    8         
-[2018-11-09 21:45:58.379]     Clear               queue of colors                                                       
-[2018-11-09 21:45:58.379]     Check               if vertex 9 is neighbor of vertex                           1          No
-[2018-11-09 21:45:58.379]     Check               if vertex 9 is neighbor of vertex                           2          No
-[2018-11-09 21:45:58.379]     Check               if vertex 9 is neighbor of vertex                           3          No
-[2018-11-09 21:45:58.379]     Check               if vertex 9 is neighbor of vertex                           4          No
-[2018-11-09 21:45:58.379]     Check               if vertex 9 is neighbor of vertex                           5          No
-[2018-11-09 21:45:58.379]     Check               if vertex 9 is neighbor of vertex                           6          No
-[2018-11-09 21:45:58.38]      Check               if vertex 9 is neighbor of vertex                           7          Yes
-[2018-11-09 21:45:58.38]      Add                 1 to queue of colors                                                  
-[2018-11-09 21:45:58.38]      Check               if vertex 9 is neighbor of vertex                           8          No
-[2018-11-09 21:45:58.38]      Get                 first color that is available for vertex                    9          2
-[2018-11-09 21:45:58.38]      Set                 in 2 the color of vertex                                    9         
-[2018-11-09 21:45:58.38]      Clear               queue of colors                                                       
-[2018-11-09 21:45:58.38]      Check               if vertex 10 is neighbor of vertex                          1          No
-[2018-11-09 21:45:58.38]      Check               if vertex 10 is neighbor of vertex                          2          No
-[2018-11-09 21:45:58.38]      Check               if vertex 10 is neighbor of vertex                          3          No
-[2018-11-09 21:45:58.38]      Check               if vertex 10 is neighbor of vertex                          4          No
-[2018-11-09 21:45:58.38]      Check               if vertex 10 is neighbor of vertex                          5          No
-[2018-11-09 21:45:58.38]      Check               if vertex 10 is neighbor of vertex                          6          No
-[2018-11-09 21:45:58.38]      Check               if vertex 10 is neighbor of vertex                          7          No
-[2018-11-09 21:45:58.38]      Check               if vertex 10 is neighbor of vertex                          8          Yes
-[2018-11-09 21:45:58.38]      Add                 2 to queue of colors                                                  
-[2018-11-09 21:45:58.38]      Check               if vertex 10 is neighbor of vertex                          9          Yes
-[2018-11-09 21:45:58.381]     Add                 2 to queue of colors                                                  
-[2018-11-09 21:45:58.381]     Get                 first color that is available for vertex                    10         1
-[2018-11-09 21:45:58.381]     Set                 in 1 the color of vertex                                    10        
-[2018-11-09 21:45:58.381]     Clear               queue of colors                                                       
-[2018-11-09 21:45:58.381]     Check               if vertex 11 is neighbor of vertex                          1          No
-[2018-11-09 21:45:58.381]     Check               if vertex 11 is neighbor of vertex                          2          No
-[2018-11-09 21:45:58.381]     Check               if vertex 11 is neighbor of vertex                          3          No
-[2018-11-09 21:45:58.381]     Check               if vertex 11 is neighbor of vertex                          4          No
-[2018-11-09 21:45:58.381]     Check               if vertex 11 is neighbor of vertex                          5          No
-[2018-11-09 21:45:58.381]     Check               if vertex 11 is neighbor of vertex                          6          No
-[2018-11-09 21:45:58.381]     Check               if vertex 11 is neighbor of vertex                          7          No
-[2018-11-09 21:45:58.381]     Check               if vertex 11 is neighbor of vertex                          8          No
-[2018-11-09 21:45:58.381]     Check               if vertex 11 is neighbor of vertex                          9          No
-[2018-11-09 21:45:58.381]     Check               if vertex 11 is neighbor of vertex                          10         Yes
-[2018-11-09 21:45:58.381]     Add                 1 to queue of colors                                                  
-[2018-11-09 21:45:58.381]     Get                 first color that is available for vertex                    11         2
-[2018-11-09 21:45:58.381]     Set                 in 2 the color of vertex                                    11        
-[2018-11-09 21:45:58.381]     Clear               queue of colors                                                       
-[2018-11-09 21:45:58.381]     Check               if vertex 12 is neighbor of vertex                          1          No
-[2018-11-09 21:45:58.381]     Check               if vertex 12 is neighbor of vertex                          2          No
-[2018-11-09 21:45:58.381]     Check               if vertex 12 is neighbor of vertex                          3          No
-[2018-11-09 21:45:58.381]     Check               if vertex 12 is neighbor of vertex                          4          No
-[2018-11-09 21:45:58.381]     Check               if vertex 12 is neighbor of vertex                          5          No
-[2018-11-09 21:45:58.382]     Check               if vertex 12 is neighbor of vertex                          6          No
-[2018-11-09 21:45:58.382]     Check               if vertex 12 is neighbor of vertex                          7          No
-[2018-11-09 21:45:58.382]     Check               if vertex 12 is neighbor of vertex                          8          No
-[2018-11-09 21:45:58.382]     Check               if vertex 12 is neighbor of vertex                          9          No
-[2018-11-09 21:45:58.382]     Check               if vertex 12 is neighbor of vertex                          10         No
-[2018-11-09 21:45:58.382]     Check               if vertex 12 is neighbor of vertex                          11         Yes
-[2018-11-09 21:45:58.382]     Add                 2 to queue of colors                                                  
-[2018-11-09 21:45:58.382]     Get                 first color that is available for vertex                    12         1
-[2018-11-09 21:45:58.382]     Set                 in 1 the color of vertex                                    12        
+[2018-11-10 14:34:00.064]     Get                 first color that is available for vertex                    1          1
+[2018-11-10 14:34:00.064]     Set                 in 1 the color of vertex                                    1         
+[2018-11-10 14:34:00.064]     Clear               queue of colors                                                       
+[2018-11-10 14:34:00.064]     Check               if vertex 2 is neighbor of vertex                           1          Yes
+[2018-11-10 14:34:00.064]     Add                 1 to queue of colors                                                  
+[2018-11-10 14:34:00.064]     Get                 first color that is available for vertex                    2          2
+[2018-11-10 14:34:00.064]     Set                 in 2 the color of vertex                                    2         
+[2018-11-10 14:34:00.064]     Clear               queue of colors                                                       
+[2018-11-10 14:34:00.064]     Check               if vertex 3 is neighbor of vertex                           1          Yes
+[2018-11-10 14:34:00.064]     Add                 1 to queue of colors                                                  
+[2018-11-10 14:34:00.064]     Check               if vertex 3 is neighbor of vertex                           2          No
+[2018-11-10 14:34:00.064]     Get                 first color that is available for vertex                    3          2
+[2018-11-10 14:34:00.064]     Set                 in 2 the color of vertex                                    3         
+[2018-11-10 14:34:00.065]     Clear               queue of colors                                                       
+[2018-11-10 14:34:00.065]     Check               if vertex 4 is neighbor of vertex                           1          No
+[2018-11-10 14:34:00.065]     Check               if vertex 4 is neighbor of vertex                           2          Yes
+[2018-11-10 14:34:00.065]     Add                 2 to queue of colors                                                  
+[2018-11-10 14:34:00.065]     Check               if vertex 4 is neighbor of vertex                           3          Yes
+[2018-11-10 14:34:00.065]     Add                 2 to queue of colors                                                  
+[2018-11-10 14:34:00.065]     Get                 first color that is available for vertex                    4          1
+[2018-11-10 14:34:00.065]     Set                 in 1 the color of vertex                                    4         
+[2018-11-10 14:34:00.065]     Clear               queue of colors                                                       
+[2018-11-10 14:34:00.065]     Check               if vertex 5 is neighbor of vertex                           1          No
+[2018-11-10 14:34:00.065]     Check               if vertex 5 is neighbor of vertex                           2          No
+[2018-11-10 14:34:00.065]     Check               if vertex 5 is neighbor of vertex                           3          No
+[2018-11-10 14:34:00.065]     Check               if vertex 5 is neighbor of vertex                           4          Yes
+[2018-11-10 14:34:00.066]     Add                 1 to queue of colors                                                  
+[2018-11-10 14:34:00.066]     Get                 first color that is available for vertex                    5          2
+[2018-11-10 14:34:00.066]     Set                 in 2 the color of vertex                                    5         
+[2018-11-10 14:34:00.066]     Clear               queue of colors                                                       
+[2018-11-10 14:34:00.066]     Check               if vertex 6 is neighbor of vertex                           1          No
+[2018-11-10 14:34:00.066]     Check               if vertex 6 is neighbor of vertex                           2          No
+[2018-11-10 14:34:00.066]     Check               if vertex 6 is neighbor of vertex                           3          No
+[2018-11-10 14:34:00.066]     Check               if vertex 6 is neighbor of vertex                           4          No
+[2018-11-10 14:34:00.066]     Check               if vertex 6 is neighbor of vertex                           5          Yes
+[2018-11-10 14:34:00.066]     Add                 2 to queue of colors                                                  
+[2018-11-10 14:34:00.066]     Get                 first color that is available for vertex                    6          1
+[2018-11-10 14:34:00.066]     Set                 in 1 the color of vertex                                    6         
+[2018-11-10 14:34:00.066]     Clear               queue of colors                                                       
+[2018-11-10 14:34:00.066]     Check               if vertex 7 is neighbor of vertex                           1          No
+[2018-11-10 14:34:00.066]     Check               if vertex 7 is neighbor of vertex                           2          No
+[2018-11-10 14:34:00.066]     Check               if vertex 7 is neighbor of vertex                           3          No
+[2018-11-10 14:34:00.066]     Check               if vertex 7 is neighbor of vertex                           4          No
+[2018-11-10 14:34:00.066]     Check               if vertex 7 is neighbor of vertex                           5          No
+[2018-11-10 14:34:00.066]     Check               if vertex 7 is neighbor of vertex                           6          No
+[2018-11-10 14:34:00.067]     Get                 first color that is available for vertex                    7          1
+[2018-11-10 14:34:00.067]     Set                 in 1 the color of vertex                                    7         
+[2018-11-10 14:34:00.067]     Clear               queue of colors                                                       
+[2018-11-10 14:34:00.067]     Check               if vertex 8 is neighbor of vertex                           1          No
+[2018-11-10 14:34:00.067]     Check               if vertex 8 is neighbor of vertex                           2          No
+[2018-11-10 14:34:00.067]     Check               if vertex 8 is neighbor of vertex                           3          No
+[2018-11-10 14:34:00.067]     Check               if vertex 8 is neighbor of vertex                           4          No
+[2018-11-10 14:34:00.067]     Check               if vertex 8 is neighbor of vertex                           5          No
+[2018-11-10 14:34:00.067]     Check               if vertex 8 is neighbor of vertex                           6          No
+[2018-11-10 14:34:00.067]     Check               if vertex 8 is neighbor of vertex                           7          Yes
+[2018-11-10 14:34:00.067]     Add                 1 to queue of colors                                                  
+[2018-11-10 14:34:00.067]     Get                 first color that is available for vertex                    8          2
+[2018-11-10 14:34:00.067]     Set                 in 2 the color of vertex                                    8         
+[2018-11-10 14:34:00.067]     Clear               queue of colors                                                       
+[2018-11-10 14:34:00.067]     Check               if vertex 9 is neighbor of vertex                           1          No
+[2018-11-10 14:34:00.067]     Check               if vertex 9 is neighbor of vertex                           2          No
+[2018-11-10 14:34:00.067]     Check               if vertex 9 is neighbor of vertex                           3          No
+[2018-11-10 14:34:00.067]     Check               if vertex 9 is neighbor of vertex                           4          No
+[2018-11-10 14:34:00.067]     Check               if vertex 9 is neighbor of vertex                           5          No
+[2018-11-10 14:34:00.067]     Check               if vertex 9 is neighbor of vertex                           6          No
+[2018-11-10 14:34:00.068]     Check               if vertex 9 is neighbor of vertex                           7          Yes
+[2018-11-10 14:34:00.068]     Add                 1 to queue of colors                                                  
+[2018-11-10 14:34:00.068]     Check               if vertex 9 is neighbor of vertex                           8          No
+[2018-11-10 14:34:00.068]     Get                 first color that is available for vertex                    9          2
+[2018-11-10 14:34:00.068]     Set                 in 2 the color of vertex                                    9         
+[2018-11-10 14:34:00.068]     Clear               queue of colors                                                       
+[2018-11-10 14:34:00.069]     Check               if vertex 10 is neighbor of vertex                          1          No
+[2018-11-10 14:34:00.069]     Check               if vertex 10 is neighbor of vertex                          2          No
+[2018-11-10 14:34:00.069]     Check               if vertex 10 is neighbor of vertex                          3          No
+[2018-11-10 14:34:00.069]     Check               if vertex 10 is neighbor of vertex                          4          No
+[2018-11-10 14:34:00.069]     Check               if vertex 10 is neighbor of vertex                          5          No
+[2018-11-10 14:34:00.069]     Check               if vertex 10 is neighbor of vertex                          6          No
+[2018-11-10 14:34:00.069]     Check               if vertex 10 is neighbor of vertex                          7          No
+[2018-11-10 14:34:00.069]     Check               if vertex 10 is neighbor of vertex                          8          Yes
+[2018-11-10 14:34:00.069]     Add                 2 to queue of colors                                                  
+[2018-11-10 14:34:00.069]     Check               if vertex 10 is neighbor of vertex                          9          Yes
+[2018-11-10 14:34:00.069]     Add                 2 to queue of colors                                                  
+[2018-11-10 14:34:00.07]      Get                 first color that is available for vertex                    10         1
+[2018-11-10 14:34:00.07]      Set                 in 1 the color of vertex                                    10        
+[2018-11-10 14:34:00.07]      Clear               queue of colors                                                       
+[2018-11-10 14:34:00.07]      Check               if vertex 11 is neighbor of vertex                          1          No
+[2018-11-10 14:34:00.07]      Check               if vertex 11 is neighbor of vertex                          2          No
+[2018-11-10 14:34:00.07]      Check               if vertex 11 is neighbor of vertex                          3          No
+[2018-11-10 14:34:00.07]      Check               if vertex 11 is neighbor of vertex                          4          No
+[2018-11-10 14:34:00.07]      Check               if vertex 11 is neighbor of vertex                          5          No
+[2018-11-10 14:34:00.07]      Check               if vertex 11 is neighbor of vertex                          6          No
+[2018-11-10 14:34:00.07]      Check               if vertex 11 is neighbor of vertex                          7          No
+[2018-11-10 14:34:00.07]      Check               if vertex 11 is neighbor of vertex                          8          No
+[2018-11-10 14:34:00.071]     Check               if vertex 11 is neighbor of vertex                          9          No
+[2018-11-10 14:34:00.071]     Check               if vertex 11 is neighbor of vertex                          10         Yes
+[2018-11-10 14:34:00.071]     Add                 1 to queue of colors                                                  
+[2018-11-10 14:34:00.071]     Get                 first color that is available for vertex                    11         2
+[2018-11-10 14:34:00.071]     Set                 in 2 the color of vertex                                    11        
+[2018-11-10 14:34:00.071]     Clear               queue of colors                                                       
+[2018-11-10 14:34:00.071]     Check               if vertex 12 is neighbor of vertex                          1          No
+[2018-11-10 14:34:00.071]     Check               if vertex 12 is neighbor of vertex                          2          No
+[2018-11-10 14:34:00.071]     Check               if vertex 12 is neighbor of vertex                          3          No
+[2018-11-10 14:34:00.071]     Check               if vertex 12 is neighbor of vertex                          4          No
+[2018-11-10 14:34:00.072]     Check               if vertex 12 is neighbor of vertex                          5          No
+[2018-11-10 14:34:00.072]     Check               if vertex 12 is neighbor of vertex                          6          No
+[2018-11-10 14:34:00.072]     Check               if vertex 12 is neighbor of vertex                          7          No
+[2018-11-10 14:34:00.072]     Check               if vertex 12 is neighbor of vertex                          8          No
+[2018-11-10 14:34:00.072]     Check               if vertex 12 is neighbor of vertex                          9          No
+[2018-11-10 14:34:00.072]     Check               if vertex 12 is neighbor of vertex                          10         No
+[2018-11-10 14:34:00.072]     Check               if vertex 12 is neighbor of vertex                          11         Yes
+[2018-11-10 14:34:00.072]     Add                 2 to queue of colors                                                  
+[2018-11-10 14:34:00.072]     Get                 first color that is available for vertex                    12         1
+[2018-11-10 14:34:00.072]     Set                 in 1 the color of vertex                                    12        
