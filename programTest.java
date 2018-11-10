@@ -5,9 +5,11 @@ import java.io.*;
 
 public class programTest {
 
+    public static Graph [] graph;
+
     public static void main (String[] args) throws IOException {
 
-        Graph [] graph = new Graph [args.length];
+        graph = new Graph [args.length];
 
         for (int i = 0; i < args.length; i++)
 
@@ -24,13 +26,13 @@ public class programTest {
         for (int i = 0; i < args.length; i++) {
 
             v1[i] = new ColorizeVersion1(graph[i]);
-            //colorizeVersion1(v1[i])
+            colorizeVersion1(v1[i]);
 
             v2[i] = new ColorizeVersion2(graph[i]);
-            //colorizeVersion2(v2[i])
+            colorizeVersion2(v2[i]);
 
             v3[i] = new ColorizeVersion3(graph[i]);
-            //colorizeVersion3(v3[i])
+            colorizeVersion3(v3[i]);
             
             dfs[i] = new DepthFirstSearch(graph[i]);
             depth_first_search(dfs[i]);
@@ -39,6 +41,46 @@ public class programTest {
 
         System.out.println("Success program!");
         
+    }
+
+    public static void colorizeVersion1 (ColorizeVersion1 v1) {
+
+        v1.setColorVertex(0);
+        
+        for (int j = 1; j < v1.getVertexList().size(); j++) {
+        
+            v1.saveNeighborColors(j);
+        
+            v1.setColorVertex(j);
+        
+        }
+
+        v1.finish();
+
+    }
+
+    public static void colorizeVersion2 (ColorizeVersion2 v2) {
+
+        v2.setColorVertex(-1);
+        
+        for (int j = v2.getVertexList().size()-2; j >= 0; j--) {
+        
+            v2.saveNeighborColors(j);
+        
+            v2.setColorVertex(j);
+        
+        }
+
+        v2.finish();
+
+    }
+
+    public static void colorizeVersion3 (ColorizeVersion3 v3) {
+
+        v3.sortVertexByDegree();
+
+        colorizeVersion2(v3);
+
     }
 
     public static void depth_first_search (DepthFirstSearch dfs) {

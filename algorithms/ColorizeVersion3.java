@@ -15,42 +15,21 @@ public class ColorizeVersion3 extends ColorizeVersion2 {
 
         super();
 
+        this.graph = graph;
+
+        vertexList = graph.getVertexList();
+
         log = new WriteLogFile("output/" + graph.getId() + "/log_V3.txt");
 
         pw = new PrintWriter(new File("output/" + graph.getId() + "/id_color_V3.csv"));
-        
-        init(graph);
 
     }
 
-    @Override
-    protected void init (Graph graph) {
+    public void sortVertexByDegree () {
 
         graph.sortVertexByDegree();
 
         vertexList = graph.getVertexList();
-        
-        setColorVertex(vertexList.get(vertexList.size()-1));
-        
-        for (int j = vertexList.size()-2; j >= 0; j--) {
-        
-            saveNeighborColors(j);
-        
-            setColorVertex(vertexList.get(j));
-        
-        }
-        
-        sb.append("id,Color\n");
-        
-        for (int p = 0; p < graph.getOrder(); p++)
-        
-            sb.append((vertexList.get(p).getId()+1) + "," + (vertexList.get(p).getColor()) + "\n");
-        
-        pw.write(sb.toString());
-        
-        pw.close();
-        
-        log.close();
 
     }
 

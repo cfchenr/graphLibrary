@@ -5,6 +5,11 @@ import java.util.*;
 import java.io.*;
 
 public class ColorizeVersion1 {
+
+    /**
+     * 
+     */
+    protected Graph graph;
     
     /**
      * 
@@ -46,49 +51,31 @@ public class ColorizeVersion1 {
      */
     public ColorizeVersion1 (Graph graph) throws IOException {
 
+        this.graph = graph;
+
+        vertexList = graph.getVertexList();
+
         log = new WriteLogFile("output/" + graph.getId() + "/log_V1.txt");
 
         pw = new PrintWriter(new File("output/" + graph.getId() + "/id_color_V1.csv"));
         
         colors = new LinkedList<Integer>();
 
-        init(graph);
-
-    }
-
-    protected void init (Graph graph) {
-
-        vertexList = graph.getVertexList();
-        
-        setColorVertex(vertexList.get(0));
-        
-        for (int j = 1; j < vertexList.size(); j++) {
-        
-            saveNeighborColors(j);
-        
-            setColorVertex(vertexList.get(j));
-        
-        }
-        
-        sb.append("id,Color\n");
-        
-        for (int p = 0; p < graph.getOrder(); p++)
-        
-            sb.append((vertexList.get(p).getId()+1) + "," + (vertexList.get(p).getColor()) + "\n");
-        
-        pw.write(sb.toString());
-        
-        pw.close();
-        
-        log.close();
-
     }
 
     /**
-     * [setColorVertex description]
-     * @param vertex [description]
+     * 
+     * @param id
      */
-    protected void setColorVertex (Vertex vertex) {
+    public void setColorVertex (int id) {
+
+        Vertex vertex;
+
+        if (id == -1)   
+            vertex = vertexList.get(vertexList.size()-1);
+
+        else
+            vertex = vertexList.get(id);
 
         log.write("Get", "first color that is available for vertex", Integer.toString(vertex.getId()+1));        
 
@@ -106,7 +93,7 @@ public class ColorizeVersion1 {
      * [saveNeighborColors description]
      * @param j [description]
      */
-    protected void saveNeighborColors (int j) {
+    public void saveNeighborColors (int j) {
     
         colors = new LinkedList<Integer>();
     
@@ -146,6 +133,28 @@ public class ColorizeVersion1 {
     
         return k;
     
+    }
+
+    public void finish () {
+
+        sb.append("id,Color\n");
+        
+        for (int p = 0; p < graph.getOrder(); p++)
+        
+            sb.append((vertexList.get(p).getId()+1) + "," + (vertexList.get(p).getColor()) + "\n");
+        
+        pw.write(sb.toString());
+        
+        pw.close();
+        
+        log.close();
+
+    }
+
+    public ArrayList<Vertex> getVertexList () {
+
+        return vertexList;
+
     }
 
 }
