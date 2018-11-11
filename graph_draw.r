@@ -28,8 +28,26 @@ V(net)$color=gsub("10","black",V(net)$color)
 plot.igraph(net,layout=layout.fruchterman.reingold, edge.color="black",edge.width=E(net)$weight)
 
 #import the sample_attributes file:
-a=read.csv("matrix_color_v3.csv")
-V(net)$Color=as.character(a$Color[match(V(net)$name,a$id)])
+b=read.csv(file.choose())
+V(net)$Color=as.character(b$Color[match(V(net)$name,b$id)])
+V(net)$color=V(net)$Color
+V(net)$color=gsub("1","red",V(net)$color)
+V(net)$color=gsub("2","cyan",V(net)$color)
+V(net)$color=gsub("3","yellow",V(net)$color)
+V(net)$color=gsub("4","purple",V(net)$color)
+V(net)$color=gsub("5","green",V(net)$color)
+V(net)$color=gsub("6","orange",V(net)$color)
+V(net)$color=gsub("7","blue",V(net)$color)
+V(net)$color=gsub("8","white",V(net)$color)
+V(net)$color=gsub("9","grey",V(net)$color)
+V(net)$color=gsub("10","black",V(net)$color)
+
+plot.igraph(net,layout=layout.fruchterman.reingold, edge.color="black",edge.width=E(net)$weight)
+
+
+#import the sample_attributes file:
+c=read.csv(file.choose())
+V(net)$Color=as.character(c$Color[match(V(net)$name,c$id)])
 V(net)$color=V(net)$Color
 V(net)$color=gsub("1","red",V(net)$color)
 V(net)$color=gsub("2","cyan",V(net)$color)
