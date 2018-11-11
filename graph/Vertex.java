@@ -178,7 +178,7 @@ public class Vertex {
     /**
      * @return a list of the neighbors of this vertex
      */
-    public ArrayList<Integer> getNeighbor () {
+    public ArrayList<Integer> getNeighborList () {
     
         Set<Integer> set = new HashSet<Integer>();
     
@@ -189,20 +189,21 @@ public class Vertex {
         return new ArrayList<Integer>(set);
     
     }
-    
+
+
     /** 
      * @return a list of the sucessors of this vertex
      */
-    public ArrayList<Integer> getSucessor () {
+    public ArrayList<Integer> getSucessorList () {
     
         return successorList;
     
     }
-    
+
     /** 
      * @return a list of the predecessores of this vertex
      */
-    public ArrayList<Integer> getPredecessor () {
+    public ArrayList<Integer> getPredecessorList () {
     
         return predecessorList;
     

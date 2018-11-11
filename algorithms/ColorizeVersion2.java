@@ -5,18 +5,7 @@ import java.util.*;
 import java.io.*;
 
 public class ColorizeVersion2 extends ColorizeVersion1 {
-	
-	/**
-     * [V1 description]
-     * @return [description]
-     * @throws IOException   [description]
-     */
-    public ColorizeVersion2 () throws IOException {
 
-        colors = new LinkedList<Integer>();
-
-    }
-    
     /**
      * [V2 description]
      * @param  graph                 [description]
@@ -25,15 +14,13 @@ public class ColorizeVersion2 extends ColorizeVersion1 {
      */
     public ColorizeVersion2 (Graph graph) throws IOException {
 
-        super();
+        super(graph, "V2");
 
-        this.graph = graph;
+    }
 
-        vertexList = graph.getVertexList();
+    public ColorizeVersion2 (Graph graph, String version) throws IOException {
 
-        log = new WriteLogFile("output/" + graph.getId() + "/log_V2.txt");
-
-        pw = new PrintWriter(new File("output/" + graph.getId() + "/id_color_V2.csv"));
+        super(graph, version);
 
     }
 

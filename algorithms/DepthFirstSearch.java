@@ -182,7 +182,7 @@ public class DepthFirstSearch {
 
         log.write("Get","the sucessors of vertex", Integer.toString(vertex.getId()+1));      
         
-        ArrayList<Integer> temp1 = vertex.getSucessor();
+        ArrayList<Integer> temp1 = vertex.getSucessorList();
         
         if (!(temp1.size() > 0))
         
@@ -196,7 +196,7 @@ public class DepthFirstSearch {
         
         log.writeln();
         
-        return vertex.getSucessor().listIterator();
+        return vertex.getSucessorList().listIterator();
     
     }
 
@@ -224,23 +224,23 @@ public class DepthFirstSearch {
 
         log.write("Get", "the predecessors of vertex", Integer.toString(vertex.getId()+1));      
         
-        if (!(vertex.getPredecessor().size() > 0))
+        if (!(vertex.getPredecessorList().size() > 0))
         
             log.write("Without predecessors");
         
         else
         
-            for (int i = 0; i < vertex.getPredecessor().size(); i++)
+            for (int i = 0; i < vertex.getPredecessorList().size(); i++)
         
-                log.write(Integer.toString(vertexList.get(vertex.getPredecessor().get(i)).getId()+1));
+                log.write(Integer.toString(vertexList.get(vertex.getPredecessorList().get(i)).getId()+1));
         
         log.writeln();
         
-        for (int i = 0; i < vertex.getPredecessor().size(); i++) {
+        for (int i = 0; i < vertex.getPredecessorList().size(); i++) {
         
-            log.write("Check", "that vertex " + (vertexList.get(vertex.getPredecessor().get(i)).getId()+1) + " is a non visited predecessor of vertex", Integer.toString(vertex.getId()+1));        
+            log.write("Check", "that vertex " + (vertexList.get(vertex.getPredecessorList().get(i)).getId()+1) + " is a non visited predecessor of vertex", Integer.toString(vertex.getId()+1));        
         
-            if (!vertexList.get(vertex.getPredecessor().get(i)).isVisited()) {
+            if (!vertexList.get(vertex.getPredecessorList().get(i)).isVisited()) {
         
                 log.writeln("Yes");
         

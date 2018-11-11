@@ -37,9 +37,19 @@ public class ColorizeVersion1 {
      */
     protected StringBuilder sb = new StringBuilder();
 
-    public ColorizeVersion1 () throws IOException {
+    public ColorizeVersion1 (Graph graph, String version) throws IOException {
 
         colors = new LinkedList<Integer>();
+
+        this.graph = graph;
+
+        vertexList = this.graph.getVertexList();
+
+        this.graph.setDefaultColorVertexes();
+
+        log = new WriteLogFile("output/" + this.graph.getId() + "/log_" + version + ".txt");
+
+        pw = new PrintWriter(new File("output/" + this.graph.getId() + "/id_color_" + version + ".csv"));
 
     }
 
@@ -51,16 +61,8 @@ public class ColorizeVersion1 {
      */
     public ColorizeVersion1 (Graph graph) throws IOException {
 
-        this.graph = graph;
-
-        vertexList = graph.getVertexList();
-
-        log = new WriteLogFile("output/" + graph.getId() + "/log_V1.txt");
-
-        pw = new PrintWriter(new File("output/" + graph.getId() + "/id_color_V1.csv"));
+        this(graph, "V1");
         
-        colors = new LinkedList<Integer>();
-
     }
 
     /**
@@ -81,7 +83,7 @@ public class ColorizeVersion1 {
 
         int color = getFirstColorAvailable();
 
-        log.writeln(Integer.toString(color));
+        log.writeln("Available[" + Integer.toString(color) + "]");
 
         log.writef("Set", "in " + color + " the color of vertex ", Integer.toString(vertex.getId()+1), "");        
     
@@ -97,8 +99,8 @@ public class ColorizeVersion1 {
     
         colors = new LinkedList<Integer>();
     
-        log.writef("Clear", "queue of colors");        
-
+        log.writef("Clear", "queue of colors");   
+        
         for (int i = 0; i < j; i++) {
 
             log.write("Check", "if vertex " + Integer.toString(vertexList.get(j).getId()+1) + " is neighbor of vertex", Integer.toString(vertexList.get(i).getId()+1));        
@@ -116,7 +118,7 @@ public class ColorizeVersion1 {
                 log.writeln("No");
 
         }
-    
+
     }
 
     /**
@@ -127,9 +129,13 @@ public class ColorizeVersion1 {
     
         int k = 1;
 
-        while(colors.contains(k))
-    
+        while(colors.contains(k)) {
+
+            log.write(Integer.toString(k));
+
             k++;
+
+        }
     
         return k;
     

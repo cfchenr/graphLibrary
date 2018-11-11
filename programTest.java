@@ -32,14 +32,12 @@ public class programTest {
             colorizeVersion2(v2[i]);
 
             v3[i] = new ColorizeVersion3(graph[i]);
-            colorizeVersion3(v3[i]);
+            colorizeVersion2(v3[i]);
             
             dfs[i] = new DepthFirstSearch(graph[i]);
             depth_first_search(dfs[i]);
 
         }
-
-        System.out.println("Success program!");
         
     }
 
@@ -72,14 +70,6 @@ public class programTest {
         }
 
         v2.finish();
-
-    }
-
-    public static void colorizeVersion3 (ColorizeVersion3 v3) {
-
-        v3.sortVertexByDegree();
-
-        colorizeVersion2(v3);
 
     }
 

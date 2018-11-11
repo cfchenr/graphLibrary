@@ -194,6 +194,15 @@ public class Graph {
      */
     public void sortVertexByDegree () {
 
+        vertexList = getVertexByDegree();
+
+    }
+
+    /**
+     * 
+     */
+    public ArrayList<Vertex> getVertexByDegree () {
+
         ArrayList<Vertex> temp = new ArrayList<Vertex>();
 
         int max = 0;
@@ -224,10 +233,6 @@ public class Graph {
 
                     temp.add(0, vertexList.get(i));
 
-                    vertexList.remove(i);
-
-                    i--;
-
                 }
 
             }       
@@ -236,7 +241,14 @@ public class Graph {
 
         }
 
-        vertexList = temp;
+        return temp;
+
+    }
+
+    public void setDefaultColorVertexes () {
+
+        for (int i = 0; i < vertexList.size(); i++)
+            vertexList.get(i).setColor(0);
 
     }
 
