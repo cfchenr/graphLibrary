@@ -28,7 +28,6 @@ public class ColorizeVersion2 extends ColorizeVersion1 {
      * [saveNeighborColors description]
      * @param j [description]
      */
-    @Override
     public void saveNeighborColors (int j) {
     
         colors = new LinkedList<Integer>();

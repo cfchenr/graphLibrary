@@ -1,367 +1,367 @@
 [timestamp]                   [action]            [details]                                                   [vertex]   [observations]
-[2018-11-11 23:16:21.02]      Check               if the graph contains a non visited vertex                             Yes. Vertex 24
-[2018-11-11 23:16:21.02]      Set                 as visited vertex                                           24        
-[2018-11-11 23:16:21.02]      Set                 in 1 the order of vertex                                    24        
-[2018-11-11 23:16:21.02]      Add                 to the stack vertex                                         24        
-[2018-11-11 23:16:21.02]      Remove              from the stack vertex                                       24        
-[2018-11-11 23:16:21.02]      Get                 the sucessors of vertex                                     24         21  12  8 
-[2018-11-11 23:16:21.02]      Analyze             vertex                                                      21        
-[2018-11-11 23:16:21.02]      Check               if has already visited vertex                               21         No
-[2018-11-11 23:16:21.02]      Get                 the predecessors of vertex                                  21         23  13  8 
-[2018-11-11 23:16:21.021]     Check               that vertex 23 is a non visited predecessor of vertex       21         Yes
-[2018-11-11 23:16:21.021]     Analyze             vertex                                                      12        
-[2018-11-11 23:16:21.021]     Check               if has already visited vertex                               12         No
-[2018-11-11 23:16:21.021]     Get                 the predecessors of vertex                                  12         19  18  4 
-[2018-11-11 23:16:21.021]     Check               that vertex 19 is a non visited predecessor of vertex       12         Yes
-[2018-11-11 23:16:21.021]     Analyze             vertex                                                      8         
-[2018-11-11 23:16:21.021]     Check               if has already visited vertex                               8          No
-[2018-11-11 23:16:21.021]     Get                 the predecessors of vertex                                  8          12  10  9 
-[2018-11-11 23:16:21.021]     Check               that vertex 12 is a non visited predecessor of vertex       8          Yes
-[2018-11-11 23:16:21.021]     Check               if the graph contains a non visited vertex                             Yes. Vertex 23
-[2018-11-11 23:16:21.021]     Set                 as visited vertex                                           23        
-[2018-11-11 23:16:21.021]     Set                 in 2 the order of vertex                                    23        
-[2018-11-11 23:16:21.021]     Add                 to the stack vertex                                         23        
-[2018-11-11 23:16:21.021]     Remove              from the stack vertex                                       23        
-[2018-11-11 23:16:21.021]     Get                 the sucessors of vertex                                     23         22  11  7 
-[2018-11-11 23:16:21.021]     Analyze             vertex                                                      22        
-[2018-11-11 23:16:21.021]     Check               if has already visited vertex                               22         No
-[2018-11-11 23:16:21.021]     Get                 the predecessors of vertex                                  22         21  10  7 
-[2018-11-11 23:16:21.021]     Check               that vertex 21 is a non visited predecessor of vertex       22         Yes
-[2018-11-11 23:16:21.021]     Analyze             vertex                                                      11        
-[2018-11-11 23:16:21.021]     Check               if has already visited vertex                               11         No
-[2018-11-11 23:16:21.021]     Get                 the predecessors of vertex                                  11         19  16  5 
-[2018-11-11 23:16:21.022]     Check               that vertex 19 is a non visited predecessor of vertex       11         Yes
-[2018-11-11 23:16:21.022]     Analyze             vertex                                                      7         
-[2018-11-11 23:16:21.022]     Check               if has already visited vertex                               7          No
-[2018-11-11 23:16:21.022]     Get                 the predecessors of vertex                                  7          15  13  7 
-[2018-11-11 23:16:21.022]     Check               that vertex 15 is a non visited predecessor of vertex       7          Yes
-[2018-11-11 23:16:21.022]     Check               if the graph contains a non visited vertex                             Yes. Vertex 22
-[2018-11-11 23:16:21.022]     Set                 as visited vertex                                           22        
-[2018-11-11 23:16:21.022]     Set                 in 3 the order of vertex                                    22        
-[2018-11-11 23:16:21.022]     Add                 to the stack vertex                                         22        
-[2018-11-11 23:16:21.022]     Remove              from the stack vertex                                       22        
-[2018-11-11 23:16:21.022]     Get                 the sucessors of vertex                                     22         21  10  7 
-[2018-11-11 23:16:21.022]     Analyze             vertex                                                      21        
-[2018-11-11 23:16:21.022]     Check               if has already visited vertex                               21         No
-[2018-11-11 23:16:21.022]     Get                 the predecessors of vertex                                  21         23  13  8 
-[2018-11-11 23:16:21.022]     Check               that vertex 23 is a non visited predecessor of vertex       21         No
-[2018-11-11 23:16:21.022]     Check               that vertex 13 is a non visited predecessor of vertex       21         Yes
-[2018-11-11 23:16:21.022]     Analyze             vertex                                                      10        
-[2018-11-11 23:16:21.022]     Check               if has already visited vertex                               10         No
-[2018-11-11 23:16:21.022]     Get                 the predecessors of vertex                                  10         20  18  6 
-[2018-11-11 23:16:21.022]     Check               that vertex 20 is a non visited predecessor of vertex       10         Yes
-[2018-11-11 23:16:21.022]     Analyze             vertex                                                      7         
-[2018-11-11 23:16:21.022]     Check               if has already visited vertex                               7          No
-[2018-11-11 23:16:21.022]     Get                 the predecessors of vertex                                  7          15  13  7 
-[2018-11-11 23:16:21.022]     Check               that vertex 15 is a non visited predecessor of vertex       7          Yes
-[2018-11-11 23:16:21.022]     Check               if the graph contains a non visited vertex                             Yes. Vertex 21
-[2018-11-11 23:16:21.022]     Set                 as visited vertex                                           21        
-[2018-11-11 23:16:21.022]     Set                 in 4 the order of vertex                                    21        
-[2018-11-11 23:16:21.022]     Add                 to the stack vertex                                         21        
-[2018-11-11 23:16:21.022]     Remove              from the stack vertex                                       21        
-[2018-11-11 23:16:21.022]     Get                 the sucessors of vertex                                     21         23  13  8 
-[2018-11-11 23:16:21.022]     Analyze             vertex                                                      23        
-[2018-11-11 23:16:21.022]     Check               if has already visited vertex                               23         Yes
-[2018-11-11 23:16:21.022]     Analyze             vertex                                                      13        
-[2018-11-11 23:16:21.022]     Check               if has already visited vertex                               13         No
-[2018-11-11 23:16:21.022]     Get                 the predecessors of vertex                                  13         20  17  1 
-[2018-11-11 23:16:21.022]     Check               that vertex 20 is a non visited predecessor of vertex       13         Yes
-[2018-11-11 23:16:21.022]     Analyze             vertex                                                      8         
-[2018-11-11 23:16:21.022]     Check               if has already visited vertex                               8          No
-[2018-11-11 23:16:21.022]     Get                 the predecessors of vertex                                  8          12  10  9 
-[2018-11-11 23:16:21.022]     Check               that vertex 12 is a non visited predecessor of vertex       8          Yes
-[2018-11-11 23:16:21.022]     Check               if the graph contains a non visited vertex                             Yes. Vertex 20
-[2018-11-11 23:16:21.022]     Set                 as visited vertex                                           20        
-[2018-11-11 23:16:21.022]     Set                 in 5 the order of vertex                                    20        
-[2018-11-11 23:16:21.022]     Add                 to the stack vertex                                         20        
-[2018-11-11 23:16:21.022]     Remove              from the stack vertex                                       20        
-[2018-11-11 23:16:21.022]     Get                 the sucessors of vertex                                     20         22  14  9 
-[2018-11-11 23:16:21.022]     Analyze             vertex                                                      22        
-[2018-11-11 23:16:21.022]     Check               if has already visited vertex                               22         Yes
-[2018-11-11 23:16:21.022]     Analyze             vertex                                                      14        
-[2018-11-11 23:16:21.023]     Check               if has already visited vertex                               14         No
-[2018-11-11 23:16:21.023]     Get                 the predecessors of vertex                                  14         20  16  2 
-[2018-11-11 23:16:21.023]     Check               that vertex 20 is a non visited predecessor of vertex       14         No
-[2018-11-11 23:16:21.023]     Check               that vertex 16 is a non visited predecessor of vertex       14         Yes
-[2018-11-11 23:16:21.023]     Analyze             vertex                                                      9         
-[2018-11-11 23:16:21.023]     Check               if has already visited vertex                               9          No
-[2018-11-11 23:16:21.023]     Get                 the predecessors of vertex                                  9          14  11  8 
-[2018-11-11 23:16:21.023]     Check               that vertex 14 is a non visited predecessor of vertex       9          Yes
-[2018-11-11 23:16:21.023]     Check               if the graph contains a non visited vertex                             Yes. Vertex 19
-[2018-11-11 23:16:21.023]     Set                 as visited vertex                                           19        
-[2018-11-11 23:16:21.023]     Set                 in 6 the order of vertex                                    19        
-[2018-11-11 23:16:21.023]     Add                 to the stack vertex                                         19        
-[2018-11-11 23:16:21.023]     Remove              from the stack vertex                                       19        
-[2018-11-11 23:16:21.023]     Get                 the sucessors of vertex                                     19         23  15  9 
-[2018-11-11 23:16:21.023]     Analyze             vertex                                                      23        
-[2018-11-11 23:16:21.023]     Check               if has already visited vertex                               23         Yes
-[2018-11-11 23:16:21.023]     Analyze             vertex                                                      15        
-[2018-11-11 23:16:21.023]     Check               if has already visited vertex                               15         No
-[2018-11-11 23:16:21.023]     Get                 the predecessors of vertex                                  15         19  17  3 
-[2018-11-11 23:16:21.023]     Check               that vertex 19 is a non visited predecessor of vertex       15         No
-[2018-11-11 23:16:21.023]     Check               that vertex 17 is a non visited predecessor of vertex       15         Yes
-[2018-11-11 23:16:21.023]     Analyze             vertex                                                      9         
-[2018-11-11 23:16:21.023]     Check               if has already visited vertex                               9          No
-[2018-11-11 23:16:21.023]     Get                 the predecessors of vertex                                  9          14  11  8 
-[2018-11-11 23:16:21.023]     Check               that vertex 14 is a non visited predecessor of vertex       9          Yes
-[2018-11-11 23:16:21.023]     Check               if the graph contains a non visited vertex                             Yes. Vertex 18
-[2018-11-11 23:16:21.023]     Set                 as visited vertex                                           18        
-[2018-11-11 23:16:21.023]     Set                 in 7 the order of vertex                                    18        
-[2018-11-11 23:16:21.023]     Add                 to the stack vertex                                         18        
-[2018-11-11 23:16:21.023]     Remove              from the stack vertex                                       18        
-[2018-11-11 23:16:21.023]     Get                 the sucessors of vertex                                     18         18  3  2 
-[2018-11-11 23:16:21.023]     Analyze             vertex                                                      18        
-[2018-11-11 23:16:21.023]     Check               if has already visited vertex                               18         Yes
-[2018-11-11 23:16:21.023]     Analyze             vertex                                                      3         
-[2018-11-11 23:16:21.023]     Check               if has already visited vertex                               3          No
-[2018-11-11 23:16:21.023]     Get                 the predecessors of vertex                                  3          24  5  2 
-[2018-11-11 23:16:21.023]     Check               that vertex 24 is a non visited predecessor of vertex       3          No
-[2018-11-11 23:16:21.023]     Check               that vertex 5 is a non visited predecessor of vertex        3          Yes
-[2018-11-11 23:16:21.023]     Analyze             vertex                                                      2         
-[2018-11-11 23:16:21.023]     Check               if has already visited vertex                               2          No
-[2018-11-11 23:16:21.023]     Get                 the predecessors of vertex                                  2          24  6  4 
-[2018-11-11 23:16:21.023]     Check               that vertex 24 is a non visited predecessor of vertex       2          No
-[2018-11-11 23:16:21.023]     Check               that vertex 6 is a non visited predecessor of vertex        2          Yes
-[2018-11-11 23:16:21.023]     Check               if the graph contains a non visited vertex                             Yes. Vertex 17
-[2018-11-11 23:16:21.023]     Set                 as visited vertex                                           17        
-[2018-11-11 23:16:21.023]     Set                 in 8 the order of vertex                                    17        
-[2018-11-11 23:16:21.023]     Add                 to the stack vertex                                         17        
-[2018-11-11 23:16:21.023]     Remove              from the stack vertex                                       17        
-[2018-11-11 23:16:21.023]     Get                 the sucessors of vertex                                     17         16  4  1 
-[2018-11-11 23:16:21.023]     Analyze             vertex                                                      16        
-[2018-11-11 23:16:21.023]     Check               if has already visited vertex                               16         No
-[2018-11-11 23:16:21.023]     Get                 the predecessors of vertex                                  16         17  6  5 
-[2018-11-11 23:16:21.023]     Check               that vertex 17 is a non visited predecessor of vertex       16         No
-[2018-11-11 23:16:21.023]     Check               that vertex 6 is a non visited predecessor of vertex        16         Yes
-[2018-11-11 23:16:21.023]     Analyze             vertex                                                      4         
-[2018-11-11 23:16:21.023]     Check               if has already visited vertex                               4          No
-[2018-11-11 23:16:21.023]     Get                 the predecessors of vertex                                  4          24  3  1 
-[2018-11-11 23:16:21.024]     Check               that vertex 24 is a non visited predecessor of vertex       4          No
-[2018-11-11 23:16:21.024]     Check               that vertex 3 is a non visited predecessor of vertex        4          Yes
-[2018-11-11 23:16:21.024]     Analyze             vertex                                                      1         
-[2018-11-11 23:16:21.024]     Check               if has already visited vertex                               1          No
-[2018-11-11 23:16:21.024]     Get                 the predecessors of vertex                                  1          23  22  21 
-[2018-11-11 23:16:21.024]     Check               that vertex 23 is a non visited predecessor of vertex       1          No
-[2018-11-11 23:16:21.024]     Check               that vertex 22 is a non visited predecessor of vertex       1          No
-[2018-11-11 23:16:21.024]     Check               that vertex 21 is a non visited predecessor of vertex       1          No
-[2018-11-11 23:16:21.024]     Set                 as visited vertex                                           1         
-[2018-11-11 23:16:21.024]     Set                 in 9 the order of vertex                                    1         
-[2018-11-11 23:16:21.024]     Add                 to the stack vertex                                         1         
-[2018-11-11 23:16:21.024]     Remove              from the stack vertex                                       1         
-[2018-11-11 23:16:21.024]     Get                 the sucessors of vertex                                     1          23  22  21 
-[2018-11-11 23:16:21.024]     Analyze             vertex                                                      23        
-[2018-11-11 23:16:21.024]     Check               if has already visited vertex                               23         Yes
-[2018-11-11 23:16:21.024]     Analyze             vertex                                                      22        
-[2018-11-11 23:16:21.024]     Check               if has already visited vertex                               22         Yes
-[2018-11-11 23:16:21.024]     Analyze             vertex                                                      21        
-[2018-11-11 23:16:21.024]     Check               if has already visited vertex                               21         Yes
-[2018-11-11 23:16:21.024]     Check               if the graph contains a non visited vertex                             Yes. Vertex 16
-[2018-11-11 23:16:21.024]     Set                 as visited vertex                                           16        
-[2018-11-11 23:16:21.024]     Set                 in 10 the order of vertex                                   16        
-[2018-11-11 23:16:21.024]     Add                 to the stack vertex                                         16        
-[2018-11-11 23:16:21.024]     Remove              from the stack vertex                                       16        
-[2018-11-11 23:16:21.024]     Get                 the sucessors of vertex                                     16         17  6  5 
-[2018-11-11 23:16:21.024]     Analyze             vertex                                                      17        
-[2018-11-11 23:16:21.024]     Check               if has already visited vertex                               17         Yes
-[2018-11-11 23:16:21.024]     Analyze             vertex                                                      6         
-[2018-11-11 23:16:21.024]     Check               if has already visited vertex                               6          No
-[2018-11-11 23:16:21.024]     Get                 the predecessors of vertex                                  6          14  13  10 
-[2018-11-11 23:16:21.024]     Check               that vertex 14 is a non visited predecessor of vertex       6          Yes
-[2018-11-11 23:16:21.024]     Analyze             vertex                                                      5         
-[2018-11-11 23:16:21.024]     Check               if has already visited vertex                               5          No
-[2018-11-11 23:16:21.024]     Get                 the predecessors of vertex                                  5          15  12  11 
-[2018-11-11 23:16:21.024]     Check               that vertex 15 is a non visited predecessor of vertex       5          Yes
-[2018-11-11 23:16:21.024]     Check               if the graph contains a non visited vertex                             Yes. Vertex 15
-[2018-11-11 23:16:21.024]     Set                 as visited vertex                                           15        
-[2018-11-11 23:16:21.024]     Set                 in 11 the order of vertex                                   15        
-[2018-11-11 23:16:21.024]     Add                 to the stack vertex                                         15        
-[2018-11-11 23:16:21.024]     Remove              from the stack vertex                                       15        
-[2018-11-11 23:16:21.024]     Get                 the sucessors of vertex                                     15         19  17  3 
-[2018-11-11 23:16:21.024]     Analyze             vertex                                                      19        
-[2018-11-11 23:16:21.024]     Check               if has already visited vertex                               19         Yes
-[2018-11-11 23:16:21.024]     Analyze             vertex                                                      17        
-[2018-11-11 23:16:21.024]     Check               if has already visited vertex                               17         Yes
-[2018-11-11 23:16:21.024]     Analyze             vertex                                                      3         
-[2018-11-11 23:16:21.024]     Check               if has already visited vertex                               3          No
-[2018-11-11 23:16:21.024]     Get                 the predecessors of vertex                                  3          24  5  2 
-[2018-11-11 23:16:21.024]     Check               that vertex 24 is a non visited predecessor of vertex       3          No
-[2018-11-11 23:16:21.024]     Check               that vertex 5 is a non visited predecessor of vertex        3          Yes
-[2018-11-11 23:16:21.024]     Check               if the graph contains a non visited vertex                             Yes. Vertex 14
-[2018-11-11 23:16:21.024]     Set                 as visited vertex                                           14        
-[2018-11-11 23:16:21.024]     Set                 in 12 the order of vertex                                   14        
-[2018-11-11 23:16:21.024]     Add                 to the stack vertex                                         14        
-[2018-11-11 23:16:21.024]     Remove              from the stack vertex                                       14        
-[2018-11-11 23:16:21.024]     Get                 the sucessors of vertex                                     14         20  16  2 
-[2018-11-11 23:16:21.024]     Analyze             vertex                                                      20        
-[2018-11-11 23:16:21.024]     Check               if has already visited vertex                               20         Yes
-[2018-11-11 23:16:21.024]     Analyze             vertex                                                      16        
-[2018-11-11 23:16:21.024]     Check               if has already visited vertex                               16         Yes
-[2018-11-11 23:16:21.024]     Analyze             vertex                                                      2         
-[2018-11-11 23:16:21.024]     Check               if has already visited vertex                               2          No
-[2018-11-11 23:16:21.024]     Get                 the predecessors of vertex                                  2          24  6  4 
-[2018-11-11 23:16:21.024]     Check               that vertex 24 is a non visited predecessor of vertex       2          No
-[2018-11-11 23:16:21.024]     Check               that vertex 6 is a non visited predecessor of vertex        2          Yes
-[2018-11-11 23:16:21.024]     Check               if the graph contains a non visited vertex                             Yes. Vertex 13
-[2018-11-11 23:16:21.024]     Set                 as visited vertex                                           13        
-[2018-11-11 23:16:21.024]     Set                 in 13 the order of vertex                                   13        
-[2018-11-11 23:16:21.024]     Add                 to the stack vertex                                         13        
-[2018-11-11 23:16:21.024]     Remove              from the stack vertex                                       13        
-[2018-11-11 23:16:21.025]     Get                 the sucessors of vertex                                     13         20  17  1 
-[2018-11-11 23:16:21.025]     Analyze             vertex                                                      20        
-[2018-11-11 23:16:21.025]     Check               if has already visited vertex                               20         Yes
-[2018-11-11 23:16:21.025]     Analyze             vertex                                                      17        
-[2018-11-11 23:16:21.025]     Check               if has already visited vertex                               17         Yes
-[2018-11-11 23:16:21.025]     Analyze             vertex                                                      1         
-[2018-11-11 23:16:21.025]     Check               if has already visited vertex                               1          Yes
-[2018-11-11 23:16:21.025]     Check               if the graph contains a non visited vertex                             Yes. Vertex 12
-[2018-11-11 23:16:21.025]     Set                 as visited vertex                                           12        
-[2018-11-11 23:16:21.025]     Set                 in 14 the order of vertex                                   12        
-[2018-11-11 23:16:21.025]     Add                 to the stack vertex                                         12        
-[2018-11-11 23:16:21.025]     Remove              from the stack vertex                                       12        
-[2018-11-11 23:16:21.025]     Get                 the sucessors of vertex                                     12         19  18  4 
-[2018-11-11 23:16:21.025]     Analyze             vertex                                                      19        
-[2018-11-11 23:16:21.025]     Check               if has already visited vertex                               19         Yes
-[2018-11-11 23:16:21.025]     Analyze             vertex                                                      18        
-[2018-11-11 23:16:21.025]     Check               if has already visited vertex                               18         Yes
-[2018-11-11 23:16:21.025]     Analyze             vertex                                                      4         
-[2018-11-11 23:16:21.025]     Check               if has already visited vertex                               4          No
-[2018-11-11 23:16:21.025]     Get                 the predecessors of vertex                                  4          24  3  1 
-[2018-11-11 23:16:21.025]     Check               that vertex 24 is a non visited predecessor of vertex       4          No
-[2018-11-11 23:16:21.025]     Check               that vertex 3 is a non visited predecessor of vertex        4          Yes
-[2018-11-11 23:16:21.025]     Check               if the graph contains a non visited vertex                             Yes. Vertex 11
-[2018-11-11 23:16:21.025]     Set                 as visited vertex                                           11        
-[2018-11-11 23:16:21.025]     Set                 in 15 the order of vertex                                   11        
-[2018-11-11 23:16:21.025]     Add                 to the stack vertex                                         11        
-[2018-11-11 23:16:21.025]     Remove              from the stack vertex                                       11        
-[2018-11-11 23:16:21.025]     Get                 the sucessors of vertex                                     11         19  16  5 
-[2018-11-11 23:16:21.025]     Analyze             vertex                                                      19        
-[2018-11-11 23:16:21.025]     Check               if has already visited vertex                               19         Yes
-[2018-11-11 23:16:21.025]     Analyze             vertex                                                      16        
-[2018-11-11 23:16:21.025]     Check               if has already visited vertex                               16         Yes
-[2018-11-11 23:16:21.025]     Analyze             vertex                                                      5         
-[2018-11-11 23:16:21.025]     Check               if has already visited vertex                               5          No
-[2018-11-11 23:16:21.025]     Get                 the predecessors of vertex                                  5          15  12  11 
-[2018-11-11 23:16:21.025]     Check               that vertex 15 is a non visited predecessor of vertex       5          No
-[2018-11-11 23:16:21.025]     Check               that vertex 12 is a non visited predecessor of vertex       5          No
-[2018-11-11 23:16:21.025]     Check               that vertex 11 is a non visited predecessor of vertex       5          No
-[2018-11-11 23:16:21.025]     Set                 as visited vertex                                           5         
-[2018-11-11 23:16:21.025]     Set                 in 16 the order of vertex                                   5         
-[2018-11-11 23:16:21.025]     Add                 to the stack vertex                                         5         
-[2018-11-11 23:16:21.025]     Remove              from the stack vertex                                       5         
-[2018-11-11 23:16:21.025]     Get                 the sucessors of vertex                                     5          15  12  11 
-[2018-11-11 23:16:21.025]     Analyze             vertex                                                      15        
-[2018-11-11 23:16:21.025]     Check               if has already visited vertex                               15         Yes
-[2018-11-11 23:16:21.025]     Analyze             vertex                                                      12        
-[2018-11-11 23:16:21.025]     Check               if has already visited vertex                               12         Yes
-[2018-11-11 23:16:21.025]     Analyze             vertex                                                      11        
-[2018-11-11 23:16:21.025]     Check               if has already visited vertex                               11         Yes
-[2018-11-11 23:16:21.025]     Check               if the graph contains a non visited vertex                             Yes. Vertex 10
-[2018-11-11 23:16:21.025]     Set                 as visited vertex                                           10        
-[2018-11-11 23:16:21.025]     Set                 in 17 the order of vertex                                   10        
-[2018-11-11 23:16:21.025]     Add                 to the stack vertex                                         10        
-[2018-11-11 23:16:21.025]     Remove              from the stack vertex                                       10        
-[2018-11-11 23:16:21.025]     Get                 the sucessors of vertex                                     10         20  18  6 
-[2018-11-11 23:16:21.025]     Analyze             vertex                                                      20        
-[2018-11-11 23:16:21.025]     Check               if has already visited vertex                               20         Yes
-[2018-11-11 23:16:21.025]     Analyze             vertex                                                      18        
-[2018-11-11 23:16:21.025]     Check               if has already visited vertex                               18         Yes
-[2018-11-11 23:16:21.025]     Analyze             vertex                                                      6         
-[2018-11-11 23:16:21.025]     Check               if has already visited vertex                               6          No
-[2018-11-11 23:16:21.025]     Get                 the predecessors of vertex                                  6          14  13  10 
-[2018-11-11 23:16:21.025]     Check               that vertex 14 is a non visited predecessor of vertex       6          No
-[2018-11-11 23:16:21.025]     Check               that vertex 13 is a non visited predecessor of vertex       6          No
-[2018-11-11 23:16:21.025]     Check               that vertex 10 is a non visited predecessor of vertex       6          No
-[2018-11-11 23:16:21.025]     Set                 as visited vertex                                           6         
-[2018-11-11 23:16:21.025]     Set                 in 18 the order of vertex                                   6         
-[2018-11-11 23:16:21.025]     Add                 to the stack vertex                                         6         
-[2018-11-11 23:16:21.025]     Remove              from the stack vertex                                       6         
-[2018-11-11 23:16:21.025]     Get                 the sucessors of vertex                                     6          14  13  10 
-[2018-11-11 23:16:21.025]     Analyze             vertex                                                      14        
-[2018-11-11 23:16:21.025]     Check               if has already visited vertex                               14         Yes
-[2018-11-11 23:16:21.025]     Analyze             vertex                                                      13        
-[2018-11-11 23:16:21.025]     Check               if has already visited vertex                               13         Yes
-[2018-11-11 23:16:21.025]     Analyze             vertex                                                      10        
-[2018-11-11 23:16:21.025]     Check               if has already visited vertex                               10         Yes
-[2018-11-11 23:16:21.025]     Check               if the graph contains a non visited vertex                             Yes. Vertex 9
-[2018-11-11 23:16:21.025]     Set                 as visited vertex                                           9         
-[2018-11-11 23:16:21.026]     Set                 in 19 the order of vertex                                   9         
-[2018-11-11 23:16:21.026]     Add                 to the stack vertex                                         9         
-[2018-11-11 23:16:21.026]     Remove              from the stack vertex                                       9         
-[2018-11-11 23:16:21.026]     Get                 the sucessors of vertex                                     9          14  11  8 
-[2018-11-11 23:16:21.026]     Analyze             vertex                                                      14        
-[2018-11-11 23:16:21.026]     Check               if has already visited vertex                               14         Yes
-[2018-11-11 23:16:21.026]     Analyze             vertex                                                      11        
-[2018-11-11 23:16:21.026]     Check               if has already visited vertex                               11         Yes
-[2018-11-11 23:16:21.026]     Analyze             vertex                                                      8         
-[2018-11-11 23:16:21.026]     Check               if has already visited vertex                               8          No
-[2018-11-11 23:16:21.026]     Get                 the predecessors of vertex                                  8          12  10  9 
-[2018-11-11 23:16:21.026]     Check               that vertex 12 is a non visited predecessor of vertex       8          No
-[2018-11-11 23:16:21.026]     Check               that vertex 10 is a non visited predecessor of vertex       8          No
-[2018-11-11 23:16:21.026]     Check               that vertex 9 is a non visited predecessor of vertex        8          No
-[2018-11-11 23:16:21.026]     Set                 as visited vertex                                           8         
-[2018-11-11 23:16:21.026]     Set                 in 20 the order of vertex                                   8         
-[2018-11-11 23:16:21.026]     Add                 to the stack vertex                                         8         
-[2018-11-11 23:16:21.026]     Remove              from the stack vertex                                       8         
-[2018-11-11 23:16:21.026]     Get                 the sucessors of vertex                                     8          12  10  9 
-[2018-11-11 23:16:21.026]     Analyze             vertex                                                      12        
-[2018-11-11 23:16:21.026]     Check               if has already visited vertex                               12         Yes
-[2018-11-11 23:16:21.026]     Analyze             vertex                                                      10        
-[2018-11-11 23:16:21.026]     Check               if has already visited vertex                               10         Yes
-[2018-11-11 23:16:21.026]     Analyze             vertex                                                      9         
-[2018-11-11 23:16:21.026]     Check               if has already visited vertex                               9          Yes
-[2018-11-11 23:16:21.026]     Check               if the graph contains a non visited vertex                             Yes. Vertex 7
-[2018-11-11 23:16:21.026]     Set                 as visited vertex                                           7         
-[2018-11-11 23:16:21.026]     Set                 in 21 the order of vertex                                   7         
-[2018-11-11 23:16:21.026]     Add                 to the stack vertex                                         7         
-[2018-11-11 23:16:21.026]     Remove              from the stack vertex                                       7         
-[2018-11-11 23:16:21.026]     Get                 the sucessors of vertex                                     7          15  13  7 
-[2018-11-11 23:16:21.026]     Analyze             vertex                                                      15        
-[2018-11-11 23:16:21.026]     Check               if has already visited vertex                               15         Yes
-[2018-11-11 23:16:21.026]     Analyze             vertex                                                      13        
-[2018-11-11 23:16:21.026]     Check               if has already visited vertex                               13         Yes
-[2018-11-11 23:16:21.026]     Analyze             vertex                                                      7         
-[2018-11-11 23:16:21.027]     Check               if has already visited vertex                               7          Yes
-[2018-11-11 23:16:21.027]     Check               if the graph contains a non visited vertex                             Yes. Vertex 4
-[2018-11-11 23:16:21.027]     Set                 as visited vertex                                           4         
-[2018-11-11 23:16:21.027]     Set                 in 22 the order of vertex                                   4         
-[2018-11-11 23:16:21.027]     Add                 to the stack vertex                                         4         
-[2018-11-11 23:16:21.027]     Remove              from the stack vertex                                       4         
-[2018-11-11 23:16:21.027]     Get                 the sucessors of vertex                                     4          24  3  1 
-[2018-11-11 23:16:21.027]     Analyze             vertex                                                      24        
-[2018-11-11 23:16:21.027]     Check               if has already visited vertex                               24         Yes
-[2018-11-11 23:16:21.027]     Analyze             vertex                                                      3         
-[2018-11-11 23:16:21.027]     Check               if has already visited vertex                               3          No
-[2018-11-11 23:16:21.027]     Get                 the predecessors of vertex                                  3          24  5  2 
-[2018-11-11 23:16:21.027]     Check               that vertex 24 is a non visited predecessor of vertex       3          No
-[2018-11-11 23:16:21.027]     Check               that vertex 5 is a non visited predecessor of vertex        3          No
-[2018-11-11 23:16:21.027]     Check               that vertex 2 is a non visited predecessor of vertex        3          Yes
-[2018-11-11 23:16:21.027]     Analyze             vertex                                                      1         
-[2018-11-11 23:16:21.027]     Check               if has already visited vertex                               1          Yes
-[2018-11-11 23:16:21.028]     Check               if the graph contains a non visited vertex                             Yes. Vertex 3
-[2018-11-11 23:16:21.028]     Set                 as visited vertex                                           3         
-[2018-11-11 23:16:21.028]     Set                 in 23 the order of vertex                                   3         
-[2018-11-11 23:16:21.028]     Add                 to the stack vertex                                         3         
-[2018-11-11 23:16:21.028]     Remove              from the stack vertex                                       3         
-[2018-11-11 23:16:21.028]     Get                 the sucessors of vertex                                     3          24  5  2 
-[2018-11-11 23:16:21.028]     Analyze             vertex                                                      24        
-[2018-11-11 23:16:21.028]     Check               if has already visited vertex                               24         Yes
-[2018-11-11 23:16:21.028]     Analyze             vertex                                                      5         
-[2018-11-11 23:16:21.028]     Check               if has already visited vertex                               5          Yes
-[2018-11-11 23:16:21.028]     Analyze             vertex                                                      2         
-[2018-11-11 23:16:21.028]     Check               if has already visited vertex                               2          No
-[2018-11-11 23:16:21.028]     Get                 the predecessors of vertex                                  2          24  6  4 
-[2018-11-11 23:16:21.028]     Check               that vertex 24 is a non visited predecessor of vertex       2          No
-[2018-11-11 23:16:21.028]     Check               that vertex 6 is a non visited predecessor of vertex        2          No
-[2018-11-11 23:16:21.028]     Check               that vertex 4 is a non visited predecessor of vertex        2          No
-[2018-11-11 23:16:21.028]     Set                 as visited vertex                                           2         
-[2018-11-11 23:16:21.028]     Set                 in 24 the order of vertex                                   2         
-[2018-11-11 23:16:21.028]     Add                 to the stack vertex                                         2         
-[2018-11-11 23:16:21.028]     Remove              from the stack vertex                                       2         
-[2018-11-11 23:16:21.028]     Get                 the sucessors of vertex                                     2          24  6  4 
-[2018-11-11 23:16:21.028]     Analyze             vertex                                                      24        
-[2018-11-11 23:16:21.028]     Check               if has already visited vertex                               24         Yes
-[2018-11-11 23:16:21.028]     Analyze             vertex                                                      6         
-[2018-11-11 23:16:21.028]     Check               if has already visited vertex                               6          Yes
-[2018-11-11 23:16:21.028]     Analyze             vertex                                                      4         
-[2018-11-11 23:16:21.028]     Check               if has already visited vertex                               4          Yes
-[2018-11-11 23:16:21.028]     Check               if the graph contains a non visited vertex                             No
+[2018-11-11 23:21:26.731]     Check               if the graph contains a non visited vertex                             Yes. Vertex 24
+[2018-11-11 23:21:26.731]     Set                 as visited vertex                                           24        
+[2018-11-11 23:21:26.731]     Set                 in 1 the order of vertex                                    24        
+[2018-11-11 23:21:26.731]     Add                 to the stack vertex                                         24        
+[2018-11-11 23:21:26.731]     Remove              from the stack vertex                                       24        
+[2018-11-11 23:21:26.731]     Get                 the sucessors of vertex                                     24         21  12  8 
+[2018-11-11 23:21:26.731]     Analyze             vertex                                                      21        
+[2018-11-11 23:21:26.731]     Check               if has already visited vertex                               21         No
+[2018-11-11 23:21:26.731]     Get                 the predecessors of vertex                                  21         23  13  8 
+[2018-11-11 23:21:26.731]     Check               that vertex 23 is a non visited predecessor of vertex       21         Yes
+[2018-11-11 23:21:26.731]     Analyze             vertex                                                      12        
+[2018-11-11 23:21:26.731]     Check               if has already visited vertex                               12         No
+[2018-11-11 23:21:26.731]     Get                 the predecessors of vertex                                  12         19  18  4 
+[2018-11-11 23:21:26.731]     Check               that vertex 19 is a non visited predecessor of vertex       12         Yes
+[2018-11-11 23:21:26.731]     Analyze             vertex                                                      8         
+[2018-11-11 23:21:26.732]     Check               if has already visited vertex                               8          No
+[2018-11-11 23:21:26.732]     Get                 the predecessors of vertex                                  8          12  10  9 
+[2018-11-11 23:21:26.732]     Check               that vertex 12 is a non visited predecessor of vertex       8          Yes
+[2018-11-11 23:21:26.732]     Check               if the graph contains a non visited vertex                             Yes. Vertex 23
+[2018-11-11 23:21:26.732]     Set                 as visited vertex                                           23        
+[2018-11-11 23:21:26.732]     Set                 in 2 the order of vertex                                    23        
+[2018-11-11 23:21:26.732]     Add                 to the stack vertex                                         23        
+[2018-11-11 23:21:26.732]     Remove              from the stack vertex                                       23        
+[2018-11-11 23:21:26.732]     Get                 the sucessors of vertex                                     23         22  11  7 
+[2018-11-11 23:21:26.732]     Analyze             vertex                                                      22        
+[2018-11-11 23:21:26.732]     Check               if has already visited vertex                               22         No
+[2018-11-11 23:21:26.732]     Get                 the predecessors of vertex                                  22         21  10  7 
+[2018-11-11 23:21:26.732]     Check               that vertex 21 is a non visited predecessor of vertex       22         Yes
+[2018-11-11 23:21:26.732]     Analyze             vertex                                                      11        
+[2018-11-11 23:21:26.732]     Check               if has already visited vertex                               11         No
+[2018-11-11 23:21:26.732]     Get                 the predecessors of vertex                                  11         19  16  5 
+[2018-11-11 23:21:26.732]     Check               that vertex 19 is a non visited predecessor of vertex       11         Yes
+[2018-11-11 23:21:26.732]     Analyze             vertex                                                      7         
+[2018-11-11 23:21:26.732]     Check               if has already visited vertex                               7          No
+[2018-11-11 23:21:26.732]     Get                 the predecessors of vertex                                  7          15  13  7 
+[2018-11-11 23:21:26.732]     Check               that vertex 15 is a non visited predecessor of vertex       7          Yes
+[2018-11-11 23:21:26.732]     Check               if the graph contains a non visited vertex                             Yes. Vertex 22
+[2018-11-11 23:21:26.732]     Set                 as visited vertex                                           22        
+[2018-11-11 23:21:26.732]     Set                 in 3 the order of vertex                                    22        
+[2018-11-11 23:21:26.732]     Add                 to the stack vertex                                         22        
+[2018-11-11 23:21:26.732]     Remove              from the stack vertex                                       22        
+[2018-11-11 23:21:26.732]     Get                 the sucessors of vertex                                     22         21  10  7 
+[2018-11-11 23:21:26.732]     Analyze             vertex                                                      21        
+[2018-11-11 23:21:26.732]     Check               if has already visited vertex                               21         No
+[2018-11-11 23:21:26.732]     Get                 the predecessors of vertex                                  21         23  13  8 
+[2018-11-11 23:21:26.732]     Check               that vertex 23 is a non visited predecessor of vertex       21         No
+[2018-11-11 23:21:26.732]     Check               that vertex 13 is a non visited predecessor of vertex       21         Yes
+[2018-11-11 23:21:26.732]     Analyze             vertex                                                      10        
+[2018-11-11 23:21:26.732]     Check               if has already visited vertex                               10         No
+[2018-11-11 23:21:26.732]     Get                 the predecessors of vertex                                  10         20  18  6 
+[2018-11-11 23:21:26.733]     Check               that vertex 20 is a non visited predecessor of vertex       10         Yes
+[2018-11-11 23:21:26.733]     Analyze             vertex                                                      7         
+[2018-11-11 23:21:26.733]     Check               if has already visited vertex                               7          No
+[2018-11-11 23:21:26.733]     Get                 the predecessors of vertex                                  7          15  13  7 
+[2018-11-11 23:21:26.733]     Check               that vertex 15 is a non visited predecessor of vertex       7          Yes
+[2018-11-11 23:21:26.733]     Check               if the graph contains a non visited vertex                             Yes. Vertex 21
+[2018-11-11 23:21:26.733]     Set                 as visited vertex                                           21        
+[2018-11-11 23:21:26.733]     Set                 in 4 the order of vertex                                    21        
+[2018-11-11 23:21:26.733]     Add                 to the stack vertex                                         21        
+[2018-11-11 23:21:26.733]     Remove              from the stack vertex                                       21        
+[2018-11-11 23:21:26.733]     Get                 the sucessors of vertex                                     21         23  13  8 
+[2018-11-11 23:21:26.733]     Analyze             vertex                                                      23        
+[2018-11-11 23:21:26.733]     Check               if has already visited vertex                               23         Yes
+[2018-11-11 23:21:26.733]     Analyze             vertex                                                      13        
+[2018-11-11 23:21:26.733]     Check               if has already visited vertex                               13         No
+[2018-11-11 23:21:26.733]     Get                 the predecessors of vertex                                  13         20  17  1 
+[2018-11-11 23:21:26.733]     Check               that vertex 20 is a non visited predecessor of vertex       13         Yes
+[2018-11-11 23:21:26.733]     Analyze             vertex                                                      8         
+[2018-11-11 23:21:26.733]     Check               if has already visited vertex                               8          No
+[2018-11-11 23:21:26.733]     Get                 the predecessors of vertex                                  8          12  10  9 
+[2018-11-11 23:21:26.733]     Check               that vertex 12 is a non visited predecessor of vertex       8          Yes
+[2018-11-11 23:21:26.733]     Check               if the graph contains a non visited vertex                             Yes. Vertex 20
+[2018-11-11 23:21:26.733]     Set                 as visited vertex                                           20        
+[2018-11-11 23:21:26.733]     Set                 in 5 the order of vertex                                    20        
+[2018-11-11 23:21:26.733]     Add                 to the stack vertex                                         20        
+[2018-11-11 23:21:26.733]     Remove              from the stack vertex                                       20        
+[2018-11-11 23:21:26.733]     Get                 the sucessors of vertex                                     20         22  14  9 
+[2018-11-11 23:21:26.733]     Analyze             vertex                                                      22        
+[2018-11-11 23:21:26.733]     Check               if has already visited vertex                               22         Yes
+[2018-11-11 23:21:26.733]     Analyze             vertex                                                      14        
+[2018-11-11 23:21:26.733]     Check               if has already visited vertex                               14         No
+[2018-11-11 23:21:26.733]     Get                 the predecessors of vertex                                  14         20  16  2 
+[2018-11-11 23:21:26.733]     Check               that vertex 20 is a non visited predecessor of vertex       14         No
+[2018-11-11 23:21:26.733]     Check               that vertex 16 is a non visited predecessor of vertex       14         Yes
+[2018-11-11 23:21:26.733]     Analyze             vertex                                                      9         
+[2018-11-11 23:21:26.733]     Check               if has already visited vertex                               9          No
+[2018-11-11 23:21:26.733]     Get                 the predecessors of vertex                                  9          14  11  8 
+[2018-11-11 23:21:26.733]     Check               that vertex 14 is a non visited predecessor of vertex       9          Yes
+[2018-11-11 23:21:26.733]     Check               if the graph contains a non visited vertex                             Yes. Vertex 19
+[2018-11-11 23:21:26.733]     Set                 as visited vertex                                           19        
+[2018-11-11 23:21:26.733]     Set                 in 6 the order of vertex                                    19        
+[2018-11-11 23:21:26.733]     Add                 to the stack vertex                                         19        
+[2018-11-11 23:21:26.733]     Remove              from the stack vertex                                       19        
+[2018-11-11 23:21:26.733]     Get                 the sucessors of vertex                                     19         23  15  9 
+[2018-11-11 23:21:26.733]     Analyze             vertex                                                      23        
+[2018-11-11 23:21:26.734]     Check               if has already visited vertex                               23         Yes
+[2018-11-11 23:21:26.734]     Analyze             vertex                                                      15        
+[2018-11-11 23:21:26.734]     Check               if has already visited vertex                               15         No
+[2018-11-11 23:21:26.734]     Get                 the predecessors of vertex                                  15         19  17  3 
+[2018-11-11 23:21:26.734]     Check               that vertex 19 is a non visited predecessor of vertex       15         No
+[2018-11-11 23:21:26.734]     Check               that vertex 17 is a non visited predecessor of vertex       15         Yes
+[2018-11-11 23:21:26.734]     Analyze             vertex                                                      9         
+[2018-11-11 23:21:26.734]     Check               if has already visited vertex                               9          No
+[2018-11-11 23:21:26.734]     Get                 the predecessors of vertex                                  9          14  11  8 
+[2018-11-11 23:21:26.734]     Check               that vertex 14 is a non visited predecessor of vertex       9          Yes
+[2018-11-11 23:21:26.734]     Check               if the graph contains a non visited vertex                             Yes. Vertex 18
+[2018-11-11 23:21:26.734]     Set                 as visited vertex                                           18        
+[2018-11-11 23:21:26.734]     Set                 in 7 the order of vertex                                    18        
+[2018-11-11 23:21:26.734]     Add                 to the stack vertex                                         18        
+[2018-11-11 23:21:26.734]     Remove              from the stack vertex                                       18        
+[2018-11-11 23:21:26.734]     Get                 the sucessors of vertex                                     18         18  3  2 
+[2018-11-11 23:21:26.734]     Analyze             vertex                                                      18        
+[2018-11-11 23:21:26.734]     Check               if has already visited vertex                               18         Yes
+[2018-11-11 23:21:26.734]     Analyze             vertex                                                      3         
+[2018-11-11 23:21:26.734]     Check               if has already visited vertex                               3          No
+[2018-11-11 23:21:26.734]     Get                 the predecessors of vertex                                  3          24  5  2 
+[2018-11-11 23:21:26.734]     Check               that vertex 24 is a non visited predecessor of vertex       3          No
+[2018-11-11 23:21:26.734]     Check               that vertex 5 is a non visited predecessor of vertex        3          Yes
+[2018-11-11 23:21:26.734]     Analyze             vertex                                                      2         
+[2018-11-11 23:21:26.734]     Check               if has already visited vertex                               2          No
+[2018-11-11 23:21:26.734]     Get                 the predecessors of vertex                                  2          24  6  4 
+[2018-11-11 23:21:26.734]     Check               that vertex 24 is a non visited predecessor of vertex       2          No
+[2018-11-11 23:21:26.734]     Check               that vertex 6 is a non visited predecessor of vertex        2          Yes
+[2018-11-11 23:21:26.734]     Check               if the graph contains a non visited vertex                             Yes. Vertex 17
+[2018-11-11 23:21:26.734]     Set                 as visited vertex                                           17        
+[2018-11-11 23:21:26.734]     Set                 in 8 the order of vertex                                    17        
+[2018-11-11 23:21:26.734]     Add                 to the stack vertex                                         17        
+[2018-11-11 23:21:26.734]     Remove              from the stack vertex                                       17        
+[2018-11-11 23:21:26.734]     Get                 the sucessors of vertex                                     17         16  4  1 
+[2018-11-11 23:21:26.734]     Analyze             vertex                                                      16        
+[2018-11-11 23:21:26.734]     Check               if has already visited vertex                               16         No
+[2018-11-11 23:21:26.734]     Get                 the predecessors of vertex                                  16         17  6  5 
+[2018-11-11 23:21:26.735]     Check               that vertex 17 is a non visited predecessor of vertex       16         No
+[2018-11-11 23:21:26.735]     Check               that vertex 6 is a non visited predecessor of vertex        16         Yes
+[2018-11-11 23:21:26.735]     Analyze             vertex                                                      4         
+[2018-11-11 23:21:26.735]     Check               if has already visited vertex                               4          No
+[2018-11-11 23:21:26.735]     Get                 the predecessors of vertex                                  4          24  3  1 
+[2018-11-11 23:21:26.735]     Check               that vertex 24 is a non visited predecessor of vertex       4          No
+[2018-11-11 23:21:26.735]     Check               that vertex 3 is a non visited predecessor of vertex        4          Yes
+[2018-11-11 23:21:26.735]     Analyze             vertex                                                      1         
+[2018-11-11 23:21:26.735]     Check               if has already visited vertex                               1          No
+[2018-11-11 23:21:26.735]     Get                 the predecessors of vertex                                  1          23  22  21 
+[2018-11-11 23:21:26.735]     Check               that vertex 23 is a non visited predecessor of vertex       1          No
+[2018-11-11 23:21:26.735]     Check               that vertex 22 is a non visited predecessor of vertex       1          No
+[2018-11-11 23:21:26.735]     Check               that vertex 21 is a non visited predecessor of vertex       1          No
+[2018-11-11 23:21:26.735]     Set                 as visited vertex                                           1         
+[2018-11-11 23:21:26.735]     Set                 in 9 the order of vertex                                    1         
+[2018-11-11 23:21:26.735]     Add                 to the stack vertex                                         1         
+[2018-11-11 23:21:26.735]     Remove              from the stack vertex                                       1         
+[2018-11-11 23:21:26.735]     Get                 the sucessors of vertex                                     1          23  22  21 
+[2018-11-11 23:21:26.735]     Analyze             vertex                                                      23        
+[2018-11-11 23:21:26.735]     Check               if has already visited vertex                               23         Yes
+[2018-11-11 23:21:26.735]     Analyze             vertex                                                      22        
+[2018-11-11 23:21:26.735]     Check               if has already visited vertex                               22         Yes
+[2018-11-11 23:21:26.735]     Analyze             vertex                                                      21        
+[2018-11-11 23:21:26.735]     Check               if has already visited vertex                               21         Yes
+[2018-11-11 23:21:26.735]     Check               if the graph contains a non visited vertex                             Yes. Vertex 16
+[2018-11-11 23:21:26.735]     Set                 as visited vertex                                           16        
+[2018-11-11 23:21:26.735]     Set                 in 10 the order of vertex                                   16        
+[2018-11-11 23:21:26.735]     Add                 to the stack vertex                                         16        
+[2018-11-11 23:21:26.735]     Remove              from the stack vertex                                       16        
+[2018-11-11 23:21:26.735]     Get                 the sucessors of vertex                                     16         17  6  5 
+[2018-11-11 23:21:26.735]     Analyze             vertex                                                      17        
+[2018-11-11 23:21:26.735]     Check               if has already visited vertex                               17         Yes
+[2018-11-11 23:21:26.735]     Analyze             vertex                                                      6         
+[2018-11-11 23:21:26.735]     Check               if has already visited vertex                               6          No
+[2018-11-11 23:21:26.735]     Get                 the predecessors of vertex                                  6          14  13  10 
+[2018-11-11 23:21:26.735]     Check               that vertex 14 is a non visited predecessor of vertex       6          Yes
+[2018-11-11 23:21:26.735]     Analyze             vertex                                                      5         
+[2018-11-11 23:21:26.735]     Check               if has already visited vertex                               5          No
+[2018-11-11 23:21:26.735]     Get                 the predecessors of vertex                                  5          15  12  11 
+[2018-11-11 23:21:26.735]     Check               that vertex 15 is a non visited predecessor of vertex       5          Yes
+[2018-11-11 23:21:26.735]     Check               if the graph contains a non visited vertex                             Yes. Vertex 15
+[2018-11-11 23:21:26.735]     Set                 as visited vertex                                           15        
+[2018-11-11 23:21:26.735]     Set                 in 11 the order of vertex                                   15        
+[2018-11-11 23:21:26.735]     Add                 to the stack vertex                                         15        
+[2018-11-11 23:21:26.735]     Remove              from the stack vertex                                       15        
+[2018-11-11 23:21:26.735]     Get                 the sucessors of vertex                                     15         19  17  3 
+[2018-11-11 23:21:26.735]     Analyze             vertex                                                      19        
+[2018-11-11 23:21:26.735]     Check               if has already visited vertex                               19         Yes
+[2018-11-11 23:21:26.735]     Analyze             vertex                                                      17        
+[2018-11-11 23:21:26.736]     Check               if has already visited vertex                               17         Yes
+[2018-11-11 23:21:26.736]     Analyze             vertex                                                      3         
+[2018-11-11 23:21:26.736]     Check               if has already visited vertex                               3          No
+[2018-11-11 23:21:26.736]     Get                 the predecessors of vertex                                  3          24  5  2 
+[2018-11-11 23:21:26.736]     Check               that vertex 24 is a non visited predecessor of vertex       3          No
+[2018-11-11 23:21:26.736]     Check               that vertex 5 is a non visited predecessor of vertex        3          Yes
+[2018-11-11 23:21:26.736]     Check               if the graph contains a non visited vertex                             Yes. Vertex 14
+[2018-11-11 23:21:26.736]     Set                 as visited vertex                                           14        
+[2018-11-11 23:21:26.736]     Set                 in 12 the order of vertex                                   14        
+[2018-11-11 23:21:26.736]     Add                 to the stack vertex                                         14        
+[2018-11-11 23:21:26.736]     Remove              from the stack vertex                                       14        
+[2018-11-11 23:21:26.736]     Get                 the sucessors of vertex                                     14         20  16  2 
+[2018-11-11 23:21:26.736]     Analyze             vertex                                                      20        
+[2018-11-11 23:21:26.736]     Check               if has already visited vertex                               20         Yes
+[2018-11-11 23:21:26.736]     Analyze             vertex                                                      16        
+[2018-11-11 23:21:26.736]     Check               if has already visited vertex                               16         Yes
+[2018-11-11 23:21:26.736]     Analyze             vertex                                                      2         
+[2018-11-11 23:21:26.736]     Check               if has already visited vertex                               2          No
+[2018-11-11 23:21:26.736]     Get                 the predecessors of vertex                                  2          24  6  4 
+[2018-11-11 23:21:26.736]     Check               that vertex 24 is a non visited predecessor of vertex       2          No
+[2018-11-11 23:21:26.736]     Check               that vertex 6 is a non visited predecessor of vertex        2          Yes
+[2018-11-11 23:21:26.736]     Check               if the graph contains a non visited vertex                             Yes. Vertex 13
+[2018-11-11 23:21:26.736]     Set                 as visited vertex                                           13        
+[2018-11-11 23:21:26.736]     Set                 in 13 the order of vertex                                   13        
+[2018-11-11 23:21:26.736]     Add                 to the stack vertex                                         13        
+[2018-11-11 23:21:26.736]     Remove              from the stack vertex                                       13        
+[2018-11-11 23:21:26.736]     Get                 the sucessors of vertex                                     13         20  17  1 
+[2018-11-11 23:21:26.736]     Analyze             vertex                                                      20        
+[2018-11-11 23:21:26.736]     Check               if has already visited vertex                               20         Yes
+[2018-11-11 23:21:26.736]     Analyze             vertex                                                      17        
+[2018-11-11 23:21:26.736]     Check               if has already visited vertex                               17         Yes
+[2018-11-11 23:21:26.736]     Analyze             vertex                                                      1         
+[2018-11-11 23:21:26.736]     Check               if has already visited vertex                               1          Yes
+[2018-11-11 23:21:26.736]     Check               if the graph contains a non visited vertex                             Yes. Vertex 12
+[2018-11-11 23:21:26.737]     Set                 as visited vertex                                           12        
+[2018-11-11 23:21:26.737]     Set                 in 14 the order of vertex                                   12        
+[2018-11-11 23:21:26.737]     Add                 to the stack vertex                                         12        
+[2018-11-11 23:21:26.737]     Remove              from the stack vertex                                       12        
+[2018-11-11 23:21:26.737]     Get                 the sucessors of vertex                                     12         19  18  4 
+[2018-11-11 23:21:26.737]     Analyze             vertex                                                      19        
+[2018-11-11 23:21:26.737]     Check               if has already visited vertex                               19         Yes
+[2018-11-11 23:21:26.737]     Analyze             vertex                                                      18        
+[2018-11-11 23:21:26.737]     Check               if has already visited vertex                               18         Yes
+[2018-11-11 23:21:26.737]     Analyze             vertex                                                      4         
+[2018-11-11 23:21:26.737]     Check               if has already visited vertex                               4          No
+[2018-11-11 23:21:26.737]     Get                 the predecessors of vertex                                  4          24  3  1 
+[2018-11-11 23:21:26.737]     Check               that vertex 24 is a non visited predecessor of vertex       4          No
+[2018-11-11 23:21:26.737]     Check               that vertex 3 is a non visited predecessor of vertex        4          Yes
+[2018-11-11 23:21:26.737]     Check               if the graph contains a non visited vertex                             Yes. Vertex 11
+[2018-11-11 23:21:26.737]     Set                 as visited vertex                                           11        
+[2018-11-11 23:21:26.737]     Set                 in 15 the order of vertex                                   11        
+[2018-11-11 23:21:26.737]     Add                 to the stack vertex                                         11        
+[2018-11-11 23:21:26.737]     Remove              from the stack vertex                                       11        
+[2018-11-11 23:21:26.737]     Get                 the sucessors of vertex                                     11         19  16  5 
+[2018-11-11 23:21:26.737]     Analyze             vertex                                                      19        
+[2018-11-11 23:21:26.737]     Check               if has already visited vertex                               19         Yes
+[2018-11-11 23:21:26.737]     Analyze             vertex                                                      16        
+[2018-11-11 23:21:26.737]     Check               if has already visited vertex                               16         Yes
+[2018-11-11 23:21:26.737]     Analyze             vertex                                                      5         
+[2018-11-11 23:21:26.737]     Check               if has already visited vertex                               5          No
+[2018-11-11 23:21:26.737]     Get                 the predecessors of vertex                                  5          15  12  11 
+[2018-11-11 23:21:26.737]     Check               that vertex 15 is a non visited predecessor of vertex       5          No
+[2018-11-11 23:21:26.737]     Check               that vertex 12 is a non visited predecessor of vertex       5          No
+[2018-11-11 23:21:26.737]     Check               that vertex 11 is a non visited predecessor of vertex       5          No
+[2018-11-11 23:21:26.737]     Set                 as visited vertex                                           5         
+[2018-11-11 23:21:26.737]     Set                 in 16 the order of vertex                                   5         
+[2018-11-11 23:21:26.737]     Add                 to the stack vertex                                         5         
+[2018-11-11 23:21:26.737]     Remove              from the stack vertex                                       5         
+[2018-11-11 23:21:26.737]     Get                 the sucessors of vertex                                     5          15  12  11 
+[2018-11-11 23:21:26.737]     Analyze             vertex                                                      15        
+[2018-11-11 23:21:26.737]     Check               if has already visited vertex                               15         Yes
+[2018-11-11 23:21:26.737]     Analyze             vertex                                                      12        
+[2018-11-11 23:21:26.737]     Check               if has already visited vertex                               12         Yes
+[2018-11-11 23:21:26.737]     Analyze             vertex                                                      11        
+[2018-11-11 23:21:26.737]     Check               if has already visited vertex                               11         Yes
+[2018-11-11 23:21:26.737]     Check               if the graph contains a non visited vertex                             Yes. Vertex 10
+[2018-11-11 23:21:26.737]     Set                 as visited vertex                                           10        
+[2018-11-11 23:21:26.737]     Set                 in 17 the order of vertex                                   10        
+[2018-11-11 23:21:26.737]     Add                 to the stack vertex                                         10        
+[2018-11-11 23:21:26.737]     Remove              from the stack vertex                                       10        
+[2018-11-11 23:21:26.738]     Get                 the sucessors of vertex                                     10         20  18  6 
+[2018-11-11 23:21:26.738]     Analyze             vertex                                                      20        
+[2018-11-11 23:21:26.738]     Check               if has already visited vertex                               20         Yes
+[2018-11-11 23:21:26.738]     Analyze             vertex                                                      18        
+[2018-11-11 23:21:26.738]     Check               if has already visited vertex                               18         Yes
+[2018-11-11 23:21:26.738]     Analyze             vertex                                                      6         
+[2018-11-11 23:21:26.738]     Check               if has already visited vertex                               6          No
+[2018-11-11 23:21:26.738]     Get                 the predecessors of vertex                                  6          14  13  10 
+[2018-11-11 23:21:26.738]     Check               that vertex 14 is a non visited predecessor of vertex       6          No
+[2018-11-11 23:21:26.738]     Check               that vertex 13 is a non visited predecessor of vertex       6          No
+[2018-11-11 23:21:26.738]     Check               that vertex 10 is a non visited predecessor of vertex       6          No
+[2018-11-11 23:21:26.738]     Set                 as visited vertex                                           6         
+[2018-11-11 23:21:26.738]     Set                 in 18 the order of vertex                                   6         
+[2018-11-11 23:21:26.738]     Add                 to the stack vertex                                         6         
+[2018-11-11 23:21:26.738]     Remove              from the stack vertex                                       6         
+[2018-11-11 23:21:26.738]     Get                 the sucessors of vertex                                     6          14  13  10 
+[2018-11-11 23:21:26.738]     Analyze             vertex                                                      14        
+[2018-11-11 23:21:26.738]     Check               if has already visited vertex                               14         Yes
+[2018-11-11 23:21:26.738]     Analyze             vertex                                                      13        
+[2018-11-11 23:21:26.738]     Check               if has already visited vertex                               13         Yes
+[2018-11-11 23:21:26.738]     Analyze             vertex                                                      10        
+[2018-11-11 23:21:26.738]     Check               if has already visited vertex                               10         Yes
+[2018-11-11 23:21:26.738]     Check               if the graph contains a non visited vertex                             Yes. Vertex 9
+[2018-11-11 23:21:26.738]     Set                 as visited vertex                                           9         
+[2018-11-11 23:21:26.738]     Set                 in 19 the order of vertex                                   9         
+[2018-11-11 23:21:26.738]     Add                 to the stack vertex                                         9         
+[2018-11-11 23:21:26.738]     Remove              from the stack vertex                                       9         
+[2018-11-11 23:21:26.738]     Get                 the sucessors of vertex                                     9          14  11  8 
+[2018-11-11 23:21:26.738]     Analyze             vertex                                                      14        
+[2018-11-11 23:21:26.738]     Check               if has already visited vertex                               14         Yes
+[2018-11-11 23:21:26.738]     Analyze             vertex                                                      11        
+[2018-11-11 23:21:26.738]     Check               if has already visited vertex                               11         Yes
+[2018-11-11 23:21:26.738]     Analyze             vertex                                                      8         
+[2018-11-11 23:21:26.738]     Check               if has already visited vertex                               8          No
+[2018-11-11 23:21:26.738]     Get                 the predecessors of vertex                                  8          12  10  9 
+[2018-11-11 23:21:26.738]     Check               that vertex 12 is a non visited predecessor of vertex       8          No
+[2018-11-11 23:21:26.738]     Check               that vertex 10 is a non visited predecessor of vertex       8          No
+[2018-11-11 23:21:26.738]     Check               that vertex 9 is a non visited predecessor of vertex        8          No
+[2018-11-11 23:21:26.738]     Set                 as visited vertex                                           8         
+[2018-11-11 23:21:26.738]     Set                 in 20 the order of vertex                                   8         
+[2018-11-11 23:21:26.738]     Add                 to the stack vertex                                         8         
+[2018-11-11 23:21:26.738]     Remove              from the stack vertex                                       8         
+[2018-11-11 23:21:26.738]     Get                 the sucessors of vertex                                     8          12  10  9 
+[2018-11-11 23:21:26.738]     Analyze             vertex                                                      12        
+[2018-11-11 23:21:26.738]     Check               if has already visited vertex                               12         Yes
+[2018-11-11 23:21:26.738]     Analyze             vertex                                                      10        
+[2018-11-11 23:21:26.738]     Check               if has already visited vertex                               10         Yes
+[2018-11-11 23:21:26.738]     Analyze             vertex                                                      9         
+[2018-11-11 23:21:26.741]     Check               if has already visited vertex                               9          Yes
+[2018-11-11 23:21:26.741]     Check               if the graph contains a non visited vertex                             Yes. Vertex 7
+[2018-11-11 23:21:26.741]     Set                 as visited vertex                                           7         
+[2018-11-11 23:21:26.741]     Set                 in 21 the order of vertex                                   7         
+[2018-11-11 23:21:26.741]     Add                 to the stack vertex                                         7         
+[2018-11-11 23:21:26.741]     Remove              from the stack vertex                                       7         
+[2018-11-11 23:21:26.741]     Get                 the sucessors of vertex                                     7          15  13  7 
+[2018-11-11 23:21:26.741]     Analyze             vertex                                                      15        
+[2018-11-11 23:21:26.741]     Check               if has already visited vertex                               15         Yes
+[2018-11-11 23:21:26.741]     Analyze             vertex                                                      13        
+[2018-11-11 23:21:26.741]     Check               if has already visited vertex                               13         Yes
+[2018-11-11 23:21:26.741]     Analyze             vertex                                                      7         
+[2018-11-11 23:21:26.741]     Check               if has already visited vertex                               7          Yes
+[2018-11-11 23:21:26.741]     Check               if the graph contains a non visited vertex                             Yes. Vertex 4
+[2018-11-11 23:21:26.741]     Set                 as visited vertex                                           4         
+[2018-11-11 23:21:26.741]     Set                 in 22 the order of vertex                                   4         
+[2018-11-11 23:21:26.741]     Add                 to the stack vertex                                         4         
+[2018-11-11 23:21:26.741]     Remove              from the stack vertex                                       4         
+[2018-11-11 23:21:26.741]     Get                 the sucessors of vertex                                     4          24  3  1 
+[2018-11-11 23:21:26.741]     Analyze             vertex                                                      24        
+[2018-11-11 23:21:26.741]     Check               if has already visited vertex                               24         Yes
+[2018-11-11 23:21:26.741]     Analyze             vertex                                                      3         
+[2018-11-11 23:21:26.741]     Check               if has already visited vertex                               3          No
+[2018-11-11 23:21:26.741]     Get                 the predecessors of vertex                                  3          24  5  2 
+[2018-11-11 23:21:26.741]     Check               that vertex 24 is a non visited predecessor of vertex       3          No
+[2018-11-11 23:21:26.741]     Check               that vertex 5 is a non visited predecessor of vertex        3          No
+[2018-11-11 23:21:26.741]     Check               that vertex 2 is a non visited predecessor of vertex        3          Yes
+[2018-11-11 23:21:26.741]     Analyze             vertex                                                      1         
+[2018-11-11 23:21:26.741]     Check               if has already visited vertex                               1          Yes
+[2018-11-11 23:21:26.741]     Check               if the graph contains a non visited vertex                             Yes. Vertex 3
+[2018-11-11 23:21:26.741]     Set                 as visited vertex                                           3         
+[2018-11-11 23:21:26.741]     Set                 in 23 the order of vertex                                   3         
+[2018-11-11 23:21:26.741]     Add                 to the stack vertex                                         3         
+[2018-11-11 23:21:26.741]     Remove              from the stack vertex                                       3         
+[2018-11-11 23:21:26.742]     Get                 the sucessors of vertex                                     3          24  5  2 
+[2018-11-11 23:21:26.742]     Analyze             vertex                                                      24        
+[2018-11-11 23:21:26.742]     Check               if has already visited vertex                               24         Yes
+[2018-11-11 23:21:26.742]     Analyze             vertex                                                      5         
+[2018-11-11 23:21:26.742]     Check               if has already visited vertex                               5          Yes
+[2018-11-11 23:21:26.742]     Analyze             vertex                                                      2         
+[2018-11-11 23:21:26.742]     Check               if has already visited vertex                               2          No
+[2018-11-11 23:21:26.742]     Get                 the predecessors of vertex                                  2          24  6  4 
+[2018-11-11 23:21:26.742]     Check               that vertex 24 is a non visited predecessor of vertex       2          No
+[2018-11-11 23:21:26.742]     Check               that vertex 6 is a non visited predecessor of vertex        2          No
+[2018-11-11 23:21:26.742]     Check               that vertex 4 is a non visited predecessor of vertex        2          No
+[2018-11-11 23:21:26.742]     Set                 as visited vertex                                           2         
+[2018-11-11 23:21:26.742]     Set                 in 24 the order of vertex                                   2         
+[2018-11-11 23:21:26.742]     Add                 to the stack vertex                                         2         
+[2018-11-11 23:21:26.742]     Remove              from the stack vertex                                       2         
+[2018-11-11 23:21:26.742]     Get                 the sucessors of vertex                                     2          24  6  4 
+[2018-11-11 23:21:26.742]     Analyze             vertex                                                      24        
+[2018-11-11 23:21:26.742]     Check               if has already visited vertex                               24         Yes
+[2018-11-11 23:21:26.742]     Analyze             vertex                                                      6         
+[2018-11-11 23:21:26.742]     Check               if has already visited vertex                               6          Yes
+[2018-11-11 23:21:26.742]     Analyze             vertex                                                      4         
+[2018-11-11 23:21:26.742]     Check               if has already visited vertex                               4          Yes
+[2018-11-11 23:21:26.742]     Check               if the graph contains a non visited vertex                             No

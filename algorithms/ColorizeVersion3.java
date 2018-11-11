@@ -62,7 +62,6 @@ public class ColorizeVersion3 extends ColorizeVersion2 {
      * [saveNeighborColors description]
      * @param j [description]
      */
-    @Override
     public void saveNeighborColors (int j) {
 
         log.writef("Clear", "table of colors");        
