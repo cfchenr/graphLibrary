@@ -1,0 +1,651 @@
+[timestamp]                   [action]            [details]                                                   [vertex]   [observations]
+[2018-11-12 16:02:11.118]     Get                 first color that is available for vertex                    1          Available[1]
+[2018-11-12 16:02:11.119]     Set                 in 1 the color of vertex                                    1         
+[2018-11-12 16:02:11.119]     Clear               table of colors                                                       
+[2018-11-12 16:02:11.119]     Add                 1 to table of colors                                                  
+[2018-11-12 16:02:11.119]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.119]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.119]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.119]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.119]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.119]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.119]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.119]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.119]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.119]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.119]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.119]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.119]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.119]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.122]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.122]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.122]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.122]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.122]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.122]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.122]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.122]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.122]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.123]     Get                 first color that is available for vertex                    2          1  Available[2]
+[2018-11-12 16:02:11.123]     Set                 in 2 the color of vertex                                    2         
+[2018-11-12 16:02:11.123]     Clear               table of colors                                                       
+[2018-11-12 16:02:11.123]     Add                 1 to table of colors                                                  
+[2018-11-12 16:02:11.123]     Add                 2 to table of colors                                                  
+[2018-11-12 16:02:11.123]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.123]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.123]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.123]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.123]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.123]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.123]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.123]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.123]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.123]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.123]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.123]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.123]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.123]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.123]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.123]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.123]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.123]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.123]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.124]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.124]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.124]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.124]     Get                 first color that is available for vertex                    3          1  2  Available[3]
+[2018-11-12 16:02:11.124]     Set                 in 3 the color of vertex                                    3         
+[2018-11-12 16:02:11.124]     Clear               table of colors                                                       
+[2018-11-12 16:02:11.124]     Add                 1 to table of colors                                                  
+[2018-11-12 16:02:11.124]     Add                 2 to table of colors                                                  
+[2018-11-12 16:02:11.124]     Add                 3 to table of colors                                                  
+[2018-11-12 16:02:11.124]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.124]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.124]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.124]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.124]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.124]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.128]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.128]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.128]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.128]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.128]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.128]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.128]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.128]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.128]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.128]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.128]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.128]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.128]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.128]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.128]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.128]     Get                 first color that is available for vertex                    4          1  2  3  Available[4]
+[2018-11-12 16:02:11.128]     Set                 in 4 the color of vertex                                    4         
+[2018-11-12 16:02:11.128]     Clear               table of colors                                                       
+[2018-11-12 16:02:11.129]     Add                 1 to table of colors                                                  
+[2018-11-12 16:02:11.129]     Add                 2 to table of colors                                                  
+[2018-11-12 16:02:11.129]     Add                 3 to table of colors                                                  
+[2018-11-12 16:02:11.129]     Add                 4 to table of colors                                                  
+[2018-11-12 16:02:11.129]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.129]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.129]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.129]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.129]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.129]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.129]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.129]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.129]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.129]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.129]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.129]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.13]      Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.13]      Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.13]      Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.13]      Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.13]      Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.13]      Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.13]      Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.13]      Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.13]      Get                 first color that is available for vertex                    5          1  2  3  4  Available[5]
+[2018-11-12 16:02:11.13]      Set                 in 5 the color of vertex                                    5         
+[2018-11-12 16:02:11.13]      Clear               table of colors                                                       
+[2018-11-12 16:02:11.13]      Add                 1 to table of colors                                                  
+[2018-11-12 16:02:11.13]      Add                 2 to table of colors                                                  
+[2018-11-12 16:02:11.13]      Add                 3 to table of colors                                                  
+[2018-11-12 16:02:11.13]      Add                 4 to table of colors                                                  
+[2018-11-12 16:02:11.13]      Add                 5 to table of colors                                                  
+[2018-11-12 16:02:11.13]      Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.13]      Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.13]      Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.13]      Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.13]      Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.13]      Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.13]      Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.131]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.131]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.131]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.131]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.131]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.131]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.131]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.131]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.131]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.131]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.131]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.131]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.131]     Get                 first color that is available for vertex                    6          1  2  3  4  5  Available[6]
+[2018-11-12 16:02:11.131]     Set                 in 6 the color of vertex                                    6         
+[2018-11-12 16:02:11.132]     Clear               table of colors                                                       
+[2018-11-12 16:02:11.132]     Add                 1 to table of colors                                                  
+[2018-11-12 16:02:11.132]     Add                 2 to table of colors                                                  
+[2018-11-12 16:02:11.132]     Add                 3 to table of colors                                                  
+[2018-11-12 16:02:11.132]     Add                 4 to table of colors                                                  
+[2018-11-12 16:02:11.132]     Add                 5 to table of colors                                                  
+[2018-11-12 16:02:11.132]     Add                 6 to table of colors                                                  
+[2018-11-12 16:02:11.132]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.132]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.132]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.132]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.132]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.132]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.132]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.132]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.132]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.132]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.132]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.132]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.132]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.132]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.132]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.132]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.132]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.132]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.132]     Get                 first color that is available for vertex                    7          1  2  3  4  5  6  Available[7]
+[2018-11-12 16:02:11.133]     Set                 in 7 the color of vertex                                    7         
+[2018-11-12 16:02:11.133]     Clear               table of colors                                                       
+[2018-11-12 16:02:11.133]     Add                 1 to table of colors                                                  
+[2018-11-12 16:02:11.133]     Add                 2 to table of colors                                                  
+[2018-11-12 16:02:11.133]     Add                 3 to table of colors                                                  
+[2018-11-12 16:02:11.133]     Add                 4 to table of colors                                                  
+[2018-11-12 16:02:11.133]     Add                 5 to table of colors                                                  
+[2018-11-12 16:02:11.133]     Add                 6 to table of colors                                                  
+[2018-11-12 16:02:11.133]     Add                 7 to table of colors                                                  
+[2018-11-12 16:02:11.133]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.133]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.133]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.133]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.133]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.133]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.134]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.134]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.134]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.134]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.134]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.134]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.134]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.134]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.134]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.135]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.135]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.135]     Get                 first color that is available for vertex                    8          1  2  3  4  5  6  7  Available[8]
+[2018-11-12 16:02:11.135]     Set                 in 8 the color of vertex                                    8         
+[2018-11-12 16:02:11.135]     Clear               table of colors                                                       
+[2018-11-12 16:02:11.135]     Add                 1 to table of colors                                                  
+[2018-11-12 16:02:11.135]     Add                 2 to table of colors                                                  
+[2018-11-12 16:02:11.135]     Add                 3 to table of colors                                                  
+[2018-11-12 16:02:11.135]     Add                 4 to table of colors                                                  
+[2018-11-12 16:02:11.135]     Add                 5 to table of colors                                                  
+[2018-11-12 16:02:11.135]     Add                 6 to table of colors                                                  
+[2018-11-12 16:02:11.135]     Add                 7 to table of colors                                                  
+[2018-11-12 16:02:11.135]     Add                 8 to table of colors                                                  
+[2018-11-12 16:02:11.135]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.135]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.135]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.135]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.136]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.136]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.136]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.136]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.136]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.136]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.136]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.136]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.136]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.136]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.136]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.136]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.136]     Get                 first color that is available for vertex                    9          1  2  3  4  5  6  7  8  Available[9]
+[2018-11-12 16:02:11.136]     Set                 in 9 the color of vertex                                    9         
+[2018-11-12 16:02:11.136]     Clear               table of colors                                                       
+[2018-11-12 16:02:11.136]     Add                 1 to table of colors                                                  
+[2018-11-12 16:02:11.136]     Add                 2 to table of colors                                                  
+[2018-11-12 16:02:11.136]     Add                 3 to table of colors                                                  
+[2018-11-12 16:02:11.136]     Add                 4 to table of colors                                                  
+[2018-11-12 16:02:11.136]     Add                 5 to table of colors                                                  
+[2018-11-12 16:02:11.136]     Add                 6 to table of colors                                                  
+[2018-11-12 16:02:11.136]     Add                 7 to table of colors                                                  
+[2018-11-12 16:02:11.136]     Add                 8 to table of colors                                                  
+[2018-11-12 16:02:11.136]     Add                 9 to table of colors                                                  
+[2018-11-12 16:02:11.136]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.136]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.136]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.137]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.137]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.137]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.137]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.137]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.137]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.137]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.137]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.137]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.137]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.137]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.137]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.137]     Get                 first color that is available for vertex                    10         1  2  3  4  5  6  7  8  9  Available[10]
+[2018-11-12 16:02:11.137]     Set                 in 10 the color of vertex                                   10        
+[2018-11-12 16:02:11.137]     Clear               table of colors                                                       
+[2018-11-12 16:02:11.137]     Add                 1 to table of colors                                                  
+[2018-11-12 16:02:11.137]     Add                 2 to table of colors                                                  
+[2018-11-12 16:02:11.137]     Add                 3 to table of colors                                                  
+[2018-11-12 16:02:11.137]     Add                 4 to table of colors                                                  
+[2018-11-12 16:02:11.137]     Add                 5 to table of colors                                                  
+[2018-11-12 16:02:11.137]     Add                 6 to table of colors                                                  
+[2018-11-12 16:02:11.137]     Add                 7 to table of colors                                                  
+[2018-11-12 16:02:11.137]     Add                 8 to table of colors                                                  
+[2018-11-12 16:02:11.137]     Add                 9 to table of colors                                                  
+[2018-11-12 16:02:11.137]     Add                 10 to table of colors                                                 
+[2018-11-12 16:02:11.137]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.137]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.138]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.138]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.138]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.138]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.138]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.138]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.138]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.138]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.138]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.138]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.138]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.138]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.138]     Get                 first color that is available for vertex                    11         1  2  3  4  5  6  7  8  9  10  Available[11]
+[2018-11-12 16:02:11.138]     Set                 in 11 the color of vertex                                   11        
+[2018-11-12 16:02:11.138]     Clear               table of colors                                                       
+[2018-11-12 16:02:11.138]     Add                 1 to table of colors                                                  
+[2018-11-12 16:02:11.138]     Add                 2 to table of colors                                                  
+[2018-11-12 16:02:11.139]     Add                 3 to table of colors                                                  
+[2018-11-12 16:02:11.139]     Add                 4 to table of colors                                                  
+[2018-11-12 16:02:11.139]     Add                 5 to table of colors                                                  
+[2018-11-12 16:02:11.139]     Add                 6 to table of colors                                                  
+[2018-11-12 16:02:11.139]     Add                 7 to table of colors                                                  
+[2018-11-12 16:02:11.139]     Add                 8 to table of colors                                                  
+[2018-11-12 16:02:11.139]     Add                 9 to table of colors                                                  
+[2018-11-12 16:02:11.139]     Add                 10 to table of colors                                                 
+[2018-11-12 16:02:11.139]     Add                 11 to table of colors                                                 
+[2018-11-12 16:02:11.139]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.139]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.139]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.139]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.139]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.139]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.139]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.139]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.139]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.139]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.139]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.139]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.139]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.139]     Get                 first color that is available for vertex                    12         1  2  3  4  5  6  7  8  9  10  11  Available[12]
+[2018-11-12 16:02:11.139]     Set                 in 12 the color of vertex                                   12        
+[2018-11-12 16:02:11.139]     Clear               table of colors                                                       
+[2018-11-12 16:02:11.139]     Add                 1 to table of colors                                                  
+[2018-11-12 16:02:11.14]      Add                 2 to table of colors                                                  
+[2018-11-12 16:02:11.14]      Add                 3 to table of colors                                                  
+[2018-11-12 16:02:11.14]      Add                 4 to table of colors                                                  
+[2018-11-12 16:02:11.14]      Add                 5 to table of colors                                                  
+[2018-11-12 16:02:11.14]      Add                 6 to table of colors                                                  
+[2018-11-12 16:02:11.14]      Add                 7 to table of colors                                                  
+[2018-11-12 16:02:11.14]      Add                 8 to table of colors                                                  
+[2018-11-12 16:02:11.14]      Add                 9 to table of colors                                                  
+[2018-11-12 16:02:11.14]      Add                 10 to table of colors                                                 
+[2018-11-12 16:02:11.14]      Add                 11 to table of colors                                                 
+[2018-11-12 16:02:11.14]      Add                 12 to table of colors                                                 
+[2018-11-12 16:02:11.14]      Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.14]      Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.14]      Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.14]      Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.14]      Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.14]      Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.14]      Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.14]      Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.14]      Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.14]      Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.14]      Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.14]      Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.14]      Get                 first color that is available for vertex                    13         1  2  3  4  5  6  7  8  9  10  11  12  Available[13]
+[2018-11-12 16:02:11.14]      Set                 in 13 the color of vertex                                   13        
+[2018-11-12 16:02:11.14]      Clear               table of colors                                                       
+[2018-11-12 16:02:11.14]      Add                 1 to table of colors                                                  
+[2018-11-12 16:02:11.141]     Add                 2 to table of colors                                                  
+[2018-11-12 16:02:11.141]     Add                 3 to table of colors                                                  
+[2018-11-12 16:02:11.141]     Add                 4 to table of colors                                                  
+[2018-11-12 16:02:11.141]     Add                 5 to table of colors                                                  
+[2018-11-12 16:02:11.141]     Add                 6 to table of colors                                                  
+[2018-11-12 16:02:11.141]     Add                 7 to table of colors                                                  
+[2018-11-12 16:02:11.141]     Add                 8 to table of colors                                                  
+[2018-11-12 16:02:11.141]     Add                 9 to table of colors                                                  
+[2018-11-12 16:02:11.141]     Add                 10 to table of colors                                                 
+[2018-11-12 16:02:11.141]     Add                 11 to table of colors                                                 
+[2018-11-12 16:02:11.141]     Add                 12 to table of colors                                                 
+[2018-11-12 16:02:11.141]     Add                 13 to table of colors                                                 
+[2018-11-12 16:02:11.141]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.141]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.141]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.141]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.141]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.141]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.142]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.142]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.142]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.142]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.142]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.142]     Get                 first color that is available for vertex                    14         1  2  3  4  5  6  7  8  9  10  11  12  13  Available[14]
+[2018-11-12 16:02:11.142]     Set                 in 14 the color of vertex                                   14        
+[2018-11-12 16:02:11.142]     Clear               table of colors                                                       
+[2018-11-12 16:02:11.142]     Add                 1 to table of colors                                                  
+[2018-11-12 16:02:11.142]     Add                 2 to table of colors                                                  
+[2018-11-12 16:02:11.142]     Add                 3 to table of colors                                                  
+[2018-11-12 16:02:11.142]     Add                 4 to table of colors                                                  
+[2018-11-12 16:02:11.142]     Add                 5 to table of colors                                                  
+[2018-11-12 16:02:11.142]     Add                 6 to table of colors                                                  
+[2018-11-12 16:02:11.142]     Add                 7 to table of colors                                                  
+[2018-11-12 16:02:11.142]     Add                 8 to table of colors                                                  
+[2018-11-12 16:02:11.142]     Add                 9 to table of colors                                                  
+[2018-11-12 16:02:11.142]     Add                 10 to table of colors                                                 
+[2018-11-12 16:02:11.142]     Add                 11 to table of colors                                                 
+[2018-11-12 16:02:11.142]     Add                 12 to table of colors                                                 
+[2018-11-12 16:02:11.142]     Add                 13 to table of colors                                                 
+[2018-11-12 16:02:11.142]     Add                 14 to table of colors                                                 
+[2018-11-12 16:02:11.142]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.142]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.142]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.142]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.142]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.142]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.142]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.143]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.143]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.143]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.143]     Get                 first color that is available for vertex                    15         1  2  3  4  5  6  7  8  9  10  11  12  13  14  Available[15]
+[2018-11-12 16:02:11.143]     Set                 in 15 the color of vertex                                   15        
+[2018-11-12 16:02:11.143]     Clear               table of colors                                                       
+[2018-11-12 16:02:11.143]     Add                 1 to table of colors                                                  
+[2018-11-12 16:02:11.143]     Add                 2 to table of colors                                                  
+[2018-11-12 16:02:11.143]     Add                 3 to table of colors                                                  
+[2018-11-12 16:02:11.143]     Add                 4 to table of colors                                                  
+[2018-11-12 16:02:11.143]     Add                 5 to table of colors                                                  
+[2018-11-12 16:02:11.143]     Add                 6 to table of colors                                                  
+[2018-11-12 16:02:11.143]     Add                 7 to table of colors                                                  
+[2018-11-12 16:02:11.143]     Add                 8 to table of colors                                                  
+[2018-11-12 16:02:11.143]     Add                 9 to table of colors                                                  
+[2018-11-12 16:02:11.143]     Add                 10 to table of colors                                                 
+[2018-11-12 16:02:11.143]     Add                 11 to table of colors                                                 
+[2018-11-12 16:02:11.143]     Add                 12 to table of colors                                                 
+[2018-11-12 16:02:11.143]     Add                 13 to table of colors                                                 
+[2018-11-12 16:02:11.143]     Add                 14 to table of colors                                                 
+[2018-11-12 16:02:11.143]     Add                 15 to table of colors                                                 
+[2018-11-12 16:02:11.143]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.143]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.144]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.144]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.144]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.144]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.144]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.144]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.144]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.144]     Get                 first color that is available for vertex                    16         1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  Available[16]
+[2018-11-12 16:02:11.144]     Set                 in 16 the color of vertex                                   16        
+[2018-11-12 16:02:11.144]     Clear               table of colors                                                       
+[2018-11-12 16:02:11.144]     Add                 1 to table of colors                                                  
+[2018-11-12 16:02:11.144]     Add                 2 to table of colors                                                  
+[2018-11-12 16:02:11.144]     Add                 3 to table of colors                                                  
+[2018-11-12 16:02:11.144]     Add                 4 to table of colors                                                  
+[2018-11-12 16:02:11.144]     Add                 5 to table of colors                                                  
+[2018-11-12 16:02:11.144]     Add                 6 to table of colors                                                  
+[2018-11-12 16:02:11.144]     Add                 7 to table of colors                                                  
+[2018-11-12 16:02:11.144]     Add                 8 to table of colors                                                  
+[2018-11-12 16:02:11.144]     Add                 9 to table of colors                                                  
+[2018-11-12 16:02:11.144]     Add                 10 to table of colors                                                 
+[2018-11-12 16:02:11.144]     Add                 11 to table of colors                                                 
+[2018-11-12 16:02:11.144]     Add                 12 to table of colors                                                 
+[2018-11-12 16:02:11.144]     Add                 13 to table of colors                                                 
+[2018-11-12 16:02:11.144]     Add                 14 to table of colors                                                 
+[2018-11-12 16:02:11.144]     Add                 15 to table of colors                                                 
+[2018-11-12 16:02:11.145]     Add                 16 to table of colors                                                 
+[2018-11-12 16:02:11.145]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.145]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.145]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.145]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.145]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.145]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.145]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.145]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.145]     Get                 first color that is available for vertex                    17         1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  Available[17]
+[2018-11-12 16:02:11.145]     Set                 in 17 the color of vertex                                   17        
+[2018-11-12 16:02:11.145]     Clear               table of colors                                                       
+[2018-11-12 16:02:11.145]     Add                 1 to table of colors                                                  
+[2018-11-12 16:02:11.145]     Add                 2 to table of colors                                                  
+[2018-11-12 16:02:11.145]     Add                 3 to table of colors                                                  
+[2018-11-12 16:02:11.145]     Add                 4 to table of colors                                                  
+[2018-11-12 16:02:11.145]     Add                 5 to table of colors                                                  
+[2018-11-12 16:02:11.145]     Add                 6 to table of colors                                                  
+[2018-11-12 16:02:11.145]     Add                 7 to table of colors                                                  
+[2018-11-12 16:02:11.145]     Add                 8 to table of colors                                                  
+[2018-11-12 16:02:11.145]     Add                 9 to table of colors                                                  
+[2018-11-12 16:02:11.145]     Add                 10 to table of colors                                                 
+[2018-11-12 16:02:11.145]     Add                 11 to table of colors                                                 
+[2018-11-12 16:02:11.145]     Add                 12 to table of colors                                                 
+[2018-11-12 16:02:11.145]     Add                 13 to table of colors                                                 
+[2018-11-12 16:02:11.145]     Add                 14 to table of colors                                                 
+[2018-11-12 16:02:11.145]     Add                 15 to table of colors                                                 
+[2018-11-12 16:02:11.145]     Add                 16 to table of colors                                                 
+[2018-11-12 16:02:11.146]     Add                 17 to table of colors                                                 
+[2018-11-12 16:02:11.146]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.146]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.146]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.146]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.146]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.146]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.146]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.146]     Get                 first color that is available for vertex                    18         1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  Available[18]
+[2018-11-12 16:02:11.146]     Set                 in 18 the color of vertex                                   18        
+[2018-11-12 16:02:11.146]     Clear               table of colors                                                       
+[2018-11-12 16:02:11.146]     Add                 1 to table of colors                                                  
+[2018-11-12 16:02:11.146]     Add                 2 to table of colors                                                  
+[2018-11-12 16:02:11.146]     Add                 3 to table of colors                                                  
+[2018-11-12 16:02:11.146]     Add                 4 to table of colors                                                  
+[2018-11-12 16:02:11.146]     Add                 5 to table of colors                                                  
+[2018-11-12 16:02:11.146]     Add                 6 to table of colors                                                  
+[2018-11-12 16:02:11.146]     Add                 7 to table of colors                                                  
+[2018-11-12 16:02:11.146]     Add                 8 to table of colors                                                  
+[2018-11-12 16:02:11.146]     Add                 9 to table of colors                                                  
+[2018-11-12 16:02:11.146]     Add                 10 to table of colors                                                 
+[2018-11-12 16:02:11.146]     Add                 11 to table of colors                                                 
+[2018-11-12 16:02:11.146]     Add                 12 to table of colors                                                 
+[2018-11-12 16:02:11.146]     Add                 13 to table of colors                                                 
+[2018-11-12 16:02:11.146]     Add                 14 to table of colors                                                 
+[2018-11-12 16:02:11.147]     Add                 15 to table of colors                                                 
+[2018-11-12 16:02:11.147]     Add                 16 to table of colors                                                 
+[2018-11-12 16:02:11.147]     Add                 17 to table of colors                                                 
+[2018-11-12 16:02:11.147]     Add                 18 to table of colors                                                 
+[2018-11-12 16:02:11.147]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.147]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.147]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.147]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.147]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.147]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.147]     Get                 first color that is available for vertex                    19         1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  Available[19]
+[2018-11-12 16:02:11.147]     Set                 in 19 the color of vertex                                   19        
+[2018-11-12 16:02:11.147]     Clear               table of colors                                                       
+[2018-11-12 16:02:11.147]     Add                 1 to table of colors                                                  
+[2018-11-12 16:02:11.147]     Add                 2 to table of colors                                                  
+[2018-11-12 16:02:11.147]     Add                 3 to table of colors                                                  
+[2018-11-12 16:02:11.147]     Add                 4 to table of colors                                                  
+[2018-11-12 16:02:11.148]     Add                 5 to table of colors                                                  
+[2018-11-12 16:02:11.148]     Add                 6 to table of colors                                                  
+[2018-11-12 16:02:11.148]     Add                 7 to table of colors                                                  
+[2018-11-12 16:02:11.148]     Add                 8 to table of colors                                                  
+[2018-11-12 16:02:11.148]     Add                 9 to table of colors                                                  
+[2018-11-12 16:02:11.148]     Add                 10 to table of colors                                                 
+[2018-11-12 16:02:11.149]     Add                 11 to table of colors                                                 
+[2018-11-12 16:02:11.149]     Add                 12 to table of colors                                                 
+[2018-11-12 16:02:11.149]     Add                 13 to table of colors                                                 
+[2018-11-12 16:02:11.149]     Add                 14 to table of colors                                                 
+[2018-11-12 16:02:11.149]     Add                 15 to table of colors                                                 
+[2018-11-12 16:02:11.149]     Add                 16 to table of colors                                                 
+[2018-11-12 16:02:11.149]     Add                 17 to table of colors                                                 
+[2018-11-12 16:02:11.149]     Add                 18 to table of colors                                                 
+[2018-11-12 16:02:11.149]     Add                 19 to table of colors                                                 
+[2018-11-12 16:02:11.149]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.149]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.149]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.149]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.149]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.149]     Get                 first color that is available for vertex                    20         1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  Available[20]
+[2018-11-12 16:02:11.149]     Set                 in 20 the color of vertex                                   20        
+[2018-11-12 16:02:11.149]     Clear               table of colors                                                       
+[2018-11-12 16:02:11.149]     Add                 1 to table of colors                                                  
+[2018-11-12 16:02:11.149]     Add                 2 to table of colors                                                  
+[2018-11-12 16:02:11.149]     Add                 3 to table of colors                                                  
+[2018-11-12 16:02:11.149]     Add                 4 to table of colors                                                  
+[2018-11-12 16:02:11.149]     Add                 5 to table of colors                                                  
+[2018-11-12 16:02:11.149]     Add                 6 to table of colors                                                  
+[2018-11-12 16:02:11.149]     Add                 7 to table of colors                                                  
+[2018-11-12 16:02:11.149]     Add                 8 to table of colors                                                  
+[2018-11-12 16:02:11.149]     Add                 9 to table of colors                                                  
+[2018-11-12 16:02:11.149]     Add                 10 to table of colors                                                 
+[2018-11-12 16:02:11.149]     Add                 11 to table of colors                                                 
+[2018-11-12 16:02:11.149]     Add                 12 to table of colors                                                 
+[2018-11-12 16:02:11.149]     Add                 13 to table of colors                                                 
+[2018-11-12 16:02:11.15]      Add                 14 to table of colors                                                 
+[2018-11-12 16:02:11.15]      Add                 15 to table of colors                                                 
+[2018-11-12 16:02:11.15]      Add                 16 to table of colors                                                 
+[2018-11-12 16:02:11.15]      Add                 17 to table of colors                                                 
+[2018-11-12 16:02:11.15]      Add                 18 to table of colors                                                 
+[2018-11-12 16:02:11.15]      Add                 19 to table of colors                                                 
+[2018-11-12 16:02:11.15]      Add                 20 to table of colors                                                 
+[2018-11-12 16:02:11.15]      Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.15]      Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.15]      Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.15]      Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.15]      Get                 first color that is available for vertex                    21         1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  Available[21]
+[2018-11-12 16:02:11.15]      Set                 in 21 the color of vertex                                   21        
+[2018-11-12 16:02:11.15]      Clear               table of colors                                                       
+[2018-11-12 16:02:11.15]      Add                 1 to table of colors                                                  
+[2018-11-12 16:02:11.15]      Add                 2 to table of colors                                                  
+[2018-11-12 16:02:11.15]      Add                 3 to table of colors                                                  
+[2018-11-12 16:02:11.15]      Add                 4 to table of colors                                                  
+[2018-11-12 16:02:11.15]      Add                 5 to table of colors                                                  
+[2018-11-12 16:02:11.15]      Add                 6 to table of colors                                                  
+[2018-11-12 16:02:11.15]      Add                 7 to table of colors                                                  
+[2018-11-12 16:02:11.15]      Add                 8 to table of colors                                                  
+[2018-11-12 16:02:11.15]      Add                 9 to table of colors                                                  
+[2018-11-12 16:02:11.15]      Add                 10 to table of colors                                                 
+[2018-11-12 16:02:11.15]      Add                 11 to table of colors                                                 
+[2018-11-12 16:02:11.15]      Add                 12 to table of colors                                                 
+[2018-11-12 16:02:11.15]      Add                 13 to table of colors                                                 
+[2018-11-12 16:02:11.15]      Add                 14 to table of colors                                                 
+[2018-11-12 16:02:11.15]      Add                 15 to table of colors                                                 
+[2018-11-12 16:02:11.15]      Add                 16 to table of colors                                                 
+[2018-11-12 16:02:11.15]      Add                 17 to table of colors                                                 
+[2018-11-12 16:02:11.15]      Add                 18 to table of colors                                                 
+[2018-11-12 16:02:11.15]      Add                 19 to table of colors                                                 
+[2018-11-12 16:02:11.15]      Add                 20 to table of colors                                                 
+[2018-11-12 16:02:11.15]      Add                 21 to table of colors                                                 
+[2018-11-12 16:02:11.15]      Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.15]      Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.15]      Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.15]      Get                 first color that is available for vertex                    22         1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  Available[22]
+[2018-11-12 16:02:11.15]      Set                 in 22 the color of vertex                                   22        
+[2018-11-12 16:02:11.15]      Clear               table of colors                                                       
+[2018-11-12 16:02:11.15]      Add                 1 to table of colors                                                  
+[2018-11-12 16:02:11.15]      Add                 2 to table of colors                                                  
+[2018-11-12 16:02:11.15]      Add                 3 to table of colors                                                  
+[2018-11-12 16:02:11.15]      Add                 4 to table of colors                                                  
+[2018-11-12 16:02:11.15]      Add                 5 to table of colors                                                  
+[2018-11-12 16:02:11.151]     Add                 6 to table of colors                                                  
+[2018-11-12 16:02:11.151]     Add                 7 to table of colors                                                  
+[2018-11-12 16:02:11.151]     Add                 8 to table of colors                                                  
+[2018-11-12 16:02:11.151]     Add                 9 to table of colors                                                  
+[2018-11-12 16:02:11.151]     Add                 10 to table of colors                                                 
+[2018-11-12 16:02:11.151]     Add                 11 to table of colors                                                 
+[2018-11-12 16:02:11.151]     Add                 12 to table of colors                                                 
+[2018-11-12 16:02:11.151]     Add                 13 to table of colors                                                 
+[2018-11-12 16:02:11.151]     Add                 14 to table of colors                                                 
+[2018-11-12 16:02:11.151]     Add                 15 to table of colors                                                 
+[2018-11-12 16:02:11.151]     Add                 16 to table of colors                                                 
+[2018-11-12 16:02:11.151]     Add                 17 to table of colors                                                 
+[2018-11-12 16:02:11.151]     Add                 18 to table of colors                                                 
+[2018-11-12 16:02:11.151]     Add                 19 to table of colors                                                 
+[2018-11-12 16:02:11.151]     Add                 20 to table of colors                                                 
+[2018-11-12 16:02:11.151]     Add                 21 to table of colors                                                 
+[2018-11-12 16:02:11.151]     Add                 22 to table of colors                                                 
+[2018-11-12 16:02:11.151]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.151]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.151]     Get                 first color that is available for vertex                    23         1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  Available[23]
+[2018-11-12 16:02:11.154]     Set                 in 23 the color of vertex                                   23        
+[2018-11-12 16:02:11.154]     Clear               table of colors                                                       
+[2018-11-12 16:02:11.154]     Add                 1 to table of colors                                                  
+[2018-11-12 16:02:11.154]     Add                 2 to table of colors                                                  
+[2018-11-12 16:02:11.154]     Add                 3 to table of colors                                                  
+[2018-11-12 16:02:11.154]     Add                 4 to table of colors                                                  
+[2018-11-12 16:02:11.154]     Add                 5 to table of colors                                                  
+[2018-11-12 16:02:11.154]     Add                 6 to table of colors                                                  
+[2018-11-12 16:02:11.154]     Add                 7 to table of colors                                                  
+[2018-11-12 16:02:11.154]     Add                 8 to table of colors                                                  
+[2018-11-12 16:02:11.154]     Add                 9 to table of colors                                                  
+[2018-11-12 16:02:11.154]     Add                 10 to table of colors                                                 
+[2018-11-12 16:02:11.154]     Add                 11 to table of colors                                                 
+[2018-11-12 16:02:11.154]     Add                 12 to table of colors                                                 
+[2018-11-12 16:02:11.154]     Add                 13 to table of colors                                                 
+[2018-11-12 16:02:11.154]     Add                 14 to table of colors                                                 
+[2018-11-12 16:02:11.154]     Add                 15 to table of colors                                                 
+[2018-11-12 16:02:11.154]     Add                 16 to table of colors                                                 
+[2018-11-12 16:02:11.154]     Add                 17 to table of colors                                                 
+[2018-11-12 16:02:11.154]     Add                 18 to table of colors                                                 
+[2018-11-12 16:02:11.154]     Add                 19 to table of colors                                                 
+[2018-11-12 16:02:11.154]     Add                 20 to table of colors                                                 
+[2018-11-12 16:02:11.154]     Add                 21 to table of colors                                                 
+[2018-11-12 16:02:11.154]     Add                 22 to table of colors                                                 
+[2018-11-12 16:02:11.154]     Add                 23 to table of colors                                                 
+[2018-11-12 16:02:11.154]     Add                 0 to table of colors                                                  
+[2018-11-12 16:02:11.154]     Get                 first color that is available for vertex                    24         1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  Available[24]
+[2018-11-12 16:02:11.154]     Set                 in 24 the color of vertex                                   24        
+[2018-11-12 16:02:11.154]     Clear               table of colors                                                       
+[2018-11-12 16:02:11.154]     Add                 1 to table of colors                                                  
+[2018-11-12 16:02:11.155]     Add                 2 to table of colors                                                  
+[2018-11-12 16:02:11.155]     Add                 3 to table of colors                                                  
+[2018-11-12 16:02:11.155]     Add                 4 to table of colors                                                  
+[2018-11-12 16:02:11.155]     Add                 5 to table of colors                                                  
+[2018-11-12 16:02:11.155]     Add                 6 to table of colors                                                  
+[2018-11-12 16:02:11.155]     Add                 7 to table of colors                                                  
+[2018-11-12 16:02:11.155]     Add                 8 to table of colors                                                  
+[2018-11-12 16:02:11.155]     Add                 9 to table of colors                                                  
+[2018-11-12 16:02:11.155]     Add                 10 to table of colors                                                 
+[2018-11-12 16:02:11.155]     Add                 11 to table of colors                                                 
+[2018-11-12 16:02:11.155]     Add                 12 to table of colors                                                 
+[2018-11-12 16:02:11.155]     Add                 13 to table of colors                                                 
+[2018-11-12 16:02:11.155]     Add                 14 to table of colors                                                 
+[2018-11-12 16:02:11.155]     Add                 15 to table of colors                                                 
+[2018-11-12 16:02:11.155]     Add                 16 to table of colors                                                 
+[2018-11-12 16:02:11.155]     Add                 17 to table of colors                                                 
+[2018-11-12 16:02:11.155]     Add                 18 to table of colors                                                 
+[2018-11-12 16:02:11.155]     Add                 19 to table of colors                                                 
+[2018-11-12 16:02:11.155]     Add                 20 to table of colors                                                 
+[2018-11-12 16:02:11.155]     Add                 21 to table of colors                                                 
+[2018-11-12 16:02:11.155]     Add                 22 to table of colors                                                 
+[2018-11-12 16:02:11.155]     Add                 23 to table of colors                                                 
+[2018-11-12 16:02:11.155]     Add                 24 to table of colors                                                 
+[2018-11-12 16:02:11.155]     Get                 first color that is available for vertex                    25         1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  Available[25]
+[2018-11-12 16:02:11.155]     Set                 in 25 the color of vertex                                   25        

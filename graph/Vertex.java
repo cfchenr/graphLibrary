@@ -14,12 +14,12 @@ public class Vertex {
     private boolean visited;
     
     /**
-     * list (ArrayList) of integers that indicates the ids of sucessors and predecessors of this vertex
+     * list of integers that indicates the ids of sucessors and predecessors of this vertex
      */
     private ArrayList<Integer> successorList, predecessorList;
     
     /**
-     * @param vertex (index of one new vertex)
+     * @param vertex
      * instance an id vertex, a color (initially 0), visited status (initially false) and a list of neighbors (sucessors and predecessors) 
      * for this new vertex
      */
@@ -114,7 +114,7 @@ public class Vertex {
     }
     
     /**
-     * @param k (index of one vertex)
+     * @param k
      * defines the vertex k as the neighbor of this vertex
      */
     public void setNeighbors (int k, int ps) {
@@ -140,7 +140,7 @@ public class Vertex {
     }
     
     /** 
-     * @param k (index of one vertex)
+     * @param k
      * @return true if the vertex k is neighbor of this vertex or false if the vertex k isn't neighbor of this vertex
      */
     public boolean isNeighbor (int k) {
@@ -152,7 +152,7 @@ public class Vertex {
     }
     
     /** 
-     * @param k (index of one vertex)
+     * @param k
      * @return true if the vertex k is sucessor of this vertex or false if the vertex k isn't sucessor of this vertex
      */
     private boolean isSucessor (int k) {
@@ -164,7 +164,7 @@ public class Vertex {
     }
     
     /** 
-     * @param k (index of one vertex)
+     * @param k
      * @return true if the vertex k is predecessor of this vertex or false if the vertex k isn't predecessor of this vertex
      */
     private boolean isPredecessor (int k) {

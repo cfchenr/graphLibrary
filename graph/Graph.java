@@ -29,10 +29,9 @@ public class Graph {
     private StringBuilder sb;
     
     /**
-     * [Graph description]
-     * @param  file                  [description]
-     * @return                       [description]
-     * @throws IOException           [description]
+     * 
+     * @param file
+     * @throws IOException
      */
     public Graph (String file) throws IOException {
    
@@ -149,7 +148,7 @@ public class Graph {
     }
     
     /**
-     * @return the list (ArrayList) of vertexes in this graph
+     * @return the list of vertexes in this graph
      */
     public ArrayList<Vertex> getVertexList () {
     
@@ -190,7 +189,7 @@ public class Graph {
     }
 
     /**
-     * order the vertices by degree (increasing direction)
+     * set order the vertices by degree (increasing direction)
      */
     public void sortVertexByDegree () {
 
@@ -199,7 +198,7 @@ public class Graph {
     }
 
     /**
-     * 
+     * get list of vertices sorted by degree (increasing direction)
      */
     public ArrayList<Vertex> getVertexByDegree () {
 
