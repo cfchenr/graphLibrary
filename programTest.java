@@ -55,6 +55,8 @@ public class programTest {
 
         v1.finish();
 
+        //System.out.println(checkColors(v1));
+
     }
 
     public static void colorizeVersion2 (ColorizeVersion2 v2) {
@@ -70,6 +72,8 @@ public class programTest {
         }
 
         v2.finish();
+
+        //System.out.println(checkColors(v2));
 
     }
 
@@ -114,5 +118,39 @@ public class programTest {
         dfs.finish();
 
     }
+
+    // public static boolean checkColors (ColorizeVersion1 v3) {
+
+    //     ArrayList<Vertex> vertexList = v3.getVertexList();
+
+    //     for (int i = 0; i < vertexList.size(); i++) {
+
+    //         int color = vertexList.get(i).getColor();
+
+    //         for (int j = 0; j < vertexList.size(); j++) {
+
+    //             if (i != j && vertexList.get(i).isNeighbor(vertexList.get(j).getId())) {
+
+    //                 System.out.print((vertexList.get(i).getId()+1) + " is neighbor of " + (vertexList.get(j).getId()+1));
+
+    //                 if (color == vertexList.get(j).getColor()) {
+
+    //                     System.out.println(": same colors");
+                
+    //                     return false;
+
+    //                 } else
+
+    //                     System.out.println(": different colors");
+
+    //             }
+
+    //         }
+
+    //     }
+
+    //     return true;
+
+    // }
 
 }

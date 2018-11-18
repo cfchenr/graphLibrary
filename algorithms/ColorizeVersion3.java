@@ -28,7 +28,7 @@ public class ColorizeVersion3 extends ColorizeVersion2 {
 
         colors = new Hashtable<Integer, Integer>();
 
-        vertexByDegree = this.graph.getVertexByDegree();
+        vertexByDegree = graph.getVertexByDegree();
 
     }
 
@@ -70,7 +70,7 @@ public class ColorizeVersion3 extends ColorizeVersion2 {
 
         for (int i = 0; i < vertexList.get(vertexByDegree.get(j).getId()).getNeighborList().size(); i++) {
 
-                log.writef("Add", vertexList.get(vertexList.get(vertexByDegree.get(j).getId()).getNeighborList().get(i)).getColor() + " to table of colors");        
+                log.writef("Add", vertexList.get(vertexList.get(vertexByDegree.get(j).getId()).getNeighborList().get(i)).getColor() + " to table of colors", "", " from vertex " + Integer.toString(vertexList.get(vertexList.get(vertexByDegree.get(j).getId()).getNeighborList().get(i)).getId()+1));        
             
                 colors.put(vertexList.get(vertexList.get(vertexByDegree.get(j).getId()).getNeighborList().get(i)).getColor(), 1);
         

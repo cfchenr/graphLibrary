@@ -36,7 +36,7 @@ public class Vertex {
         successorList = new ArrayList<Integer>();
     
         predecessorList = new ArrayList<Integer>();
-    
+
     }
 
     /** 
@@ -54,12 +54,8 @@ public class Vertex {
      */
     public void setColor (int color) {
 
-        assert (color > 0);
-    
         this.color = color;
 
-        assert (this.color > 0);
-    
     }
     
     /**
@@ -72,14 +68,30 @@ public class Vertex {
     }
 
     /**
+     * set order in which it was visited
+     */
+    public void setOrder (int order) {
+
+        this.order = order;
+ 
+     }
+     
+     /**
+      * @return return order in wich it was visited
+      */
+     public int getOrder () {
+     
+         return order;
+     
+     }
+
+    /**
      * set this vertex as visited
      */
     public void setVisited () {
     
         visited = true;
     
-        assert visited;
-
     }
     
     /**
@@ -92,35 +104,11 @@ public class Vertex {
     }
     
     /**
-     * set order in which it was visited
-     */
-    public void setOrder (int order) {
-
-       assert (order > 0);
-    
-       this.order = order;
-
-       assert (this.order > 0);
-    
-    }
-    
-    /**
-     * @return return order in wich it was visited
-     */
-    public int getOrder () {
-    
-        return order;
-    
-    }
-    
-    /**
      * @param k
      * defines the vertex k as the neighbor of this vertex
      */
     public void setNeighbors (int k, int ps) {
 
-        assert (k >= 0 && (ps == -1 || ps == 1)); 
-    
         if (ps == 1) {
             
             if (!successorList.contains(k))
@@ -135,8 +123,6 @@ public class Vertex {
                 predecessorList.add(k);
         }
 
-        assert (successorList.contains(k) || predecessorList.contains(k));
-    
     }
     
     /** 
@@ -145,33 +131,7 @@ public class Vertex {
      */
     public boolean isNeighbor (int k) {
 
-        assert (k >= 0);
-    
-        return (isSucessor(k) || isPredecessor(k));
-    
-    }
-    
-    /** 
-     * @param k
-     * @return true if the vertex k is sucessor of this vertex or false if the vertex k isn't sucessor of this vertex
-     */
-    private boolean isSucessor (int k) {
-
-        assert (k >= 0);
-    
-        return successorList.contains(k);
-    
-    }
-    
-    /** 
-     * @param k
-     * @return true if the vertex k is predecessor of this vertex or false if the vertex k isn't predecessor of this vertex
-     */
-    private boolean isPredecessor (int k) {
-
-        assert (k >= 0);
-    
-        return predecessorList.contains(k);
+        return (successorList.contains(k) || predecessorList.contains(k));
     
     }
     
@@ -179,7 +139,7 @@ public class Vertex {
      * @return a list of the neighbors of this vertex
      */
     public ArrayList<Integer> getNeighborList () {
-    
+
         Set<Integer> set = new HashSet<Integer>();
     
         set.addAll(successorList);
@@ -187,7 +147,7 @@ public class Vertex {
         set.addAll(predecessorList);
     
         return new ArrayList<Integer>(set);
-    
+        
     }
 
 
@@ -214,13 +174,7 @@ public class Vertex {
      */
     public int getDegree () {
     
-        Set<Integer> set = new HashSet<Integer>();
-    
-        set.addAll(successorList);
-    
-        set.addAll(predecessorList);
-    
-        return new ArrayList<Integer>(set).size();
+        return getNeighborList().size();
     
     }
 

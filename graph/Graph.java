@@ -5,6 +5,16 @@ import java.io.*;
 public class Graph {
 
     /**
+     * id of graph
+     */
+    private String id;
+
+    /**
+     * order of this graph
+     */
+    private int order;
+
+    /**
      * list that contains all the vertices of the graph
      */
     private ArrayList<Vertex> vertexList;
@@ -13,16 +23,6 @@ public class Graph {
      * adjacency matrix of this graph
      */
     private ArrayList<String> matrix_adj;
-
-    /**
-     * order of this graph
-     */
-    private int order = 0;
-
-    /**
-     * id of graph
-     */
-    private String id;
 
     private PrintWriter pw;
     
@@ -42,6 +42,8 @@ public class Graph {
         vertexList = new ArrayList<Vertex>();
 
         matrix_adj = new ArrayList<String>();
+
+        order = 0;
         
         File folder = new File("output");
 
@@ -146,6 +148,24 @@ public class Graph {
         pw.close();
      
     }
+
+    /**
+     * @return the id of this graph
+     */
+    public String getId () {
+    
+        return id;
+    
+    }
+
+    /**
+     * @return the number of vertexes in this graph
+     */
+    public int getOrder () {
+    
+        return order;
+    
+    }
     
     /**
      * @return the list of vertexes in this graph
@@ -157,15 +177,6 @@ public class Graph {
     }
     
     /**
-     * @return the number of vertexes in this graph
-     */
-    public int getOrder () {
-    
-        return order;
-    
-    } 
-    
-    /**
      * @param k vertex
      * @param y vertex
      * @return true if k and y are neighbors or false if k and y aren't neighbors
@@ -173,28 +184,8 @@ public class Graph {
      */
     public boolean isNeighbor (int k, int y) {
 
-        assert (k >= 0 && y >= 0); 
-    
         return (vertexList.get(k).isNeighbor(y) || vertexList.get(y).isNeighbor(k));
     
-    }
-    
-    /**
-     * @return the id of this graph
-     */
-    public String getId () {
-    
-        return id;
-    
-    }
-
-    /**
-     * set order the vertices by degree (increasing direction)
-     */
-    public void sortVertexByDegree () {
-
-        vertexList = getVertexByDegree();
-
     }
 
     /**
@@ -244,6 +235,18 @@ public class Graph {
 
     }
 
+    /**
+     * set order the vertices by degree (increasing direction)
+     */
+    public void sortVertexByDegree () {
+
+        vertexList = getVertexByDegree();
+
+    }
+
+    /**
+     * set the color of vertexes in 0
+     */
     public void setDefaultColorVertexes () {
 
         for (int i = 0; i < vertexList.size(); i++)

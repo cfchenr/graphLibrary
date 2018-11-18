@@ -9,11 +9,6 @@ public class ColorizeVersion1 {
     /**
      * 
      */
-    protected Graph graph;
-    
-    /**
-     * 
-     */
     protected ArrayList<Vertex> vertexList;
     
     /**
@@ -41,15 +36,13 @@ public class ColorizeVersion1 {
 
         colors = new LinkedList<Integer>();
 
-        this.graph = graph;
+        graph.setDefaultColorVertexes();
 
-        vertexList = this.graph.getVertexList();
+        vertexList = graph.getVertexList();
 
-        this.graph.setDefaultColorVertexes();
+        log = new WriteLogFile("output/" + graph.getId() + "/log_" + version + ".txt");
 
-        log = new WriteLogFile("output/" + this.graph.getId() + "/log_" + version + ".txt");
-
-        pw = new PrintWriter(new File("output/" + this.graph.getId() + "/id_color_" + version + ".csv"));
+        pw = new PrintWriter(new File("output/" + graph.getId() + "/id_color_" + version + ".csv"));
 
     }
 
@@ -145,7 +138,7 @@ public class ColorizeVersion1 {
 
         sb.append("id,Color\n");
         
-        for (int p = 0; p < graph.getOrder(); p++)
+        for (int p = 0; p < vertexList.size(); p++)
         
             sb.append((vertexList.get(p).getId()+1) + "," + (vertexList.get(p).getColor()) + "\n");
         
@@ -157,6 +150,9 @@ public class ColorizeVersion1 {
 
     }
 
+    /**
+     * 
+     */
     public ArrayList<Vertex> getVertexList () {
 
         return vertexList;
