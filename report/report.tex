@@ -569,13 +569,13 @@ Aplicando a versão 2 e 3 do algoritmo de coloração dos vértices, obtemos os 
     \begin{minipage}{.5\textwidth}
       \centering
       \includegraphics[scale=0.5]{v2I.png}
-      \captionof{figure}{A figure}
+      \captionof{figure}{Grafo I, coloração 2}
       \label{fig:v2I}
     \end{minipage}%
     \begin{minipage}{.5\textwidth}
       \centering
       \includegraphics[scale=0.5]{v3I.png}
-      \captionof{figure}{Another figure}
+      \captionof{figure}{Grafo I, coloração 3}
       \label{fig:v3I}
     \end{minipage}
 \end{figure}
@@ -602,16 +602,30 @@ Implementamos o objeto $ColorizeVersion2.java$ usando o grafo $graph$.
 
 A coloração obtida é a representada no seguinte grafo:
 
-\begin{center}
-    \includegraphics[scale=0.5]{v2F.png}
-\end{center}
+\begin{figure}[H]
+    \centering
+        \includegraphics[scale=0.5]{v2F.png}
+    \caption{Grafo F, coloração 2}
+    \label{fig:v2F}
+\end{figure}
 
 Aplicando a versão 1 e 3 do algoritmo de coloração dos vértices, obtemos os seguintes resultados:
 
-\begin{center}
-    \includegraphics[scale=0.5]{v1F.png}
-    \includegraphics[scale=0.5]{v3F.png}
-\end{center}
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{.5\textwidth}
+      \centering
+      \includegraphics[scale=0.5]{v1F.png}
+      \captionof{figure}{Grafo F, coloração 1}
+      \label{fig:v1F}
+    \end{minipage}%
+    \begin{minipage}{.5\textwidth}
+      \centering
+      \includegraphics[scale=0.5]{v3F.png}
+      \captionof{figure}{Grafo F, coloração 3}
+      \label{fig:v3F}
+    \end{minipage}
+\end{figure}
 
 Analisando os resultados, podemos ver que neste caso o algoritmo 2 não consegue encontrar uma coloração mínima, ao contrário do que acontece com as versões 1 e 3.
 
