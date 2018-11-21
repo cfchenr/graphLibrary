@@ -27,6 +27,17 @@ public class DepthFirstSearch {
     private WriteLogFile log;
 
     /**
+     * 
+     */
+    protected PrintWriter pw;
+
+    /**
+     * [StringBuilder description]
+     * @return [description]
+     */
+    protected StringBuilder sb = new StringBuilder();
+
+    /**
      * [DFS description]
      * @param  graph       [description]
      * @return             [description]
@@ -36,11 +47,13 @@ public class DepthFirstSearch {
 
         log = new WriteLogFile("output/" + graph.getId() + "/log_dfs.txt");
 
-        graph.sortVertexByDegree();
+        //graph.sortVertexByDegree();
 
         vertexList = graph.getVertexList();
 
         stack = new Stack<Vertex>();
+
+        pw = new PrintWriter(new File("output/" + graph.getId() + "/id_order.csv"));
 
     }
 
@@ -130,6 +143,8 @@ public class DepthFirstSearch {
     private void setOrder (Vertex vertex) {
 
         vertex.setOrder(++orderIndex);
+
+        System.out.println((vertex.getId()+1) + " [" + orderIndex + "]");
         
         log.writef("Set", "in " + orderIndex + " the order of vertex ", Integer.toString(vertex.getId()+1));        
     
@@ -257,6 +272,16 @@ public class DepthFirstSearch {
     }
 
     public void finish () {
+
+        sb.append("id,Order\n");
+        
+        for (int p = 0; p < vertexList.size(); p++)
+        
+            sb.append((vertexList.get(p).getId()+1) + "," + (vertexList.get(p).getOrder()) + "\n");
+        
+        pw.write(sb.toString());
+        
+        pw.close();
 
         log.close();
 

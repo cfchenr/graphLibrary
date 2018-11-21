@@ -4,9 +4,8 @@ INPUT g:\OneDrive - Universidade de Aveiro\Mestrado - Matemática\sma\report\rep
 OUTPUT report.log
 INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\base\report.cls
 INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\base\report.cls
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\base\size12.clo
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\base\size12.clo
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\base\size10.clo
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\base\size10.clo
 INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\caption\caption.sty
 INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\caption\caption.sty
 INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\caption\caption3.sty
@@ -50,7 +49,7 @@ INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\base\fontenc.sty
 INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\base\fontenc.sty
 INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\base\t1enc.def
 INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\base\t1enc.def
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\jknappen\ec\ecrm1200.tfm
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\jknappen\ec\ecrm1000.tfm
 INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\amsmath\amsmath.sty
 INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\amsmath\amsmath.sty
 INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\amsmath\amstext.sty
@@ -244,53 +243,6 @@ INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\t
 INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.code.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.code.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.geometric.code.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.geometric.code.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes.geometric.code.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes.geometric.code.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.misc.code.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.misc.code.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes.misc.code.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes.misc.code.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.symbols.code.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.symbols.code.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes.symbols.code.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes.symbols.code.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.arrows.code.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.arrows.code.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes.arrows.code.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes.arrows.code.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.callouts.code.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.callouts.code.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes.callouts.code.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes.callouts.code.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.multipart.code.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.multipart.code.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes.multipart.code.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes.multipart.code.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryarrows.code.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryarrows.code.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryarrows.code.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryarrows.code.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarysnakes.code.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarysnakes.code.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.pathmorphing.code.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.pathmorphing.code.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.code.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.code.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduledecorations.code.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\decorations\pgflibrarydecorations.pathmorphing.code.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\decorations\pgflibrarydecorations.pathmorphing.code.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.pathreplacing.code.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.pathreplacing.code.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\decorations\pgflibrarydecorations.pathreplacing.code.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\decorations\pgflibrarydecorations.pathreplacing.code.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.shapes.code.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.shapes.code.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\decorations\pgflibrarydecorations.shapes.code.tex
-INPUT C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\decorations\pgflibrarydecorations.shapes.code.tex
 OUTPUT report.idx
 INPUT report.aux
 INPUT report.aux
@@ -305,160 +257,4 @@ INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\hyperref\nameref.sty
 INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\hyperref\nameref.sty
 INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\generic\oberdiek\gettitlestring.sty
 INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\generic\oberdiek\gettitlestring.sty
-INPUT report.out
-INPUT report.out
-INPUT report.out
-INPUT report.out
-OUTPUT report.pdf
-INPUT .\report.out
-INPUT .\report.out
 OUTPUT report.out
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\oberdiek\pdflscape.sty
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\oberdiek\pdflscape.sty
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\graphics\lscape.sty
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\graphics\lscape.sty
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\jknappen\ec\ecrm2074.tfm
-INPUT img\ua.png
-INPUT .\img\ua.png
-INPUT .\img\ua.png
-INPUT .\img\ua.png
-INPUT .\img\ua.png
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\jknappen\ec\ecrm1440.tfm
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\jknappen\ec\ecrm2488.tfm
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\jknappen\ec\ecbx2488.tfm
-INPUT report.toc
-INPUT report.toc
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\jknappen\ec\ecbx1200.tfm
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\jknappen\ec\ecti1200.tfm
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-OUTPUT report.toc
-INPUT img\ua.png
-INPUT .\img\ua.png
-INPUT report.lof
-INPUT report.lof
-OUTPUT report.lof
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\jknappen\ec\ecrm1728.tfm
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\jknappen\ec\ecbx1728.tfm
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\jknappen\ec\ecbi1728.tfm
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\base\omscmr.fd
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\base\omscmr.fd
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\jknappen\ec\ecbi1200.tfm
-INPUT img\ua.png
-INPUT .\img\ua.png
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\jknappen\ec\ecrm1000.tfm
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\jknappen\ec\ecrm0600.tfm
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\jknappen\ec\ecrm1095.tfm
-INPUT img\ua.png
-INPUT .\img\ua.png
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT img\ua.png
-INPUT .\img\ua.png
-INPUT img\ua.png
-INPUT .\img\ua.png
-INPUT img\ua.png
-INPUT .\img\ua.png
-INPUT img\ua.png
-INPUT .\img\ua.png
-INPUT img\ua.png
-INPUT .\img\ua.png
-INPUT img\ua.png
-INPUT .\img\ua.png
-INPUT img\ua.png
-INPUT .\img\ua.png
-INPUT img\ua.png
-INPUT .\img\ua.png
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\jknappen\ec\ecbx1440.tfm
-INPUT img\ua.png
-INPUT .\img\ua.png
-INPUT img\ua.png
-INPUT .\img\ua.png
-INPUT img\ua.png
-INPUT .\img\ua.png
-INPUT img\ua.png
-INPUT .\img\ua.png
-INPUT img\v1I.pdf
-INPUT .\img\v1I.pdf
-INPUT .\img\v1I.pdf
-INPUT .\img\v1I.pdf
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\jknappen\ec\ecbx1095.tfm
-INPUT img\v2I.pdf
-INPUT .\img\v2I.pdf
-INPUT .\img\v2I.pdf
-INPUT .\img\v2I.pdf
-INPUT img\v3I.pdf
-INPUT .\img\v3I.pdf
-INPUT .\img\v3I.pdf
-INPUT .\img\v3I.pdf
-INPUT img\ua.png
-INPUT .\img\ua.png
-INPUT img\v2F.pdf
-INPUT .\img\v2F.pdf
-INPUT .\img\v2F.pdf
-INPUT .\img\v2F.pdf
-INPUT img\v1F.pdf
-INPUT .\img\v1F.pdf
-INPUT .\img\v1F.pdf
-INPUT .\img\v1F.pdf
-INPUT img\v3F.pdf
-INPUT .\img\v3F.pdf
-INPUT .\img\v3F.pdf
-INPUT .\img\v3F.pdf
-INPUT img\ua.png
-INPUT .\img\ua.png
-INPUT img\ua.png
-INPUT .\img\ua.png
-INPUT report.aux
-INPUT .\report.out
-INPUT .\report.out
-INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk
-INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk
-INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk
-INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk
-INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
-INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
-INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk
-INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk
-INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0600.pk
-INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0600.pk
-INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbi1200.pk
-INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbi1200.pk
-INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbi1728.pk
-INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbi1728.pk
-INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk
-INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk
-INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk
-INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk
-INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk
-INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk
-INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk
-INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk
-INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk
-INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk
-INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk
-INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk
-INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2074.pk
-INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2074.pk
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb

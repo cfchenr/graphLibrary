@@ -1,0 +1,15 @@
+[timestamp]                   [action]            [details]                                                   [vertex]   [observations]
+[2018-11-21 23:38:04.833]     Get                 first color that is available for vertex                    3          Available[1]
+[2018-11-21 23:38:04.833]     Set                 in 1 the color of vertex                                    3         
+[2018-11-21 23:38:04.833]     Clear               queue of colors                                                       
+[2018-11-21 23:38:04.833]     Check               if vertex 2 is neighbor of vertex                           3          Yes
+[2018-11-21 23:38:04.833]     Add                 1 to queue of colors                                                  
+[2018-11-21 23:38:04.833]     Get                 first color that is available for vertex                    2          1  Available[2]
+[2018-11-21 23:38:04.833]     Set                 in 2 the color of vertex                                    2         
+[2018-11-21 23:38:04.833]     Clear               queue of colors                                                       
+[2018-11-21 23:38:04.833]     Check               if vertex 1 is neighbor of vertex                           3          Yes
+[2018-11-21 23:38:04.833]     Add                 1 to queue of colors                                                  
+[2018-11-21 23:38:04.833]     Check               if vertex 1 is neighbor of vertex                           2          Yes
+[2018-11-21 23:38:04.833]     Add                 2 to queue of colors                                                  
+[2018-11-21 23:38:04.833]     Get                 first color that is available for vertex                    1          1  2  Available[3]
+[2018-11-21 23:38:04.833]     Set                 in 3 the color of vertex                                    1         

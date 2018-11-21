@@ -1,57 +1,57 @@
 [timestamp]                   [action]            [details]                                                   [vertex]   [observations]
-[2018-11-12 22:41:08.283]     Get                 first color that is available for vertex                    4          Available[1]
-[2018-11-12 22:41:08.284]     Set                 in 1 the color of vertex                                    4         
-[2018-11-12 22:41:08.284]     Clear               table of colors                                                       
-[2018-11-12 22:41:08.284]     Add                 0 to table of colors                                                   from vertex 8
-[2018-11-12 22:41:08.284]     Add                 0 to table of colors                                                   from vertex 9
-[2018-11-12 22:41:08.284]     Add                 0 to table of colors                                                   from vertex 11
-[2018-11-12 22:41:08.284]     Get                 first color that is available for vertex                    10         Available[1]
-[2018-11-12 22:41:08.284]     Set                 in 1 the color of vertex                                    10        
-[2018-11-12 22:41:08.284]     Clear               table of colors                                                       
-[2018-11-12 22:41:08.284]     Add                 0 to table of colors                                                   from vertex 2
-[2018-11-12 22:41:08.284]     Add                 0 to table of colors                                                   from vertex 3
-[2018-11-12 22:41:08.284]     Get                 first color that is available for vertex                    1          Available[1]
-[2018-11-12 22:41:08.284]     Set                 in 1 the color of vertex                                    1         
-[2018-11-12 22:41:08.284]     Clear               table of colors                                                       
-[2018-11-12 22:41:08.284]     Add                 1 to table of colors                                                   from vertex 1
-[2018-11-12 22:41:08.284]     Add                 1 to table of colors                                                   from vertex 4
-[2018-11-12 22:41:08.284]     Get                 first color that is available for vertex                    2          1  Available[2]
-[2018-11-12 22:41:08.284]     Set                 in 2 the color of vertex                                    2         
-[2018-11-12 22:41:08.284]     Clear               table of colors                                                       
-[2018-11-12 22:41:08.284]     Add                 1 to table of colors                                                   from vertex 1
-[2018-11-12 22:41:08.284]     Add                 1 to table of colors                                                   from vertex 4
-[2018-11-12 22:41:08.285]     Get                 first color that is available for vertex                    3          1  Available[2]
-[2018-11-12 22:41:08.285]     Set                 in 2 the color of vertex                                    3         
-[2018-11-12 22:41:08.285]     Clear               table of colors                                                       
-[2018-11-12 22:41:08.286]     Add                 1 to table of colors                                                   from vertex 4
-[2018-11-12 22:41:08.286]     Add                 0 to table of colors                                                   from vertex 6
-[2018-11-12 22:41:08.286]     Get                 first color that is available for vertex                    5          1  Available[2]
-[2018-11-12 22:41:08.286]     Set                 in 2 the color of vertex                                    5         
-[2018-11-12 22:41:08.286]     Clear               table of colors                                                       
-[2018-11-12 22:41:08.286]     Add                 0 to table of colors                                                   from vertex 8
-[2018-11-12 22:41:08.286]     Add                 0 to table of colors                                                   from vertex 9
-[2018-11-12 22:41:08.286]     Get                 first color that is available for vertex                    7          Available[1]
-[2018-11-12 22:41:08.286]     Set                 in 1 the color of vertex                                    7         
-[2018-11-12 22:41:08.286]     Clear               table of colors                                                       
-[2018-11-12 22:41:08.286]     Add                 1 to table of colors                                                   from vertex 7
-[2018-11-12 22:41:08.286]     Add                 1 to table of colors                                                   from vertex 10
-[2018-11-12 22:41:08.286]     Get                 first color that is available for vertex                    8          1  Available[2]
-[2018-11-12 22:41:08.286]     Set                 in 2 the color of vertex                                    8         
-[2018-11-12 22:41:08.286]     Clear               table of colors                                                       
-[2018-11-12 22:41:08.286]     Add                 1 to table of colors                                                   from vertex 7
-[2018-11-12 22:41:08.286]     Add                 1 to table of colors                                                   from vertex 10
-[2018-11-12 22:41:08.286]     Get                 first color that is available for vertex                    9          1  Available[2]
-[2018-11-12 22:41:08.287]     Set                 in 2 the color of vertex                                    9         
-[2018-11-12 22:41:08.287]     Clear               table of colors                                                       
-[2018-11-12 22:41:08.287]     Add                 1 to table of colors                                                   from vertex 10
-[2018-11-12 22:41:08.287]     Add                 0 to table of colors                                                   from vertex 12
-[2018-11-12 22:41:08.287]     Get                 first color that is available for vertex                    11         1  Available[2]
-[2018-11-12 22:41:08.287]     Set                 in 2 the color of vertex                                    11        
-[2018-11-12 22:41:08.287]     Clear               table of colors                                                       
-[2018-11-12 22:41:08.287]     Add                 2 to table of colors                                                   from vertex 5
-[2018-11-12 22:41:08.287]     Get                 first color that is available for vertex                    6          Available[1]
-[2018-11-12 22:41:08.287]     Set                 in 1 the color of vertex                                    6         
-[2018-11-12 22:41:08.287]     Clear               table of colors                                                       
-[2018-11-12 22:41:08.287]     Add                 2 to table of colors                                                   from vertex 11
-[2018-11-12 22:41:08.287]     Get                 first color that is available for vertex                    12         Available[1]
-[2018-11-12 22:41:08.287]     Set                 in 1 the color of vertex                                    12        
+[2018-11-21 23:38:03.203]     Get                 first color that is available for vertex                    4          Available[1]
+[2018-11-21 23:38:03.203]     Set                 in 1 the color of vertex                                    4         
+[2018-11-21 23:38:03.203]     Clear               table of colors                                                       
+[2018-11-21 23:38:03.204]     Add                 0 to table of colors                                                   from vertex 8
+[2018-11-21 23:38:03.204]     Add                 0 to table of colors                                                   from vertex 9
+[2018-11-21 23:38:03.204]     Add                 0 to table of colors                                                   from vertex 11
+[2018-11-21 23:38:03.204]     Get                 first color that is available for vertex                    10         Available[1]
+[2018-11-21 23:38:03.204]     Set                 in 1 the color of vertex                                    10        
+[2018-11-21 23:38:03.204]     Clear               table of colors                                                       
+[2018-11-21 23:38:03.204]     Add                 0 to table of colors                                                   from vertex 2
+[2018-11-21 23:38:03.204]     Add                 0 to table of colors                                                   from vertex 3
+[2018-11-21 23:38:03.204]     Get                 first color that is available for vertex                    1          Available[1]
+[2018-11-21 23:38:03.204]     Set                 in 1 the color of vertex                                    1         
+[2018-11-21 23:38:03.204]     Clear               table of colors                                                       
+[2018-11-21 23:38:03.204]     Add                 1 to table of colors                                                   from vertex 1
+[2018-11-21 23:38:03.204]     Add                 1 to table of colors                                                   from vertex 4
+[2018-11-21 23:38:03.204]     Get                 first color that is available for vertex                    2          1  Available[2]
+[2018-11-21 23:38:03.204]     Set                 in 2 the color of vertex                                    2         
+[2018-11-21 23:38:03.204]     Clear               table of colors                                                       
+[2018-11-21 23:38:03.204]     Add                 1 to table of colors                                                   from vertex 1
+[2018-11-21 23:38:03.204]     Add                 1 to table of colors                                                   from vertex 4
+[2018-11-21 23:38:03.204]     Get                 first color that is available for vertex                    3          1  Available[2]
+[2018-11-21 23:38:03.205]     Set                 in 2 the color of vertex                                    3         
+[2018-11-21 23:38:03.205]     Clear               table of colors                                                       
+[2018-11-21 23:38:03.205]     Add                 1 to table of colors                                                   from vertex 4
+[2018-11-21 23:38:03.205]     Add                 0 to table of colors                                                   from vertex 6
+[2018-11-21 23:38:03.205]     Get                 first color that is available for vertex                    5          1  Available[2]
+[2018-11-21 23:38:03.205]     Set                 in 2 the color of vertex                                    5         
+[2018-11-21 23:38:03.205]     Clear               table of colors                                                       
+[2018-11-21 23:38:03.205]     Add                 0 to table of colors                                                   from vertex 8
+[2018-11-21 23:38:03.205]     Add                 0 to table of colors                                                   from vertex 9
+[2018-11-21 23:38:03.205]     Get                 first color that is available for vertex                    7          Available[1]
+[2018-11-21 23:38:03.205]     Set                 in 1 the color of vertex                                    7         
+[2018-11-21 23:38:03.205]     Clear               table of colors                                                       
+[2018-11-21 23:38:03.205]     Add                 1 to table of colors                                                   from vertex 7
+[2018-11-21 23:38:03.205]     Add                 1 to table of colors                                                   from vertex 10
+[2018-11-21 23:38:03.205]     Get                 first color that is available for vertex                    8          1  Available[2]
+[2018-11-21 23:38:03.205]     Set                 in 2 the color of vertex                                    8         
+[2018-11-21 23:38:03.205]     Clear               table of colors                                                       
+[2018-11-21 23:38:03.205]     Add                 1 to table of colors                                                   from vertex 7
+[2018-11-21 23:38:03.206]     Add                 1 to table of colors                                                   from vertex 10
+[2018-11-21 23:38:03.206]     Get                 first color that is available for vertex                    9          1  Available[2]
+[2018-11-21 23:38:03.206]     Set                 in 2 the color of vertex                                    9         
+[2018-11-21 23:38:03.206]     Clear               table of colors                                                       
+[2018-11-21 23:38:03.206]     Add                 1 to table of colors                                                   from vertex 10
+[2018-11-21 23:38:03.206]     Add                 0 to table of colors                                                   from vertex 12
+[2018-11-21 23:38:03.206]     Get                 first color that is available for vertex                    11         1  Available[2]
+[2018-11-21 23:38:03.206]     Set                 in 2 the color of vertex                                    11        
+[2018-11-21 23:38:03.206]     Clear               table of colors                                                       
+[2018-11-21 23:38:03.206]     Add                 2 to table of colors                                                   from vertex 5
+[2018-11-21 23:38:03.206]     Get                 first color that is available for vertex                    6          Available[1]
+[2018-11-21 23:38:03.206]     Set                 in 1 the color of vertex                                    6         
+[2018-11-21 23:38:03.206]     Clear               table of colors                                                       
+[2018-11-21 23:38:03.206]     Add                 2 to table of colors                                                   from vertex 11
+[2018-11-21 23:38:03.206]     Get                 first color that is available for vertex                    12         Available[1]
+[2018-11-21 23:38:03.206]     Set                 in 1 the color of vertex                                    12        

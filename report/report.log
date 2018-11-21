@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6880 64-bit) (preloaded format=pdflatex 2018.11.16)  19 NOV 2018 14:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6880 64-bit) (preloaded format=pdflatex 2018.11.16)  21 NOV 2018 22:33
 entering extended mode
 **"g:/OneDrive - Universidade de Aveiro/Mestrado - Matemática/sma/report/report.tex"
 ("g:/OneDrive - Universidade de Aveiro/Mestrado - Matemática/sma/report/report.tex"
@@ -6,8 +6,8 @@ LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 77 language(s) loaded.
 ("G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\base\report.cls"
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
-("G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\base\size12.clo"
-File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+("G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\base\size10.clo"
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@chapter=\count80
@@ -1064,72 +1064,7 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 ))) ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2018/09/02 1.7 listings language file
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.code.tex"
-File: tikzlibraryshapes.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
- ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.geometric.code.tex"
-File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
- ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes.geometric.code.tex"
-File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
-)) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.misc.code.tex"
-File: tikzlibraryshapes.misc.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
- ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes.misc.code.tex"
-File: pgflibraryshapes.misc.code.tex 2013/07/18 v3.0.1a (rcs-revision 1.5)
-)) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.symbols.code.tex"
-File: tikzlibraryshapes.symbols.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
- ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes.symbols.code.tex"
-File: pgflibraryshapes.symbols.code.tex 2013/09/11 v3.0.1a (rcs-revision 1.6)
-)) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.arrows.code.tex"
-File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
- ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes.arrows.code.tex"
-File: pgflibraryshapes.arrows.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
-)) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.callouts.code.tex" ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes.callouts.code.tex")) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.multipart.code.tex"
-File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
- ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes.multipart.code.tex"
-File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.1a (rcs-revision 1.2)
-\pgfnodepartlowerbox=\box87
-\pgfnodeparttwobox=\box88
-\pgfnodepartthreebox=\box89
-\pgfnodepartfourbox=\box90
-\pgfnodeparttwentybox=\box91
-\pgfnodepartnineteenbox=\box92
-\pgfnodeparteighteenbox=\box93
-\pgfnodepartseventeenbox=\box94
-\pgfnodepartsixteenbox=\box95
-\pgfnodepartfifteenbox=\box96
-\pgfnodepartfourteenbox=\box97
-\pgfnodepartthirteenbox=\box98
-\pgfnodeparttwelvebox=\box99
-\pgfnodepartelevenbox=\box100
-\pgfnodeparttenbox=\box101
-\pgfnodepartninebox=\box102
-\pgfnodeparteightbox=\box103
-\pgfnodepartsevenbox=\box104
-\pgfnodepartsixbox=\box105
-\pgfnodepartfivebox=\box106
-))) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryarrows.code.tex"
-File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryarrows.code.tex"
-File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
-\arrowsize=\dimen286
-)) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarysnakes.code.tex"
-File: tikzlibrarysnakes.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.7)
-
-
-Package pgf Warning: Snakes have been superseded by decorations. Please use the decoration libraries instead of the snakes library on input line 14.
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.pathmorphing.code.tex" ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.code.tex" ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduledecorations.code.tex"
-\pgfdecoratedcompleteddistance=\dimen287
-\pgfdecoratedremainingdistance=\dimen288
-\pgfdecoratedinputsegmentcompleteddistance=\dimen289
-\pgfdecoratedinputsegmentremainingdistance=\dimen290
-\pgf@decorate@distancetomove=\dimen291
-\pgf@decorate@repeatstate=\count319
-\pgfdecorationsegmentamplitude=\dimen292
-\pgfdecorationsegmentlength=\dimen293
 )
-\tikz@lib@dec@box=\box107
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\decorations\pgflibrarydecorations.pathmorphing.code.tex")) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.pathreplacing.code.tex" ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\decorations\pgflibrarydecorations.pathreplacing.code.tex")) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.shapes.code.tex" ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\decorations\pgflibrarydecorations.shapes.code.tex")))
 \report@idxfile=\write4
 \openout4 = `report.idx'.
 
@@ -1138,20 +1073,20 @@ Writing index file report.idx
 (report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -1177,12 +1112,12 @@ Package caption Info: End \AtBeginDocument code.
 * \topmargin=-145.86334pt
 * \headheight=150.0pt
 * \headsep=25.0pt
-* \topskip=12.0pt
+* \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=35.0pt
-* \marginparsep=10.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -1194,16 +1129,16 @@ Package caption Info: End \AtBeginDocument code.
 
 ("G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count320
-\scratchdimen=\dimen294
-\scratchbox=\box108
-\nofMPsegments=\count321
-\nofMParguments=\count322
+\scratchcounter=\count319
+\scratchdimen=\dimen286
+\scratchbox=\box87
+\nofMPsegments=\count320
+\nofMParguments=\count321
 \everyMPshowfont=\toks43
-\MPscratchCnt=\count323
-\MPscratchDim=\dimen295
-\MPnumerator=\count324
-\makeMPintoPDFobject=\count325
+\MPscratchCnt=\count322
+\MPscratchDim=\dimen287
+\MPnumerator=\count323
+\makeMPintoPDFobject=\count324
 \everyMPtoPDFconversion=\toks44
 ) ("G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1215,408 +1150,34 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-\AtBeginShipoutBox=\box109
-Package hyperref Info: Link coloring OFF on input line 80.
+\AtBeginShipoutBox=\box88
+Package hyperref Info: Link coloring OFF on input line 72.
  ("G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  ("G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count326
+\c@section@level=\count325
 )
-LaTeX Info: Redefining \ref on input line 80.
-LaTeX Info: Redefining \pageref on input line 80.
-LaTeX Info: Redefining \nameref on input line 80.
- (report.out) (report.out)
+LaTeX Info: Redefining \ref on input line 72.
+LaTeX Info: Redefining \pageref on input line 72.
+LaTeX Info: Redefining \nameref on input line 72.
 \@outlinefile=\write5
 \openout5 = `report.out'.
 
-\c@lstlisting=\count327
- ("G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\oberdiek\pdflscape.sty"
-Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
- ("G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\graphics\lscape.sty"
-Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
-)
-Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-) ABD: EveryShipout initializing macros
-<img/ua.png, id=106, 345.9324pt x 96.36pt>
-File: img/ua.png Graphic file (type png)
-<use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 83.
-(pdftex.def)             Requested size: 276.74629pt x 77.08807pt.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 83.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 83.
- [1
 
-{C:/Users/chenr/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./img/ua.png>] (report.toc
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 25.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 25.
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.25 ...line {6}Conclus\IeC {\~a}o}{26}{chapter.6}
-                                                   [1
+g:/OneDrive - Universidade de Aveiro/Mestrado - Matemática/sma/report/report.tex:72: I can't write on file `report.pdf'.
+Please type another file name for output
+g:/OneDrive - Universidade de Aveiro/Mestrado - Matemática/sma/report/report.tex:72: Emergency stop
+*** (job aborted, file error in nonstop mode)
 
-])
-\tf@toc=\write6
-\openout6 = `report.toc'.
-
-File: img/ua.png Graphic file (type png)
-<use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 84.
-(pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 84.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 84.
- [2]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 84.
- (report.lof)
-\tf@lof=\write7
-\openout7 = `report.lof'.
-
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 86.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 86.
- [3
-
-]
-Cap\'{\i }tulo 1.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 86.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 92.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 98.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 102.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 102.
-[4
-
-]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 102.
- ("G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\base\omscmr.fd"
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 102.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 108.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 119.
-File: img/ua.png Graphic file (type png)
-<use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 131.
-(pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 131.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 131.
- [5]
-Cap\'{\i }tulo 2.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 131.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 140.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 154.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 154.
-[6
-
-]
-File: img/ua.png Graphic file (type png)
-<use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 178.
-(pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 178.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 178.
- [7]
-File: img/ua.png Graphic file (type png)
-<use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 217.
-(pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 217.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 217.
- [8]
-File: img/ua.png Graphic file (type png)
-<use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 245.
-(pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 245.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 245.
- [9]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 254.
-File: img/ua.png Graphic file (type png)
-<use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 280.
-(pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 280.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 280.
- [10]
-File: img/ua.png Graphic file (type png)
-<use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 317.
-(pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 317.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 317.
- [11]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 352.
-File: img/ua.png Graphic file (type png)
-<use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 356.
-(pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 356.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 356.
- [12]
-File: img/ua.png Graphic file (type png)
-<use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 386.
-(pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 386.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 386.
- [13]
-File: img/ua.png Graphic file (type png)
-<use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 422.
-(pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 422.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 422.
- [14]
-Overfull \hbox (37.79039pt too wide) in paragraph at lines 441--442
- [] 
- []
-
-File: img/ua.png Graphic file (type png)
-<use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 455.
-(pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 455.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 455.
-[15]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 457.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 470.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 481.
-File: img/ua.png Graphic file (type png)
-<use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 486.
-(pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 486.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 486.
- [16]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 494.
-File: img/ua.png Graphic file (type png)
-<use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 507.
-(pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 507.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 507.
- [17]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 524.
-File: img/ua.png Graphic file (type png)
-<use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 529.
-(pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 529.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 529.
- [18]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 536.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 538.
-File: img/ua.png Graphic file (type png)
-<use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 540.
-(pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 540.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 540.
- [19]
-Cap\'{\i }tulo 3.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 540.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 542.
-<img/v1I.pdf, id=394, 794.97pt x 614.295pt>
-File: img/v1I.pdf Graphic file (type pdf)
-<use img/v1I.pdf>
-Package pdftex.def Info: img/v1I.pdf  used on input line 560.
-(pdftex.def)             Requested size: 238.49284pt x 184.28992pt.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 564.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 564.
-[20
-
-]
-<img/v2I.pdf, id=401, 794.97pt x 614.295pt>
-File: img/v2I.pdf Graphic file (type pdf)
-<use img/v2I.pdf>
-Package pdftex.def Info: img/v2I.pdf  used on input line 571.
-(pdftex.def)             Requested size: 238.49284pt x 184.28992pt.
-
-Overfull \hbox (29.36601pt too wide) in paragraph at lines 571--572
- [][] 
- []
-
-<img/v3I.pdf, id=402, 794.97pt x 614.295pt>
-File: img/v3I.pdf Graphic file (type pdf)
-<use img/v3I.pdf>
-Package pdftex.def Info: img/v3I.pdf  used on input line 577.
-(pdftex.def)             Requested size: 238.49284pt x 184.28992pt.
-
-Overfull \hbox (29.36601pt too wide) in paragraph at lines 577--578
- [][] 
- []
-
-File: img/ua.png Graphic file (type png)
-<use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 600.
-(pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 600.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 600.
-[21 <./img/v1I.pdf> <./img/v2I.pdf> <./img/v3I.pdf>]
-<img/v2F.pdf, id=424, 794.97pt x 614.295pt>
-File: img/v2F.pdf Graphic file (type pdf)
-<use img/v2F.pdf>
-Package pdftex.def Info: img/v2F.pdf  used on input line 607.
-(pdftex.def)             Requested size: 238.49284pt x 184.28992pt.
-<img/v1F.pdf, id=425, 794.97pt x 614.295pt>
-File: img/v1F.pdf Graphic file (type pdf)
-<use img/v1F.pdf>
-Package pdftex.def Info: img/v1F.pdf  used on input line 618.
-(pdftex.def)             Requested size: 238.49284pt x 184.28992pt.
-
-Overfull \hbox (29.36601pt too wide) in paragraph at lines 618--619
- [][] 
- []
-
-<img/v3F.pdf, id=426, 794.97pt x 614.295pt>
-File: img/v3F.pdf Graphic file (type pdf)
-<use img/v3F.pdf>
-Package pdftex.def Info: img/v3F.pdf  used on input line 624.
-(pdftex.def)             Requested size: 238.49284pt x 184.28992pt.
-
-Overfull \hbox (29.36601pt too wide) in paragraph at lines 624--625
- [][] 
- []
-
-File: img/ua.png Graphic file (type png)
-<use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 629.
-(pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 629.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 629.
-[22 <./img/v2F.pdf>]
-File: img/ua.png Graphic file (type png)
-<use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 633.
-(pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 633.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 633.
- [23 <./img/v1F.pdf> <./img/v3F.pdf>]
-Cap\'{\i }tulo 4.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 633.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 635.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 637.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 637.
-[24
-
-]
-Cap\'{\i }tulo 5.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 637.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 639.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 641.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 641.
-[25
-
-]
-Cap\'{\i }tulo 6.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 641.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 643.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 645.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 645.
-[26
-
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 645.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 645.
- (report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 645.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 645.
-Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 14B47B48E9DBBFB7BC3AF10B5CFAEF25;1633.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 645.
- ) 
+ 
 Here is how much of TeX's memory you used:
- 34581 strings out of 493289
- 669883 string characters out of 3131140
- 962453 words of memory out of 3000000
- 37425 multiletter control sequences out of 15000+200000
- 549449 words of font info for 58 fonts, out of 3000000 for 9000
+ 30423 strings out of 493289
+ 562477 string characters out of 3131140
+ 896428 words of memory out of 3000000
+ 33605 multiletter control sequences out of 15000+200000
+ 533101 words of font info for 25 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,16n,80p,685b,1897s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk> <C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0600.pk> <C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbi1200.pk> <C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbi1728.pk> <C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk> <C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk> <C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2074.pk><G:/OneDrive - Universidade de Aveiro/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><G:/OneDrive - Universidade de Aveiro/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><G:/OneDrive - Universidade de Aveiro/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><G:/OneDrive - Universidade de Aveiro/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on report.pdf (27 pages, 347527 bytes).
-PDF statistics:
- 1022 PDF objects out of 1200 (max. 8388607)
- 207 named destinations out of 1000 (max. 500000)
- 248 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 55i,1n,72p,479b,275s stack positions out of 5000i,500n,10000p,200000b,50000s
+g:/OneDrive - Universidade de Aveiro/Mestrado - Matemática/sma/report/report.tex:72:  ==> Fatal error occurred, no output PDF file produced!
