@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6880 64-bit) (preloaded format=pdflatex 2018.11.16)  22 NOV 2018 00:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6880 64-bit) (preloaded format=pdflatex 2018.11.16)  22 NOV 2018 11:36
 entering extended mode
 **"g:/OneDrive - Universidade de Aveiro/Mestrado - Matemática/sma/report/report.tex"
 ("g:/OneDrive - Universidade de Aveiro/Mestrado - Matemática/sma/report/report.tex"
@@ -1190,7 +1190,7 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ) ABD: EveryShipout initializing macros
-<img/ua.png, id=82, 345.9324pt x 96.36pt>
+<img/ua.png, id=70, 345.9324pt x 96.36pt>
 File: img/ua.png Graphic file (type png)
 <use img/ua.png>
 Package pdftex.def Info: img/ua.png  used on input line 71.
@@ -1206,708 +1206,659 @@ Package babel Info: Redefining portuges shorthand "|
 \openout6 = `report.toc'.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 72.
+(babel)             in language  on input line 73.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 72.
+(babel)             in language  on input line 73.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.72 \listoffigures
-                    [1
+l.73 \chapter
+             {Introdução} [1
 
 ]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 72.
- (report.lof
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 30.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 30.
- [2
-
-])
-\tf@lof=\write7
-\openout7 = `report.lof'.
-
-File: img/ua.png Graphic file (type png)
-<use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 74.
-(pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 74.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 74.
- [3]
 Cap\'{\i }tulo 1.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 74.
+(babel)             in language  on input line 73.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 83.
+(babel)             in language  on input line 82.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 87.
+(babel)             in language  on input line 86.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 87.
-[4
+(babel)             in language  on input line 86.
+[2
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 90.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 93.
+(babel)             in language  on input line 89.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 92.
  ("G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 93.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 92.
 File: img/ua.png Graphic file (type png)
 <use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 114.
+Package pdftex.def Info: img/ua.png  used on input line 113.
 (pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 114.
+(babel)             in language  on input line 113.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 114.
+(babel)             in language  on input line 113.
+ [3]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 136.
+File: img/ua.png Graphic file (type png)
+<use img/ua.png>
+Package pdftex.def Info: img/ua.png  used on input line 145.
+(pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 145.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 145.
+ [4]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 147.
+File: img/ua.png Graphic file (type png)
+<use img/ua.png>
+Package pdftex.def Info: img/ua.png  used on input line 162.
+(pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 162.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 162.
  [5]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 137.
-File: img/ua.png Graphic file (type png)
-<use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 146.
-(pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 146.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 146.
- [6]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 148.
-File: img/ua.png Graphic file (type png)
-<use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 163.
-(pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 163.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 163.
- [7]
 Cap\'{\i }tulo 2.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 163.
+(babel)             in language  on input line 162.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 172.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 186.
+(babel)             in language  on input line 173.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 186.
-[8
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 186.
+[6
 
 ]
-<img/lerLinhasDoFicheiro.pdf, id=223, 1176.395pt x 724.7075pt>
+<img/lerLinhasDoFicheiro.pdf, id=136, 1176.395pt x 724.7075pt>
 File: img/lerLinhasDoFicheiro.pdf Graphic file (type pdf)
 <use img/lerLinhasDoFicheiro.pdf>
-Package pdftex.def Info: img/lerLinhasDoFicheiro.pdf  used on input line 198.
-(pdftex.def)             Requested size: 294.09804pt x 181.17642pt.
+Package pdftex.def Info: img/lerLinhasDoFicheiro.pdf  used on input line 199.
+(pdftex.def)             Requested size: 211.74196pt x 130.44171pt.
 File: img/ua.png Graphic file (type png)
 <use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 211.
+Package pdftex.def Info: img/ua.png  used on input line 212.
 (pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 211.
+(babel)             in language  on input line 212.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 211.
- [9 <./img/lerLinhasDoFicheiro.pdf>]
-<img/definirSucessorEPredecessor.pdf, id=258, 1706.375pt x 1436.36626pt>
+(babel)             in language  on input line 212.
+ [7 <./img/lerLinhasDoFicheiro.pdf>]
+<img/definirSucessorEPredecessor.pdf, id=172, 1706.375pt x 1436.36626pt>
 File: img/definirSucessorEPredecessor.pdf Graphic file (type pdf)
 <use img/definirSucessorEPredecessor.pdf>
-Package pdftex.def Info: img/definirSucessorEPredecessor.pdf  used on input line 218.
-(pdftex.def)             Requested size: 426.59271pt x 359.09068pt.
-
-Overfull \hbox (8.33904pt too wide) in paragraph at lines 218--219
- [][] 
- []
-
+Package pdftex.def Info: img/definirSucessorEPredecessor.pdf  used on input line 219.
+(pdftex.def)             Requested size: 307.13425pt x 258.53477pt.
 File: img/ua.png Graphic file (type png)
 <use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 222.
+Package pdftex.def Info: img/ua.png  used on input line 231.
 (pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 222.
+(babel)             in language  on input line 231.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 222.
-[10]
+(babel)             in language  on input line 231.
+ [8 <./img/definirSucessorEPredecessor.pdf>]
 File: img/ua.png Graphic file (type png)
 <use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 237.
+Package pdftex.def Info: img/ua.png  used on input line 265.
 (pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 237.
+(babel)             in language  on input line 265.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 237.
- [11 <./img/definirSucessorEPredecessor.pdf>]
-<img/ordernarVerticesPorGrau.pdf, id=298, 1349.04pt x 2208.25pt>
+(babel)             in language  on input line 265.
+ [9]
+<img/ordernarVerticesPorGrau.pdf, id=221, 1349.04pt x 2208.25pt>
 File: img/ordernarVerticesPorGrau.pdf Graphic file (type pdf)
 <use img/ordernarVerticesPorGrau.pdf>
-Package pdftex.def Info: img/ordernarVerticesPorGrau.pdf  used on input line 269.
+Package pdftex.def Info: img/ordernarVerticesPorGrau.pdf  used on input line 270.
 (pdftex.def)             Requested size: 242.81673pt x 397.46785pt.
 File: img/ua.png Graphic file (type png)
 <use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 273.
+Package pdftex.def Info: img/ua.png  used on input line 278.
 (pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 273.
+(babel)             in language  on input line 278.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 273.
+(babel)             in language  on input line 278.
+ [10 <./img/ordernarVerticesPorGrau.pdf>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 307.
+File: img/ua.png Graphic file (type png)
+<use img/ua.png>
+Package pdftex.def Info: img/ua.png  used on input line 314.
+(pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 314.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 314.
+ [11]
+File: img/ua.png Graphic file (type png)
+<use img/ua.png>
+Package pdftex.def Info: img/ua.png  used on input line 355.
+(pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 355.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 355.
  [12]
 File: img/ua.png Graphic file (type png)
 <use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 282.
+Package pdftex.def Info: img/ua.png  used on input line 391.
 (pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 282.
+(babel)             in language  on input line 391.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 282.
- [13 <./img/ordernarVerticesPorGrau.pdf>]
+(babel)             in language  on input line 391.
+ [13]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 306.
-File: img/ua.png Graphic file (type png)
-<use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 318.
-(pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 318.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 318.
- [14]
-File: img/ua.png Graphic file (type png)
-<use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 358.
-(pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 358.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 358.
- [15]
-File: img/ua.png Graphic file (type png)
-<use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 394.
-(pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 394.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 394.
- [16]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 398.
-<img/setColorVertex.pdf, id=406, 1151.30125pt x 783.92876pt>
+(babel)             in language  on input line 399.
+<img/setColorVertex.pdf, id=316, 1151.30125pt x 783.92876pt>
 File: img/setColorVertex.pdf Graphic file (type pdf)
 <use img/setColorVertex.pdf>
-Package pdftex.def Info: img/setColorVertex.pdf  used on input line 414.
-(pdftex.def)             Requested size: 287.82462pt x 195.9817pt.
+Package pdftex.def Info: img/setColorVertex.pdf  used on input line 415.
+(pdftex.def)             Requested size: 207.22528pt x 141.10109pt.
 File: img/ua.png Graphic file (type png)
 <use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 418.
+Package pdftex.def Info: img/ua.png  used on input line 419.
 (pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 418.
+(babel)             in language  on input line 419.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 418.
- [17]
-<img/getFirstColorAvailable.pdf, id=416, 769.87625pt x 694.595pt>
+(babel)             in language  on input line 419.
+ [14]
+<img/getFirstColorAvailable.pdf, id=328, 769.87625pt x 694.595pt>
 File: img/getFirstColorAvailable.pdf Graphic file (type pdf)
 <use img/getFirstColorAvailable.pdf>
-Package pdftex.def Info: img/getFirstColorAvailable.pdf  used on input line 435.
-(pdftex.def)             Requested size: 192.46858pt x 173.64832pt.
+Package pdftex.def Info: img/getFirstColorAvailable.pdf  used on input line 436.
+(pdftex.def)             Requested size: 138.57175pt x 125.0217pt.
 File: img/ua.png Graphic file (type png)
 <use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 439.
+Package pdftex.def Info: img/ua.png  used on input line 440.
 (pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 439.
+(babel)             in language  on input line 440.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 439.
- [18 <./img/setColorVertex.pdf>]
-<img/saveNeighborColors.pdf, id=450, 1257.69875pt x 1135.24126pt>
+(babel)             in language  on input line 440.
+ [15 <./img/setColorVertex.pdf>]
+<img/saveNeighborColors.pdf, id=362, 1257.69875pt x 1135.24126pt>
 File: img/saveNeighborColors.pdf Graphic file (type pdf)
 <use img/saveNeighborColors.pdf>
-Package pdftex.def Info: img/saveNeighborColors.pdf  used on input line 453.
-(pdftex.def)             Requested size: 314.42392pt x 283.80962pt.
+Package pdftex.def Info: img/saveNeighborColors.pdf  used on input line 454.
+(pdftex.def)             Requested size: 226.376pt x 204.33461pt.
 File: img/ua.png Graphic file (type png)
 <use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 457.
+Package pdftex.def Info: img/ua.png  used on input line 458.
 (pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 457.
+(babel)             in language  on input line 458.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 457.
- [19 <./img/getFirstColorAvailable.pdf>]
-File: img/ua.png Graphic file (type png)
-<use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 476.
-(pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 476.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 476.
- [20 <./img/saveNeighborColors.pdf>]
-<img/colorizeVersion1.pdf, id=513, 939.51pt x 1574.88374pt>
+(babel)             in language  on input line 458.
+ [16 <./img/getFirstColorAvailable.pdf>]
+<img/colorizeVersion1.pdf, id=393, 939.51pt x 1574.88374pt>
 File: img/colorizeVersion1.pdf Graphic file (type pdf)
 <use img/colorizeVersion1.pdf>
-Package pdftex.def Info: img/colorizeVersion1.pdf  used on input line 479.
-(pdftex.def)             Requested size: 234.87692pt x 393.71997pt.
+Package pdftex.def Info: img/colorizeVersion1.pdf  used on input line 480.
+(pdftex.def)             Requested size: 169.10449pt x 283.46684pt.
 File: img/ua.png Graphic file (type png)
 <use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 489.
+Package pdftex.def Info: img/ua.png  used on input line 484.
 (pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 489.
+(babel)             in language  on input line 484.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 489.
- [21 <./img/colorizeVersion1.pdf>]
+(babel)             in language  on input line 484.
+ [17 <./img/saveNeighborColors.pdf>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 492.
-<img/colorizeVersion2.pdf, id=541, 970.62625pt x 1574.88374pt>
+(babel)             in language  on input line 493.
+File: img/ua.png Graphic file (type png)
+<use img/ua.png>
+Package pdftex.def Info: img/ua.png  used on input line 497.
+(pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 497.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 497.
+ [18 <./img/colorizeVersion1.pdf>]
+<img/colorizeVersion2.pdf, id=460, 970.62625pt x 1574.88374pt>
 File: img/colorizeVersion2.pdf Graphic file (type pdf)
 <use img/colorizeVersion2.pdf>
-Package pdftex.def Info: img/colorizeVersion2.pdf  used on input line 511.
-(pdftex.def)             Requested size: 242.65596pt x 393.71997pt.
+Package pdftex.def Info: img/colorizeVersion2.pdf  used on input line 512.
+(pdftex.def)             Requested size: 174.70518pt x 283.46684pt.
 File: img/ua.png Graphic file (type png)
 <use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 515.
+Package pdftex.def Info: img/ua.png  used on input line 517.
 (pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 515.
+(babel)             in language  on input line 517.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 515.
- [22]
+(babel)             in language  on input line 517.
+ [19 <./img/colorizeVersion2.pdf>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 524.
+(babel)             in language  on input line 525.
 File: img/ua.png Graphic file (type png)
 <use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 527.
+Package pdftex.def Info: img/ua.png  used on input line 548.
 (pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 527.
+(babel)             in language  on input line 548.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 527.
- [23 <./img/colorizeVersion2.pdf>]
-File: img/ua.png Graphic file (type png)
-<use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 547.
-(pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 547.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 547.
- [24]
-<img/saveNeighborColorsV3.pdf, id=601, 1296.845pt x 914.41624pt>
+(babel)             in language  on input line 548.
+ [20]
+<img/saveNeighborColorsV3.pdf, id=513, 1296.845pt x 914.41624pt>
 File: img/saveNeighborColorsV3.pdf Graphic file (type pdf)
 <use img/saveNeighborColorsV3.pdf>
-Package pdftex.def Info: img/saveNeighborColorsV3.pdf  used on input line 550.
-(pdftex.def)             Requested size: 324.21045pt x 228.6035pt.
+Package pdftex.def Info: img/saveNeighborColorsV3.pdf  used on input line 551.
+(pdftex.def)             Requested size: 233.42203pt x 164.58781pt.
+File: img/ua.png Graphic file (type png)
+<use img/ua.png>
+Package pdftex.def Info: img/ua.png  used on input line 568.
+(pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 568.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 568.
+ [21 <./img/saveNeighborColorsV3.pdf>]
 File: img/colorizeVersion2.pdf Graphic file (type pdf)
 <use img/colorizeVersion2.pdf>
-Package pdftex.def Info: img/colorizeVersion2.pdf  used on input line 570.
-(pdftex.def)             Requested size: 242.65596pt x 393.71997pt.
+Package pdftex.def Info: img/colorizeVersion2.pdf  used on input line 571.
+(pdftex.def)             Requested size: 174.70518pt x 283.46684pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 584.
 File: img/ua.png Graphic file (type png)
 <use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 574.
+Package pdftex.def Info: img/ua.png  used on input line 589.
 (pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 574.
+(babel)             in language  on input line 589.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 574.
- [25 <./img/saveNeighborColorsV3.pdf>]
-File: img/ua.png Graphic file (type png)
-<use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 581.
-(pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 581.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 581.
- [26]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 583.
-<img/getFirstNonVisitedVertex.pdf, id=643, 984.67876pt x 914.41624pt>
+(babel)             in language  on input line 589.
+ [22]
+<img/getFirstNonVisitedVertex.pdf, id=557, 984.67876pt x 914.41624pt>
 File: img/getFirstNonVisitedVertex.pdf Graphic file (type pdf)
 <use img/getFirstNonVisitedVertex.pdf>
-Package pdftex.def Info: img/getFirstNonVisitedVertex.pdf  used on input line 598.
-(pdftex.def)             Requested size: 246.16908pt x 228.6035pt.
-File: img/ua.png Graphic file (type png)
-<use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 608.
-(pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 608.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 608.
- [27 <./img/getFirstNonVisitedVertex.pdf>]
-<img/haveNonVisitedVertexes.pdf, id=674, 1146.2825pt x 914.41624pt>
+Package pdftex.def Info: img/getFirstNonVisitedVertex.pdf  used on input line 599.
+(pdftex.def)             Requested size: 177.23453pt x 164.58781pt.
+<img/haveNonVisitedVertexes.pdf, id=558, 1146.2825pt x 914.41624pt>
 File: img/haveNonVisitedVertexes.pdf Graphic file (type pdf)
 <use img/haveNonVisitedVertexes.pdf>
-Package pdftex.def Info: img/haveNonVisitedVertexes.pdf  used on input line 614.
-(pdftex.def)             Requested size: 286.56992pt x 228.6035pt.
+Package pdftex.def Info: img/haveNonVisitedVertexes.pdf  used on input line 615.
+(pdftex.def)             Requested size: 206.32195pt x 164.58781pt.
 File: img/ua.png Graphic file (type png)
 <use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 632.
+Package pdftex.def Info: img/ua.png  used on input line 618.
 (pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 632.
+(babel)             in language  on input line 618.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 632.
- [28 <./img/haveNonVisitedVertexes.pdf>]
+(babel)             in language  on input line 618.
+ [23 <./img/getFirstNonVisitedVertex.pdf>]
 File: img/ua.png Graphic file (type png)
 <use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 673.
+Package pdftex.def Info: img/ua.png  used on input line 643.
 (pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 673.
+(babel)             in language  on input line 643.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 673.
- [29]
-<img/haveNonVisitedPredecessors.pdf, id=729, 1298.8525pt x 914.41624pt>
+(babel)             in language  on input line 643.
+ [24 <./img/haveNonVisitedVertexes.pdf>]
+File: img/ua.png Graphic file (type png)
+<use img/ua.png>
+Package pdftex.def Info: img/ua.png  used on input line 680.
+(pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 680.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 680.
+ [25]
+<img/haveNonVisitedPredecessors.pdf, id=648, 1298.8525pt x 914.41624pt>
 File: img/haveNonVisitedPredecessors.pdf Graphic file (type pdf)
 <use img/haveNonVisitedPredecessors.pdf>
-Package pdftex.def Info: img/haveNonVisitedPredecessors.pdf  used on input line 685.
-(pdftex.def)             Requested size: 324.71233pt x 228.6035pt.
+Package pdftex.def Info: img/haveNonVisitedPredecessors.pdf  used on input line 686.
+(pdftex.def)             Requested size: 233.78336pt x 164.58781pt.
 File: img/ua.png Graphic file (type png)
 <use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 696.
+Package pdftex.def Info: img/ua.png  used on input line 703.
 (pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 696.
+(babel)             in language  on input line 703.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 696.
- [30 <./img/haveNonVisitedPredecessors.pdf>]
-<img/dfs.pdf, id=764, 1397.22pt x 2208.25pt>
+(babel)             in language  on input line 703.
+ [26 <./img/haveNonVisitedPredecessors.pdf>]
+<img/dfs.pdf, id=683, 1397.22pt x 2208.25pt>
 File: img/dfs.pdf Graphic file (type pdf)
 <use img/dfs.pdf>
-Package pdftex.def Info: img/dfs.pdf  used on input line 705.
-(pdftex.def)             Requested size: 223.55977pt x 353.32722pt.
+Package pdftex.def Info: img/dfs.pdf  used on input line 706.
+(pdftex.def)             Requested size: 251.48875pt x 397.46785pt.
 File: img/ua.png Graphic file (type png)
 <use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 709.
+Package pdftex.def Info: img/ua.png  used on input line 715.
 (pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 709.
+(babel)             in language  on input line 715.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 709.
- [31]
+(babel)             in language  on input line 715.
+ [27 <./img/dfs.pdf>]
 File: img/ua.png Graphic file (type png)
 <use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 723.
+Package pdftex.def Info: img/ua.png  used on input line 729.
 (pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 723.
+(babel)             in language  on input line 729.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 723.
- [32 <./img/dfs.pdf>]
-File: img/ua.png Graphic file (type png)
-<use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 728.
-(pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 728.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 728.
- [33]
+(babel)             in language  on input line 729.
+ [28]
 Cap\'{\i }tulo 3.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 728.
+(babel)             in language  on input line 729.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 730.
-<img/v1H.pdf, id=816, 794.97pt x 614.295pt>
+(babel)             in language  on input line 731.
+<img/v1H.pdf, id=730, 794.97pt x 614.295pt>
 File: img/v1H.pdf Graphic file (type pdf)
 <use img/v1H.pdf>
-Package pdftex.def Info: img/v1H.pdf  used on input line 742.
-(pdftex.def)             Requested size: 198.742pt x 153.57336pt.
+Package pdftex.def Info: img/v1H.pdf  used on input line 743.
+(pdftex.def)             Requested size: 174.89394pt x 135.14531pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 746.
+(babel)             in language  on input line 749.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 746.
-[34
+(babel)             in language  on input line 749.
+[29
 
-]
-<img/v2H.pdf, id=823, 794.97pt x 614.295pt>
+ <./img/v1H.pdf>]
+<img/v2H.pdf, id=743, 794.97pt x 614.295pt>
 File: img/v2H.pdf Graphic file (type pdf)
 <use img/v2H.pdf>
-Package pdftex.def Info: img/v2H.pdf  used on input line 753.
-(pdftex.def)             Requested size: 198.742pt x 153.57336pt.
-<img/v3H.pdf, id=824, 794.97pt x 614.295pt>
+Package pdftex.def Info: img/v2H.pdf  used on input line 754.
+(pdftex.def)             Requested size: 174.89394pt x 135.14531pt.
+<img/v3H.pdf, id=744, 794.97pt x 614.295pt>
 File: img/v3H.pdf Graphic file (type pdf)
 <use img/v3H.pdf>
-Package pdftex.def Info: img/v3H.pdf  used on input line 759.
-(pdftex.def)             Requested size: 198.742pt x 153.57336pt.
-<img/v1J.pdf, id=825, 794.97pt x 614.295pt>
+Package pdftex.def Info: img/v3H.pdf  used on input line 760.
+(pdftex.def)             Requested size: 174.89394pt x 135.14531pt.
+<img/v1J.pdf, id=745, 794.97pt x 614.295pt>
 File: img/v1J.pdf Graphic file (type pdf)
 <use img/v1J.pdf>
-Package pdftex.def Info: img/v1J.pdf  used on input line 775.
-(pdftex.def)             Requested size: 198.742pt x 153.57336pt.
-File: img/ua.png Graphic file (type png)
-<use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 779.
-(pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 779.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 779.
- [35 <./img/v1H.pdf> <./img/v2H.pdf> <./img/v3H.pdf>]
-<img/v2J.pdf, id=846, 794.97pt x 614.295pt>
+Package pdftex.def Info: img/v1J.pdf  used on input line 776.
+(pdftex.def)             Requested size: 174.89394pt x 135.14531pt.
+<img/v2J.pdf, id=746, 794.97pt x 614.295pt>
 File: img/v2J.pdf Graphic file (type pdf)
 <use img/v2J.pdf>
-Package pdftex.def Info: img/v2J.pdf  used on input line 786.
-(pdftex.def)             Requested size: 198.742pt x 153.57336pt.
-<img/v3J.pdf, id=847, 794.97pt x 614.295pt>
+Package pdftex.def Info: img/v2J.pdf  used on input line 787.
+(pdftex.def)             Requested size: 174.89394pt x 135.14531pt.
+<img/v3J.pdf, id=747, 794.97pt x 614.295pt>
 File: img/v3J.pdf Graphic file (type pdf)
 <use img/v3J.pdf>
-Package pdftex.def Info: img/v3J.pdf  used on input line 792.
-(pdftex.def)             Requested size: 198.742pt x 153.57336pt.
-<img/v1M.pdf, id=848, 794.97pt x 614.295pt>
+Package pdftex.def Info: img/v3J.pdf  used on input line 793.
+(pdftex.def)             Requested size: 174.89394pt x 135.14531pt.
+File: img/ua.png Graphic file (type png)
+<use img/ua.png>
+Package pdftex.def Info: img/ua.png  used on input line 798.
+(pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 798.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 798.
+ [30 <./img/v2H.pdf> <./img/v3H.pdf> <./img/v1J.pdf>]
+<img/v1M.pdf, id=771, 794.97pt x 614.295pt>
 File: img/v1M.pdf Graphic file (type pdf)
 <use img/v1M.pdf>
-Package pdftex.def Info: img/v1M.pdf  used on input line 808.
-(pdftex.def)             Requested size: 198.742pt x 153.57336pt.
-File: img/ua.png Graphic file (type png)
-<use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 812.
-(pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 812.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 812.
- [36 <./img/v1J.pdf> <./img/v2J.pdf> <./img/v3J.pdf>]
-<img/v2M.pdf, id=870, 794.97pt x 614.295pt>
+Package pdftex.def Info: img/v1M.pdf  used on input line 809.
+(pdftex.def)             Requested size: 174.89394pt x 135.14531pt.
+<img/v2M.pdf, id=772, 794.97pt x 614.295pt>
 File: img/v2M.pdf Graphic file (type pdf)
 <use img/v2M.pdf>
-Package pdftex.def Info: img/v2M.pdf  used on input line 819.
-(pdftex.def)             Requested size: 198.742pt x 153.57336pt.
-<img/v3M.pdf, id=871, 794.97pt x 614.295pt>
+Package pdftex.def Info: img/v2M.pdf  used on input line 820.
+(pdftex.def)             Requested size: 174.89394pt x 135.14531pt.
+<img/v3M.pdf, id=773, 794.97pt x 614.295pt>
 File: img/v3M.pdf Graphic file (type pdf)
 <use img/v3M.pdf>
-Package pdftex.def Info: img/v3M.pdf  used on input line 825.
-(pdftex.def)             Requested size: 198.742pt x 153.57336pt.
+Package pdftex.def Info: img/v3M.pdf  used on input line 826.
+(pdftex.def)             Requested size: 174.89394pt x 135.14531pt.
 File: img/ua.png Graphic file (type png)
 <use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 845.
+Package pdftex.def Info: img/ua.png  used on input line 831.
 (pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 845.
+(babel)             in language  on input line 831.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 845.
- [37 <./img/v1M.pdf> <./img/v2M.pdf> <./img/v3M.pdf>]
-<img/v1I.pdf, id=891, 794.97pt x 614.295pt>
+(babel)             in language  on input line 831.
+ [31 <./img/v2J.pdf> <./img/v3J.pdf> <./img/v1M.pdf>]
+<img/v1I.pdf, id=796, 794.97pt x 614.295pt>
 File: img/v1I.pdf Graphic file (type pdf)
 <use img/v1I.pdf>
-Package pdftex.def Info: img/v1I.pdf  used on input line 849.
-(pdftex.def)             Requested size: 198.742pt x 153.57336pt.
-<img/v2I.pdf, id=892, 794.97pt x 614.295pt>
+Package pdftex.def Info: img/v1I.pdf  used on input line 850.
+(pdftex.def)             Requested size: 174.89394pt x 135.14531pt.
+<img/v2I.pdf, id=797, 794.97pt x 614.295pt>
 File: img/v2I.pdf Graphic file (type pdf)
 <use img/v2I.pdf>
-Package pdftex.def Info: img/v2I.pdf  used on input line 860.
-(pdftex.def)             Requested size: 198.742pt x 153.57336pt.
-<img/v3I.pdf, id=893, 794.97pt x 614.295pt>
+Package pdftex.def Info: img/v2I.pdf  used on input line 861.
+(pdftex.def)             Requested size: 174.89394pt x 135.14531pt.
+<img/v3I.pdf, id=798, 794.97pt x 614.295pt>
 File: img/v3I.pdf Graphic file (type pdf)
 <use img/v3I.pdf>
-Package pdftex.def Info: img/v3I.pdf  used on input line 866.
-(pdftex.def)             Requested size: 198.742pt x 153.57336pt.
+Package pdftex.def Info: img/v3I.pdf  used on input line 867.
+(pdftex.def)             Requested size: 174.89394pt x 135.14531pt.
 File: img/ua.png Graphic file (type png)
 <use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 873.
+Package pdftex.def Info: img/ua.png  used on input line 871.
 (pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 873.
+(babel)             in language  on input line 871.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 873.
- [38 <./img/v1I.pdf> <./img/v2I.pdf> <./img/v3I.pdf>]
-<img/v2F.pdf, id=915, 794.97pt x 614.295pt>
+(babel)             in language  on input line 871.
+ [32 <./img/v2M.pdf> <./img/v3M.pdf> <./img/v1I.pdf>]
+<img/v2F.pdf, id=822, 794.97pt x 614.295pt>
 File: img/v2F.pdf Graphic file (type pdf)
 <use img/v2F.pdf>
-Package pdftex.def Info: img/v2F.pdf  used on input line 896.
-(pdftex.def)             Requested size: 198.742pt x 153.57336pt.
-<img/v1F.pdf, id=916, 794.97pt x 614.295pt>
+Package pdftex.def Info: img/v2F.pdf  used on input line 897.
+(pdftex.def)             Requested size: 174.89394pt x 135.14531pt.
+File: img/ua.png Graphic file (type png)
+<use img/ua.png>
+Package pdftex.def Info: img/ua.png  used on input line 901.
+(pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 901.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 901.
+ [33 <./img/v2I.pdf> <./img/v3I.pdf>]
+<img/v1F.pdf, id=839, 794.97pt x 614.295pt>
 File: img/v1F.pdf Graphic file (type pdf)
 <use img/v1F.pdf>
-Package pdftex.def Info: img/v1F.pdf  used on input line 907.
-(pdftex.def)             Requested size: 198.742pt x 153.57336pt.
-<img/v3F.pdf, id=917, 794.97pt x 614.295pt>
+Package pdftex.def Info: img/v1F.pdf  used on input line 908.
+(pdftex.def)             Requested size: 174.89394pt x 135.14531pt.
+<img/v3F.pdf, id=840, 794.97pt x 614.295pt>
 File: img/v3F.pdf Graphic file (type pdf)
 <use img/v3F.pdf>
-Package pdftex.def Info: img/v3F.pdf  used on input line 913.
-(pdftex.def)             Requested size: 198.742pt x 153.57336pt.
+Package pdftex.def Info: img/v3F.pdf  used on input line 914.
+(pdftex.def)             Requested size: 174.89394pt x 135.14531pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 922.
 File: img/ua.png Graphic file (type png)
 <use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 918.
+Package pdftex.def Info: img/ua.png  used on input line 931.
 (pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 918.
+(babel)             in language  on input line 931.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 918.
- [39 <./img/v2F.pdf>]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 921.
-<img/dfsP.pdf, id=929, 794.97pt x 614.295pt>
+(babel)             in language  on input line 931.
+ [34 <./img/v2F.pdf> <./img/v1F.pdf> <./img/v3F.pdf>]
+<img/dfsP.pdf, id=863, 794.97pt x 614.295pt>
 File: img/dfsP.pdf Graphic file (type pdf)
 <use img/dfsP.pdf>
-Package pdftex.def Info: img/dfsP.pdf  used on input line 944.
-(pdftex.def)             Requested size: 198.742pt x 153.57336pt.
-File: img/ua.png Graphic file (type png)
-<use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 947.
-(pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 947.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 947.
- [40 <./img/v1F.pdf> <./img/v3F.pdf>]
-<img/dfsO.pdf, id=944, 794.97pt x 614.295pt>
+Package pdftex.def Info: img/dfsP.pdf  used on input line 945.
+(pdftex.def)             Requested size: 174.89394pt x 135.14531pt.
+<img/dfsO.pdf, id=864, 794.97pt x 614.295pt>
 File: img/dfsO.pdf Graphic file (type pdf)
 <use img/dfsO.pdf>
-Package pdftex.def Info: img/dfsO.pdf  used on input line 960.
-(pdftex.def)             Requested size: 198.742pt x 153.57336pt.
+Package pdftex.def Info: img/dfsO.pdf  used on input line 961.
+(pdftex.def)             Requested size: 174.89394pt x 135.14531pt.
 File: img/ua.png Graphic file (type png)
 <use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 964.
+Package pdftex.def Info: img/ua.png  used on input line 965.
 (pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 964.
+(babel)             in language  on input line 965.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 964.
- [41 <./img/dfsP.pdf>]
-<img/dfsA.pdf, id=956, 794.97pt x 614.295pt>
+(babel)             in language  on input line 965.
+ [35 <./img/dfsP.pdf>]
+<img/dfsA.pdf, id=877, 794.97pt x 614.295pt>
 File: img/dfsA.pdf Graphic file (type pdf)
 <use img/dfsA.pdf>
-Package pdftex.def Info: img/dfsA.pdf  used on input line 980.
-(pdftex.def)             Requested size: 198.742pt x 153.57336pt.
+Package pdftex.def Info: img/dfsA.pdf  used on input line 981.
+(pdftex.def)             Requested size: 174.89394pt x 135.14531pt.
 File: img/ua.png Graphic file (type png)
 <use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 984.
+Package pdftex.def Info: img/ua.png  used on input line 987.
 (pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 984.
+(babel)             in language  on input line 987.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 984.
- [42 <./img/dfsO.pdf>]
-<img/dfsQ.pdf, id=968, 794.97pt x 614.295pt>
+(babel)             in language  on input line 987.
+ [36 <./img/dfsO.pdf> <./img/dfsA.pdf>]
+<img/dfsQ.pdf, id=896, 794.97pt x 614.295pt>
 File: img/dfsQ.pdf Graphic file (type pdf)
 <use img/dfsQ.pdf>
-Package pdftex.def Info: img/dfsQ.pdf  used on input line 1000.
-(pdftex.def)             Requested size: 198.742pt x 153.57336pt.
-File: img/ua.png Graphic file (type png)
-<use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 1004.
-(pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1004.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1004.
- [43 <./img/dfsA.pdf>]
-<img/dfsM25.pdf, id=979, 794.97pt x 614.295pt>
+Package pdftex.def Info: img/dfsQ.pdf  used on input line 1001.
+(pdftex.def)             Requested size: 174.89394pt x 135.14531pt.
+<img/dfsM25.pdf, id=897, 794.97pt x 614.295pt>
 File: img/dfsM25.pdf Graphic file (type pdf)
 <use img/dfsM25.pdf>
-Package pdftex.def Info: img/dfsM25.pdf  used on input line 1012.
-(pdftex.def)             Requested size: 198.742pt x 153.57336pt.
+Package pdftex.def Info: img/dfsM25.pdf  used on input line 1013.
+(pdftex.def)             Requested size: 174.89394pt x 135.14531pt.
 File: img/ua.png Graphic file (type png)
 <use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 1021.
+Package pdftex.def Info: img/ua.png  used on input line 1017.
 (pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1021.
+(babel)             in language  on input line 1017.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1021.
- [44 <./img/dfsQ.pdf> <./img/dfsM25.pdf>]
-<img/dfsM50.pdf, id=995, 794.97pt x 614.295pt>
+(babel)             in language  on input line 1017.
+ [37 <./img/dfsQ.pdf>]
+<img/dfsM50.pdf, id=910, 794.97pt x 614.295pt>
 File: img/dfsM50.pdf Graphic file (type pdf)
 <use img/dfsM50.pdf>
-Package pdftex.def Info: img/dfsM50.pdf  used on input line 1034.
-(pdftex.def)             Requested size: 198.742pt x 153.57336pt.
+Package pdftex.def Info: img/dfsM50.pdf  used on input line 1035.
+(pdftex.def)             Requested size: 174.89394pt x 135.14531pt.
 File: img/ua.png Graphic file (type png)
 <use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 1051.
+Package pdftex.def Info: img/ua.png  used on input line 1039.
 (pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1051.
+(babel)             in language  on input line 1039.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1051.
- [45 <./img/dfsM50.pdf>]
+(babel)             in language  on input line 1039.
+ [38 <./img/dfsM25.pdf>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1054.
+(babel)             in language  on input line 1055.
 
 
-Package natbib Warning: Citation `WEBSITE1' on page 46 undefined on input line 1059.
-
-
-Package natbib Warning: Citation `WEBSITE2' on page 46 undefined on input line 1069.
-
-
-Package natbib Warning: Citation `WEBSITE3' on page 46 undefined on input line 1070.
-
-
-Package natbib Warning: Citation `WEBSITE4' on page 46 undefined on input line 1086.
+Package natbib Warning: Citation `WEBSITE1' on page 39 undefined on input line 1060.
 
 File: img/ua.png Graphic file (type png)
 <use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 1087.
+Package pdftex.def Info: img/ua.png  used on input line 1066.
 (pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1087.
+(babel)             in language  on input line 1066.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1087.
-[46]
+(babel)             in language  on input line 1066.
+[39 <./img/dfsM50.pdf>]
+
+Package natbib Warning: Citation `WEBSITE2' on page 40 undefined on input line 1070.
+
+
+Package natbib Warning: Citation `WEBSITE3' on page 40 undefined on input line 1071.
+
+
+Package natbib Warning: Citation `WEBSITE4' on page 40 undefined on input line 1087.
+
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1089.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1090.
 
-
-Package natbib Warning: Citation `WEBSITE5' on page 47 undefined on input line 1097.
+Package natbib Warning: Citation `WEBSITE5' on page 40 undefined on input line 1098.
 
 File: img/ua.png Graphic file (type png)
 <use img/ua.png>
-Package pdftex.def Info: img/ua.png  used on input line 1108.
+Package pdftex.def Info: img/ua.png  used on input line 1099.
 (pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1108.
+(babel)             in language  on input line 1099.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1108.
-[47]
-Cap\'{\i }tulo 4.
+(babel)             in language  on input line 1099.
+[40]
+File: img/ua.png Graphic file (type png)
+<use img/ua.png>
+Package pdftex.def Info: img/ua.png  used on input line 1135.
+(pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1108.
+(babel)             in language  on input line 1135.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1110.
+(babel)             in language  on input line 1135.
+ [41]
+File: img/ua.png Graphic file (type png)
+<use img/ua.png>
+Package pdftex.def Info: img/ua.png  used on input line 1169.
+(pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1169.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1169.
+ [42]
 No file report.bbl.
 
 Package natbib Warning: There were undefined citations.
 
+File: img/ua.png Graphic file (type png)
+<use img/ua.png>
+Package pdftex.def Info: img/ua.png  used on input line 1216.
+(pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1114.
+(babel)             in language  on input line 1216.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1114.
-[48
-
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1114.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1114.
+(babel)             in language  on input line 1216.
+[43]
+File: img/ua.png Graphic file (type png)
+<use img/ua.png>
+Package pdftex.def Info: img/ua.png  used on input line 1216.
+(pdftex.def)             Requested size: 56.9055pt x 15.85019pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1216.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1216.
+ [44]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1216.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1216.
  (report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1114.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1114.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1216.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1216.
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: DA776B94DB59733C2CA0391F46A01297;1295.
+(rerunfilecheck)             Checksum: 064A427A992283F814BD43A86EF2BD2A;1117.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1114.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1216.
  ) 
 Here is how much of TeX's memory you used:
- 31759 strings out of 493289
- 580416 string characters out of 3131140
- 973131 words of memory out of 3000000
- 34492 multiletter control sequences out of 15000+200000
+ 31795 strings out of 493289
+ 580925 string characters out of 3131140
+ 965133 words of memory out of 3000000
+ 34500 multiletter control sequences out of 15000+200000
  553832 words of font info for 64 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,16n,78p,757b,1887s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,16n,78p,757b,1889s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1095.pk> <C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk> <C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbi1200.pk> <C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbi1728.pk> <C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk> <C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk> <C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2074.pk><G:/OneDrive - Universidade de Aveiro/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><G:/OneDrive - Universidade de Aveiro/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><G:/OneDrive - Universidade de Aveiro/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><G:/OneDrive - Universidade de Aveiro/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on report.pdf (49 pages, 677787 bytes).
+Output written on report.pdf (45 pages, 673947 bytes).
 PDF statistics:
- 1700 PDF objects out of 1728 (max. 8388607)
- 357 named destinations out of 1000 (max. 500000)
- 340 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1682 PDF objects out of 1728 (max. 8388607)
+ 388 named destinations out of 1000 (max. 500000)
+ 316 words of extra memory for PDF output out of 10000 (max. 10000000)
 
