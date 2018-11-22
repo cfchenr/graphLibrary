@@ -168,6 +168,8 @@ Foram também omitidas as linhas correspondentes à implementação dos ficheiro
 
 Todo o código está comentado e pode ser visto em  \href{https://github.com/cfchenr/sma}{github.com/cfchenr/sma}.
 
+A documentação da \textit{biblioteca} está a ser desenvolvida e pode ser consultada em: \href{https://cfchenr.github.io/graphLibrary/}{cfchenr.github.io/graphLibrary/}.
+
 \section{Grafo (\textit{Graph.java})}
 
 Esta estrutura abstracta usa um \textit{ArrayList} para representar o conjunto de vértices pertencentes ao objeto grafo (denominada por \textit{vertexList}).
@@ -1183,9 +1185,31 @@ Cálculo do minorante:
   minorante = ceil(-(lambdaMax/lambdaMin) + 1)
 \end{lstlisting}
 
-\chapter{Conclusão}
+Os minorantes e majorantes de cada matriz de ajacência são:
 
-\section{Considerações futuras}
+$H$
+\begin{itemize}
+    \item Minorante: 2
+    \item Majorante: 4
+\end{itemize}
+
+Neste caso, qualquer uma das versões utilizadas no exercício 1 obtém a coloração com apenas duas cores, sendo este igual ao minorante obtido.
+
+$J$
+\begin{itemize}
+    \item Minorante: 2
+    \item Majorante: 4
+\end{itemize}
+
+No caso do grafo $J$, todas as versões obtiveram colorações com 3 cores, que se encontra entre o minorante e o majorante obtido.
+
+$M$
+\begin{itemize}
+    \item Minorante: 4
+    \item Majorante: 4
+\end{itemize}
+
+Para o grafo $M$, os resultados obtidos no exercício 1 foram colorações com 4 cores, que coincide tanto com o majorante como com o minorante.
 
 \bibliography{ref}
 
