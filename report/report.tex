@@ -1,4 +1,4 @@
-\documentclass[a4paper,10pt]{report}
+\documentclass[a4paper,12pt]{report}
 \usepackage[font=small,labelfont=bf]{caption} 
 \usepackage[headheight=150pt]{geometry}
 \usepackage[square,numbers]{natbib}
@@ -28,17 +28,13 @@
 \lstset{ 
   language=Java,
   basicstyle=\footnotesize,
-  numbers=left,
-  numberstyle=\tiny\color{gray},
   stepnumber=1,
-  numbersep=5pt,
+  numbersep=3pt,
   backgroundcolor=\color{white},
   showspaces=false,
   showstringspaces=false,
   showtabs=false,
-  frame=single,
-  rulecolor=\color{black},
-  tabsize=4,
+  tabsize=2,
   captionpos=b,
   breaklines=true,
   breakatwhitespace=false,
@@ -472,7 +468,7 @@ O método \textit{getVertexList ()} retorna a lista dos vértices do grafo.
     return vertexList;
 \end{lstlisting}
 
-\subsection{Algoritmo}
+\subsection*{Algoritmo}
 
 Em suma, seja v1 um objeto do tipo \textit{ColorizeVersion1.java}, definimos a cor do vértice 0 (o primeiro vértice do grafo) com a primeira cor disponível (como é o primeiro vértice, a cor atribuida a este será 1).
 Após este processo, percorre-se todos os restantes vértices. A cada um destes, guarda-se a cor dos vértices anteriores que são seus vizinhos e seguidamente é definida a cor do vértice j com a cor mínima disponível (tendo em conta as cores obtidas no processo anterior).
@@ -504,7 +500,7 @@ Esta implementação, sendo uma extensão da anterior, é em grande parte igual 
             colors.add(vertexList.get(i).getColor());
 \end{lstlisting}
 
-\subsection{Algoritmo}
+\subsection*{Algoritmo}
 
 Em suma, seja v2 um objeto do tipo \textit{ColorizeVersion2.java}, definimos a cor do último vértice com a primeira cor disponível (como é o primeiro vértice a colorir, a cor atribuida a este será 1).
 Após este processo, percorre-se todos os restantes vértices, começando pelo fim (contrariamente à versão anterior). A cada um destes, guarda-se a cor dos seus vizinhos e seguidamente é definida a cor do vértice j com a cor mínima disponível (tendo em conta as cores dos seus vizinhos).
@@ -564,7 +560,7 @@ Contrariamente a uma lista, a tabela (sendo ela um dicionário) caso contenha a 
 
 Comparando \ref{fig:snc} com \ref{fig:sncV3} vemos que existe alguma simplificação do processo.
 
-\subsection{Algoritmo}
+\subsection*{Algoritmo}
 
 Em suma, a implementação deste algoritmo segue a mesma lógica da versão 2, pois uma vez que os vértices estão ordenados por ordem crescente de grau, então começa a percorrer do fim para o início, por forma a atribuir primeiramente as cores aos vértices com maior grau.
 Seja v3 um objeto do tipo \textit{ColorizeVersion3.java}:
@@ -699,7 +695,7 @@ O método \textit{haveNonVisitedPredecessors (Vertex vertex)} verifica se o vér
     return false;
 \end{lstlisting}
 
-\subsection{Algoritmo}
+\subsection*{Algoritmo}
 
 Em suma, a implementação final do algoritmo consiste na verificação da existência de algum vértice não visitado. No caso de existir obtém o primeiro vértice da lista que ainda não foi visitado, definindo-o seguidamente como visitado e adicionando-o à lista de espera. Após concluido este processo vão analisar se existem vértices na lista de espera, obtendo os visinhos primeiro vértice disponível. Enquanto existirem vizinhos obtém o seu sucessor, verificando se já foi visitado e se contém predecessores não visitados. No caso de esta condição se verificar, define-o como visitado e volta à verificação da existência de mais vizinhos.
 Este processo repete-se enquanto houverem vértices não visitaos ou existirem vértices na lista de espera.
@@ -729,11 +725,13 @@ Este processo repete-se enquanto houverem vértices não visitaos ou existirem v
     }
 \end{lstlisting}
 
-\chapter{Resolução dos exercícios (Análise e resultaods)}
+\chapter{Resolução dos exercícios (Análise e resultados)}
 
 \section{Exercício 1}
 
-\subsection{Matriz $H$}
+Nos grafos apresentados nesta secção, o número em cada vértice representa o seu id.
+
+\subsection*{Matriz $H$}
 
 Consideremos a matriz $H$. Aplicamos o algoritmo \textit{ColorizeVersion1.java} à matriz $H$.
 
@@ -766,7 +764,7 @@ Aplicando a versão 2 e 3 do algoritmo de coloração dos vértices, obtemos os 
 
 Analisando os grafos obtidos, podemos ver que neste caso o algoritmo 1, 2 e 3 retornam colorações iguais, a menos de uma alteração das cores.
 
-\subsection{Matriz $J$}
+\subsection*{Matriz $J$}
 
 Consideremos a matriz $J$. Aplicamos o algoritmo \textit{ColorizeVersion1.java} à matriz $J$.
 
@@ -799,7 +797,7 @@ Aplicando a versão 2 e 3 do algoritmo de coloração dos vértices, obtemos os 
 
 Analisando os grafos obtidos, podemos ver que neste caso o algoritmo 1, 2 e 3 retornam colorações equivalentes.
 
-\subsection{Matriz $M$}
+\subsection*{Matriz $M$}
 
 Consideremos a matriz $M$. Aplicamos o algoritmo \textit{ColorizeVersion1.java} à matriz $M$.
 
@@ -832,7 +830,7 @@ Aplicando a versão 2 e 3 do algoritmo de coloração dos vértices, obtemos os 
 
 Analisando os grafos obtidos, podemos ver que neste caso o algoritmo 1, 2 e 3 retornam colorações equivalentes.
 
-\subsection{Matriz $I$}
+\subsection*{Matriz $I$}
 
 Seja $I$ a matriz 
 $\begin{bmatrix}
@@ -875,7 +873,7 @@ Analisando os grafos obtidos, podemos ver que neste caso o algoritmo 1 não cons
 
 Vamos agora analisar se a versão 3 consegue obter uma coloração mais baixa em algum caso, relativamente à versão 2.
 
-\subsection{Matriz $F$}
+\subsection*{Matriz $F$}
 
 Seja $F$ a matriz 
 $\begin{bmatrix}
@@ -924,13 +922,99 @@ Analisando os grafos obtidos, podemos ver que neste caso o algoritmo 2 não cons
 
 O algoritmo implementado é o representado em \ref{fig:dfsAl}.
 
-Para dar resposta à alínea b) foi implementado o método \textit{haveNonVisitedVertexes ()} para verificar se na lista de vértices do grafo existe algum vértice não visitado. O algoritmo só termina quando não existirem mais vértices não visitados: \textit{while (dfs.haveNonVisitedVertexes())}.
+Para dar resposta à alínea b) foi utilizado o método \textit{haveNonVisitedVertexes ()} para verificar se na lista de vértices do grafo existe algum vértice não visitado. 
 
-Para a alínea c) foi introduzida um verficação antes de marcar um vértice como visitado. A verficação \textit{if (!dfs.getVisited(n) \&\& !dfs.haveNonVisitedPredecessors(n))}, ou seja, verifica se o vértice em questão já foi visitado e se contém algum predecessor não visitado.
+O algoritmo só termina quando não existirem mais vértices não visitados: \textit{while (dfs.haveNonVisitedVertexes())}.
 
-\subsection{Matriz $M25$}
+Para a alínea c) foi introduzida um verficação antes de marcar um vértice como visitado. A condição \textit{(!dfs.getVisited(n) \&\& !dfs.haveNonVisitedPredecessors(n))} verifica se o vértice em questão já foi visitado e se contém algum predecessor não visitado.
+
+Nos grafos apresentados nesta secção, o número em cada vértice representa a ordem pela qual o vértice foi visitado.
+
+\subsection*{Matriz $P$}
+
+Para o caso da matriz $P$ = $\begin{bmatrix}
+    0&1&0&0&0\\
+    0&0&1&0&0\\
+    0&0&0&1&0\\
+    0&0&0&0&1\\
+    0&0&0&0&0
+\end{bmatrix}$, o resultado obtido é:
+\begin{figure}[H]
+    \centering
+        \includegraphics[scale=0.25]{img/dfsP.pdf}
+    \caption{Grafo P, pesquisa em profundidade}
+    \label{fig:dfsP}
+\end{figure}
+
+Neste caso podemos ver que os vértices são visitados de forma sequêncial (como era previsto), ou seja, analisando valor de cada vértice podemos ver que é sempre superior ao seu antecessor.
+
+\subsection*{Matriz $O$}
+
+Para o caso da matriz $O$ = $\begin{bmatrix}
+    0&1&1\\
+    0&0&-1\\
+    0&0&0
+\end{bmatrix}$, o resultado obtido é:
+\begin{figure}[H]
+    \centering
+        \includegraphics[scale=0.25]{img/dfsO.pdf}
+    \caption{Grafo O, pesquisa em profundidade}
+    \label{fig:dfsP}
+\end{figure}
+
+À semelhança do exemplo anterior podemos ver que os vértices contém sempre um número superior ao seu antecessor.
+
+\subsection*{Matriz $A$}
+
+Para o caso da matriz $A$=$\begin{bmatrix}
+    0&1&1&0&0&0&0\\
+    -1&0&0&1&1&0&0\\
+    -1&0&0&0&0&1&0\\
+    0&-1&0&0&0&0&1\\
+    0&-1&0&0&0&-1&1\\
+    0&0&-1&0&1&0&1\\
+    0&0&0&-1&-1&-1&0
+\end{bmatrix}$, o resultado obtido é:
+\begin{figure}[H]
+    \centering
+        \includegraphics[scale=0.25]{img/dfsA.pdf}
+    \caption{Grafo A, pesquisa em profundidade}
+    \label{fig:dfsP}
+\end{figure}
+
+Sendo este um caso mais complexo quando comparado com os exemplos anteriores podemos continuar a concluir que os vértices são sempre visitados após os seus antecessores.
+
+\subsection*{Matriz $Q$}
+
+Para o caso da matriz $Q$ = $\begin{bmatrix}
+    0&1&0&0&0&0&0\\
+    0&0&1&0&0&0&0\\
+    0&0&0&1&0&0&0\\
+    0&0&0&0&0&0&0\\
+    0&0&0&0&0&1&0\\
+    0&0&0&0&0&0&1\\
+    0&0&0&0&0&0&0
+\end{bmatrix}$, o resultado obtido é:
+\begin{figure}[H]
+    \centering
+        \includegraphics[scale=0.25]{img/dfsQ.pdf}
+    \caption{Grafo Q, pesquisa em profundidade}
+    \label{fig:dfsP}
+\end{figure}
+
+Neste caso temos um grafo não conexo, contudo todos os vértices contém uma ordem pela qual foram visitados. Daqui podemos concluir que o algoritmo visita todos os vértices do grafo, sendo ele conexo ou não.
+
+\subsection*{Matriz $M25$}
 
 Para o caso da matriz $M25$, o resultado obtido é:
+\begin{figure}[H]
+    \centering
+        \includegraphics[scale=0.25]{img/dfsM25.pdf}
+    \caption{Grafo M25, pesquisa em profundidade}
+    \label{fig:dfsP}
+\end{figure}
+
+Apresento a baixo a lista dos vértices juntamente com a ordem pela qual foram visitados, de forma a poder visualizar melhor o resultado obtido uma vez que o grafo é mais complexo.
 
 \begin{lstlisting}
  1  [1]      2 [2]      3 [3]      4 [4]      5 [5]      10 [6]
@@ -942,9 +1026,17 @@ sendo o primeiro valor o \textit(id) do vértice e o segundo a ordem pela qual f
 
 Analisando o ficheiro \textit{log\_dfs.txt} (em anexo) conseguimos ver o procedimento feito pelo algoritmo.
 
-\subsection{Matriz $M50$}
+\subsection*{Matriz $M50$}
 
 Para o caso da matriz $M50$, o resultado obtido é:
+\begin{figure}[H]
+    \centering
+        \includegraphics[scale=0.25]{img/dfsM50.pdf}
+    \caption{Grafo M50, pesquisa em profundidade}
+    \label{fig:dfsP}
+\end{figure}
+
+À semelhança do exemplo anterior, apresento a baixo a lista dos vértices juntamente com a ordem pela qual foram visitados.
 
 \begin{lstlisting}
  1 [1]      2 [2]      3 [3]      4 [4]      5 [5]      7 [6]
@@ -961,8 +1053,62 @@ Para o caso da matriz $M50$, o resultado obtido é:
 
 \section{Exercício 3}
 
+O software utilizado para a resolução deste exercício foi o \textit{Octave}.
+
+\subsection*{Alínea a)}
+Para o cálculo dos valores e vetores próprios de uma matriz de adjacência foi utilizado o comando \textit{eig(*matriz de adjacência*)} \cite{WEBSITE1}.
+
+\begin{lstlisting}
+    [V,D] = eig(matrix{p});
+    eigValues = round(eig(matrix{p}));
+    lambdaMax = max(max(eigValues));
+    lambdaMin = min(min(eigValues));
+    eigVectors = V;
+\end{lstlisting} onde \textit{matrix\{p\}} indentifica uma matriz de adjacência. Os valores \textit{lambdaMax} e \textit{lambdaMin} representam respetivamente o maior e o menor valor próprio obtidos.
+
+Para obter o espectro do grafo foi utilizado o comando \textit{unique(*vetor*)} para obter um vetor com os valores distintos do vetor dos valores próprios \cite{WEBSITE2}.
+Assim, o espectro do grafo é o vetor obtido anteriormente associando a cada uma destas entradas o número de ocorrências do valor no vetor dos valores próprios \cite{WEBSITE3}.
+
+\begin{lstlisting}
+    a = unique(eigValues);
+    spectrum = [a,histc(eigValues(:),a)];
+\end{lstlisting}
+
+\subsection*{Alínea b)}
+
+Para verificar se um dado grafo é regular foi utilizado a seguinte fórmula:
+
+Seja \textbf{1} um vetor de $1$'s e $M$ a matriz de adjacência do grafo.
+\begin{equation}
+    M*\textbf{1} = \textit{lambdaMax}*\textbf{1}
+\end{equation}
+
+Em \textit{Octave} foi utilizado o comando \textit{all(*vector1 == vector2*)} para verificar se todas as componentes do \textit{vector1} são iguais às componentes equivalentes do \textit{vector2} \cite{WEBSITE4}.
+
+\begin{lstlisting}
+    if all(floor(matrix{p} * ones(size(V),1)) == floor(lambdaMax*ones(size(V),1)) == 1)
+        isRegular = 1;
+    endif
+\end{lstlisting}
+
+No caso de se verificar a regularidade do grafo é retornado o grau de regularidade obtido através do seguinte enunciado:
+
+\begin{center}
+    Se $G$ é um grafo $p-regular$, então o seu maior valor próprio é $p$ com o vetor próprio $j$ associado, e a multiplicidade de $p$ coincide com o número de componentes de $G$ \cite{WEBSITE5}.
+\end{center}
+
+\begin{lstlisting}
+    if (isRegular == 1)
+        regularDegree = lambdaMax
+    endif
+\end{lstlisting}
+
+\subsection*{Alínea c)}
+
 \chapter{Conclusão}
 
 \section{Considerações futuras}
+
+\bibliography{ref}
 
 \end{document}

@@ -4,8 +4,9 @@ INPUT g:\OneDrive - Universidade de Aveiro\Mestrado - Matemática\sma\report\rep
 OUTPUT report.log
 INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\base\report.cls
 INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\base\report.cls
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\base\size10.clo
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\base\size10.clo
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\base\size12.clo
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\base\size12.clo
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\caption\caption.sty
 INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\caption\caption.sty
 INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\caption\caption3.sty
@@ -49,7 +50,7 @@ INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\base\fontenc.sty
 INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\base\fontenc.sty
 INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\base\t1enc.def
 INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\base\t1enc.def
-INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\jknappen\ec\ecrm1000.tfm
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\jknappen\ec\ecrm1200.tfm
 INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\amsmath\amsmath.sty
 INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\amsmath\amsmath.sty
 INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\amsmath\amstext.sty
@@ -257,4 +258,328 @@ INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\hyperref\nameref.sty
 INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\hyperref\nameref.sty
 INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\generic\oberdiek\gettitlestring.sty
 INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\generic\oberdiek\gettitlestring.sty
+INPUT report.out
+INPUT report.out
+INPUT report.out
+INPUT report.out
+OUTPUT report.pdf
+INPUT .\report.out
+INPUT .\report.out
 OUTPUT report.out
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\oberdiek\pdflscape.sty
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\oberdiek\pdflscape.sty
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\graphics\lscape.sty
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\graphics\lscape.sty
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\jknappen\ec\ecrm2074.tfm
+INPUT img\ua.png
+INPUT .\img\ua.png
+INPUT .\img\ua.png
+INPUT .\img\ua.png
+INPUT .\img\ua.png
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\jknappen\ec\ecrm1440.tfm
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\jknappen\ec\ecrm2488.tfm
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\jknappen\ec\ecbx2488.tfm
+INPUT report.toc
+INPUT report.toc
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\jknappen\ec\ecbx1200.tfm
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\jknappen\ec\ecti1200.tfm
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+OUTPUT report.toc
+INPUT report.lof
+INPUT report.lof
+OUTPUT report.lof
+INPUT img\ua.png
+INPUT .\img\ua.png
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\jknappen\ec\ecrm1728.tfm
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\jknappen\ec\ecbx1728.tfm
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\jknappen\ec\ecbi1728.tfm
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\base\omscmr.fd
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\tex\latex\base\omscmr.fd
+INPUT img\ua.png
+INPUT .\img\ua.png
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\jknappen\ec\ecbi1200.tfm
+INPUT img\ua.png
+INPUT .\img\ua.png
+INPUT img\ua.png
+INPUT .\img\ua.png
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\jknappen\ec\ecrm1000.tfm
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\jknappen\ec\ecrm1095.tfm
+INPUT img\lerLinhasDoFicheiro.pdf
+INPUT .\img\lerLinhasDoFicheiro.pdf
+INPUT .\img\lerLinhasDoFicheiro.pdf
+INPUT .\img\lerLinhasDoFicheiro.pdf
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\jknappen\ec\ecbx1095.tfm
+INPUT img\ua.png
+INPUT .\img\ua.png
+INPUT img\definirSucessorEPredecessor.pdf
+INPUT .\img\definirSucessorEPredecessor.pdf
+INPUT .\img\definirSucessorEPredecessor.pdf
+INPUT .\img\definirSucessorEPredecessor.pdf
+INPUT img\ua.png
+INPUT .\img\ua.png
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT img\ua.png
+INPUT .\img\ua.png
+INPUT img\ordernarVerticesPorGrau.pdf
+INPUT .\img\ordernarVerticesPorGrau.pdf
+INPUT .\img\ordernarVerticesPorGrau.pdf
+INPUT .\img\ordernarVerticesPorGrau.pdf
+INPUT img\ua.png
+INPUT .\img\ua.png
+INPUT img\ua.png
+INPUT .\img\ua.png
+INPUT img\ua.png
+INPUT .\img\ua.png
+INPUT img\ua.png
+INPUT .\img\ua.png
+INPUT img\ua.png
+INPUT .\img\ua.png
+INPUT img\setColorVertex.pdf
+INPUT .\img\setColorVertex.pdf
+INPUT .\img\setColorVertex.pdf
+INPUT .\img\setColorVertex.pdf
+INPUT img\ua.png
+INPUT .\img\ua.png
+INPUT img\getFirstColorAvailable.pdf
+INPUT .\img\getFirstColorAvailable.pdf
+INPUT .\img\getFirstColorAvailable.pdf
+INPUT .\img\getFirstColorAvailable.pdf
+INPUT img\ua.png
+INPUT .\img\ua.png
+INPUT img\saveNeighborColors.pdf
+INPUT .\img\saveNeighborColors.pdf
+INPUT .\img\saveNeighborColors.pdf
+INPUT .\img\saveNeighborColors.pdf
+INPUT img\ua.png
+INPUT .\img\ua.png
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\jknappen\ec\ecbx1440.tfm
+INPUT img\ua.png
+INPUT .\img\ua.png
+INPUT img\colorizeVersion1.pdf
+INPUT .\img\colorizeVersion1.pdf
+INPUT .\img\colorizeVersion1.pdf
+INPUT .\img\colorizeVersion1.pdf
+INPUT img\ua.png
+INPUT .\img\ua.png
+INPUT img\colorizeVersion2.pdf
+INPUT .\img\colorizeVersion2.pdf
+INPUT .\img\colorizeVersion2.pdf
+INPUT .\img\colorizeVersion2.pdf
+INPUT img\ua.png
+INPUT .\img\ua.png
+INPUT img\ua.png
+INPUT .\img\ua.png
+INPUT img\ua.png
+INPUT .\img\ua.png
+INPUT img\saveNeighborColorsV3.pdf
+INPUT .\img\saveNeighborColorsV3.pdf
+INPUT .\img\saveNeighborColorsV3.pdf
+INPUT .\img\saveNeighborColorsV3.pdf
+INPUT img\colorizeVersion2.pdf
+INPUT .\img\colorizeVersion2.pdf
+INPUT img\ua.png
+INPUT .\img\ua.png
+INPUT img\ua.png
+INPUT .\img\ua.png
+INPUT img\getFirstNonVisitedVertex.pdf
+INPUT .\img\getFirstNonVisitedVertex.pdf
+INPUT .\img\getFirstNonVisitedVertex.pdf
+INPUT .\img\getFirstNonVisitedVertex.pdf
+INPUT img\ua.png
+INPUT .\img\ua.png
+INPUT img\haveNonVisitedVertexes.pdf
+INPUT .\img\haveNonVisitedVertexes.pdf
+INPUT .\img\haveNonVisitedVertexes.pdf
+INPUT .\img\haveNonVisitedVertexes.pdf
+INPUT img\ua.png
+INPUT .\img\ua.png
+INPUT img\ua.png
+INPUT .\img\ua.png
+INPUT img\haveNonVisitedPredecessors.pdf
+INPUT .\img\haveNonVisitedPredecessors.pdf
+INPUT .\img\haveNonVisitedPredecessors.pdf
+INPUT .\img\haveNonVisitedPredecessors.pdf
+INPUT img\ua.png
+INPUT .\img\ua.png
+INPUT img\dfs.pdf
+INPUT .\img\dfs.pdf
+INPUT .\img\dfs.pdf
+INPUT .\img\dfs.pdf
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\jknappen\ec\ecti1095.tfm
+INPUT img\ua.png
+INPUT .\img\ua.png
+INPUT img\ua.png
+INPUT .\img\ua.png
+INPUT img\ua.png
+INPUT .\img\ua.png
+INPUT img\v1H.pdf
+INPUT .\img\v1H.pdf
+INPUT .\img\v1H.pdf
+INPUT .\img\v1H.pdf
+INPUT img\v2H.pdf
+INPUT .\img\v2H.pdf
+INPUT .\img\v2H.pdf
+INPUT .\img\v2H.pdf
+INPUT img\v3H.pdf
+INPUT .\img\v3H.pdf
+INPUT .\img\v3H.pdf
+INPUT .\img\v3H.pdf
+INPUT img\v1J.pdf
+INPUT .\img\v1J.pdf
+INPUT .\img\v1J.pdf
+INPUT .\img\v1J.pdf
+INPUT img\ua.png
+INPUT .\img\ua.png
+INPUT img\v2J.pdf
+INPUT .\img\v2J.pdf
+INPUT .\img\v2J.pdf
+INPUT .\img\v2J.pdf
+INPUT img\v3J.pdf
+INPUT .\img\v3J.pdf
+INPUT .\img\v3J.pdf
+INPUT .\img\v3J.pdf
+INPUT img\v1M.pdf
+INPUT .\img\v1M.pdf
+INPUT .\img\v1M.pdf
+INPUT .\img\v1M.pdf
+INPUT img\ua.png
+INPUT .\img\ua.png
+INPUT img\v2M.pdf
+INPUT .\img\v2M.pdf
+INPUT .\img\v2M.pdf
+INPUT .\img\v2M.pdf
+INPUT img\v3M.pdf
+INPUT .\img\v3M.pdf
+INPUT .\img\v3M.pdf
+INPUT .\img\v3M.pdf
+INPUT img\ua.png
+INPUT .\img\ua.png
+INPUT img\v1I.pdf
+INPUT .\img\v1I.pdf
+INPUT .\img\v1I.pdf
+INPUT .\img\v1I.pdf
+INPUT img\v2I.pdf
+INPUT .\img\v2I.pdf
+INPUT .\img\v2I.pdf
+INPUT .\img\v2I.pdf
+INPUT img\v3I.pdf
+INPUT .\img\v3I.pdf
+INPUT .\img\v3I.pdf
+INPUT .\img\v3I.pdf
+INPUT img\ua.png
+INPUT .\img\ua.png
+INPUT img\v2F.pdf
+INPUT .\img\v2F.pdf
+INPUT .\img\v2F.pdf
+INPUT .\img\v2F.pdf
+INPUT img\v1F.pdf
+INPUT .\img\v1F.pdf
+INPUT .\img\v1F.pdf
+INPUT .\img\v1F.pdf
+INPUT img\v3F.pdf
+INPUT .\img\v3F.pdf
+INPUT .\img\v3F.pdf
+INPUT .\img\v3F.pdf
+INPUT img\ua.png
+INPUT .\img\ua.png
+INPUT img\dfsP.pdf
+INPUT .\img\dfsP.pdf
+INPUT .\img\dfsP.pdf
+INPUT .\img\dfsP.pdf
+INPUT img\ua.png
+INPUT .\img\ua.png
+INPUT img\dfsO.pdf
+INPUT .\img\dfsO.pdf
+INPUT .\img\dfsO.pdf
+INPUT .\img\dfsO.pdf
+INPUT img\ua.png
+INPUT .\img\ua.png
+INPUT img\dfsA.pdf
+INPUT .\img\dfsA.pdf
+INPUT .\img\dfsA.pdf
+INPUT .\img\dfsA.pdf
+INPUT img\ua.png
+INPUT .\img\ua.png
+INPUT img\dfsQ.pdf
+INPUT .\img\dfsQ.pdf
+INPUT .\img\dfsQ.pdf
+INPUT .\img\dfsQ.pdf
+INPUT img\ua.png
+INPUT .\img\ua.png
+INPUT img\dfsM25.pdf
+INPUT .\img\dfsM25.pdf
+INPUT .\img\dfsM25.pdf
+INPUT .\img\dfsM25.pdf
+INPUT img\ua.png
+INPUT .\img\ua.png
+INPUT img\dfsM50.pdf
+INPUT .\img\dfsM50.pdf
+INPUT .\img\dfsM50.pdf
+INPUT .\img\dfsM50.pdf
+INPUT img\ua.png
+INPUT .\img\ua.png
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\jknappen\ec\ecrm0800.tfm
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\jknappen\ec\ecbx0800.tfm
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\jknappen\ec\ecrm0600.tfm
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\jknappen\ec\ecbx0600.tfm
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\jknappen\ec\ecti0800.tfm
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\tfm\jknappen\ec\ecti0600.tfm
+INPUT img\ua.png
+INPUT .\img\ua.png
+INPUT img\ua.png
+INPUT .\img\ua.png
+INPUT report.aux
+INPUT .\report.out
+INPUT .\report.out
+INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1095.pk
+INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1095.pk
+INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
+INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
+INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk
+INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk
+INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk
+INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk
+INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk
+INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk
+INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbi1200.pk
+INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbi1200.pk
+INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbi1728.pk
+INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbi1728.pk
+INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk
+INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk
+INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk
+INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk
+INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk
+INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk
+INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk
+INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk
+INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk
+INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk
+INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk
+INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk
+INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2074.pk
+INPUT C:\Users\chenr\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2074.pk
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT G:\OneDrive - Universidade de Aveiro\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
