@@ -27,8 +27,7 @@ public class ColorizeVersion1 {
     protected PrintWriter pw;
     
     /**
-     * [StringBuilder description]
-     * @return [description]
+     *
      */
     protected StringBuilder sb = new StringBuilder();
 

@@ -32,8 +32,7 @@ public class DepthFirstSearch {
     protected PrintWriter pw;
 
     /**
-     * [StringBuilder description]
-     * @return [description]
+     *
      */
     protected StringBuilder sb = new StringBuilder();
 

@@ -69,7 +69,6 @@
 
 \maketitle
 \tableofcontents
-\listoffigures
 
 \chapter{Introdução}
 
@@ -195,7 +194,7 @@ Consequentemente a ordem do grafo é o número de linhas da matriz de adjacênci
 
 \begin{figure}[H]
     \centering
-        \includegraphics[scale=0.25]{img/lerLinhasDoFicheiro.pdf}
+        \includegraphics[scale=0.18]{img/lerLinhasDoFicheiro.pdf}
     \caption{Ler linhas do ficheiro}
     \label{fig:lldf}
 \end{figure}
@@ -215,7 +214,7 @@ Analogamente utilizamos a mesma metodologia no caso da entrada ser $-1$.
 
 \begin{figure}[H]
     \centering
-        \includegraphics[scale=0.25]{img/definirSucessorEPredecessor.pdf}
+        \includegraphics[scale=0.18]{img/definirSucessorEPredecessor.pdf}
     \caption{Definir sucessores e predecessores}
     \label{fig:dsep}
 \end{figure}
@@ -411,7 +410,7 @@ Após obter o vértice correspondente ao \textit{id} obtém a primeira cor dispo
 
 \begin{figure}[H]
     \centering
-        \includegraphics[scale=0.25]{img/setColorVertex.pdf}
+        \includegraphics[scale=0.18]{img/setColorVertex.pdf}
     \caption{Definir a cor do vértice}
     \label{fig:scv}
 \end{figure}
@@ -432,7 +431,7 @@ No caso de exisitir então k passa a ser igual a 2 e volta a verificar se 2 exis
 
 \begin{figure}[H]
     \centering
-        \includegraphics[scale=0.25]{img/getFirstColorAvailable.pdf}
+        \includegraphics[scale=0.18]{img/getFirstColorAvailable.pdf}
     \caption{Obter a primeira cor disponível}
     \label{fig:gfca}
 \end{figure}
@@ -450,7 +449,7 @@ Quando encontrar um vértice vizinho, adiciona a cor deste à lista de cores.
 
 \begin{figure}[H]
     \centering
-        \includegraphics[scale=0.25]{img/saveNeighborColors.pdf}
+        \includegraphics[scale=0.18]{img/saveNeighborColors.pdf}
     \caption{Guardar as cores dos vizinhos}
     \label{fig:snc}
 \end{figure}
@@ -476,7 +475,7 @@ O algoritmo final terá o seguinda aspeto:
 
 \begin{figure}[H]
     \centering
-        \includegraphics[scale=0.25]{img/colorizeVersion1.pdf}
+        \includegraphics[scale=0.18]{img/colorizeVersion1.pdf}
     \caption{Colorização do grafo, versão 1}
     \label{fig:cV1}
 \end{figure}
@@ -508,7 +507,7 @@ O algoritmo final terá o seguinda aspeto:
 
 \begin{figure}[H]
     \centering
-        \includegraphics[scale=0.25]{img/colorizeVersion2.pdf}
+        \includegraphics[scale=0.18]{img/colorizeVersion2.pdf}
     \caption{Colorização do grafo, versão 2}
     \label{fig:cV2}
 \end{figure}
@@ -547,7 +546,7 @@ Contrariamente a uma lista, a tabela (sendo ela um dicionário) caso contenha a 
 
 \begin{figure}[H]
     \centering
-        \includegraphics[scale=0.25]{img/saveNeighborColorsV3.pdf}
+        \includegraphics[scale=0.18]{img/saveNeighborColorsV3.pdf}
     \caption{Guardar as cores dos vizinhos, versão 3}
     \label{fig:sncV3}
 \end{figure}
@@ -567,7 +566,7 @@ Seja v3 um objeto do tipo \textit{ColorizeVersion3.java}:
 
 \begin{figure}[H]
     \centering
-        \includegraphics[scale=0.25]{img/colorizeVersion2.pdf}
+        \includegraphics[scale=0.18]{img/colorizeVersion2.pdf}
     \caption{Colorização do grafo, versão 3}
     \label{fig:cV3}
 \end{figure}
@@ -595,7 +594,7 @@ O método \textit{getFirstNonVisitedVertex ()} verifica se existem algum vértic
 
 \begin{figure}[H]
     \centering
-        \includegraphics[scale=0.25]{img/getFirstNonVisitedVertex.pdf}
+        \includegraphics[scale=0.18]{img/getFirstNonVisitedVertex.pdf}
     \caption{Obter o primeiro vértice não visitado}
     \label{fig:gfnvv}
 \end{figure}
@@ -611,7 +610,7 @@ O método \textit{haveNonVisitedVertexes ()} verifica se a lista contém vértic
 
 \begin{figure}[H]
     \centering
-        \includegraphics[scale=0.25]{img/haveNonVisitedVertexes.pdf}
+        \includegraphics[scale=0.18]{img/haveNonVisitedVertexes.pdf}
     \caption{Verificação da existência de vértices não visitados}
     \label{fig:hnvv}
 \end{figure}
@@ -682,7 +681,7 @@ O método \textit{haveNonVisitedPredecessors (Vertex vertex)} verifica se o vér
 
 \begin{figure}[H]
     \centering
-        \includegraphics[scale=0.25]{img/haveNonVisitedPredecessors.pdf}
+        \includegraphics[scale=0.18]{img/haveNonVisitedPredecessors.pdf}
     \caption{Verificação da existência de predecessores não visitados}
     \label{fig:hnvp}
 \end{figure}
@@ -702,7 +701,7 @@ Este processo repete-se enquanto houverem vértices não visitaos ou existirem v
 
 \begin{figure}[H]
     \centering
-        \includegraphics[scale=0.16]{img/dfs.pdf}
+        \includegraphics[scale=0.18]{img/dfs.pdf}
     \caption{Algoritmo \textit{Depth First Search}}
     \label{fig:dfsAl}
 \end{figure}
@@ -739,7 +738,7 @@ A coloração obtida é a representada no seguinte grafo:
 
 \begin{figure}[H]
     \centering
-        \includegraphics[scale=0.25]{img/v1H.pdf}
+        \includegraphics[scale=0.22]{img/v1H.pdf}
     \caption{Grafo H, coloração 1}
     \label{fig:v1H}
 \end{figure}
@@ -750,13 +749,13 @@ Aplicando a versão 2 e 3 do algoritmo de coloração dos vértices, obtemos os 
     \centering
     \begin{minipage}{.5\textwidth}
       \centering
-      \includegraphics[scale=0.25]{img/v2H.pdf}
+      \includegraphics[scale=0.22]{img/v2H.pdf}
       \captionof{figure}{Grafo H, coloração 2}
       \label{fig:v2H}
     \end{minipage}%
     \begin{minipage}{.5\textwidth}
       \centering
-      \includegraphics[scale=0.25]{img/v3H.pdf}
+      \includegraphics[scale=0.22]{img/v3H.pdf}
       \captionof{figure}{Grafo H, coloração 3}
       \label{fig:v3H}
     \end{minipage}
@@ -772,7 +771,7 @@ A coloração obtida é a representada no seguinte grafo:
 
 \begin{figure}[H]
     \centering
-        \includegraphics[scale=0.25]{img/v1J.pdf}
+        \includegraphics[scale=0.22]{img/v1J.pdf}
     \caption{Grafo J, coloração 1}
     \label{fig:v1J}
 \end{figure}
@@ -783,13 +782,13 @@ Aplicando a versão 2 e 3 do algoritmo de coloração dos vértices, obtemos os 
     \centering
     \begin{minipage}{.5\textwidth}
       \centering
-      \includegraphics[scale=0.25]{img/v2J.pdf}
+      \includegraphics[scale=0.22]{img/v2J.pdf}
       \captionof{figure}{Grafo J, coloração 2}
       \label{fig:v2J}
     \end{minipage}%
     \begin{minipage}{.5\textwidth}
       \centering
-      \includegraphics[scale=0.25]{img/v3J.pdf}
+      \includegraphics[scale=0.22]{img/v3J.pdf}
       \captionof{figure}{Grafo J, coloração 3}
       \label{fig:v3J}
     \end{minipage}
@@ -805,7 +804,7 @@ A coloração obtida é a representada no seguinte grafo:
 
 \begin{figure}[H]
     \centering
-        \includegraphics[scale=0.25]{img/v1M.pdf}
+        \includegraphics[scale=0.22]{img/v1M.pdf}
     \caption{Grafo M, coloração 1}
     \label{fig:v1M}
 \end{figure}
@@ -816,13 +815,13 @@ Aplicando a versão 2 e 3 do algoritmo de coloração dos vértices, obtemos os 
     \centering
     \begin{minipage}{.5\textwidth}
       \centering
-      \includegraphics[scale=0.25]{img/v2M.pdf}
+      \includegraphics[scale=0.22]{img/v2M.pdf}
       \captionof{figure}{Grafo M, coloração 2}
       \label{fig:v2M}
     \end{minipage}%
     \begin{minipage}{.5\textwidth}
       \centering
-      \includegraphics[scale=0.25]{img/v3M.pdf}
+      \includegraphics[scale=0.22]{img/v3M.pdf}
       \captionof{figure}{Grafo M, coloração 3}
       \label{fig:v3M}
     \end{minipage}
@@ -846,7 +845,7 @@ A coloração obtida é a representada no seguinte grafo:
 
 \begin{figure}[H]
     \centering
-        \includegraphics[scale=0.25]{img/v1I.pdf}
+        \includegraphics[scale=0.22]{img/v1I.pdf}
     \caption{Grafo I, coloração 1}
     \label{fig:v1I}
 \end{figure}
@@ -857,13 +856,13 @@ Aplicando a versão 2 e 3 do algoritmo de coloração dos vértices, obtemos os 
     \centering
     \begin{minipage}{.5\textwidth}
       \centering
-      \includegraphics[scale=0.25]{img/v2I.pdf}
+      \includegraphics[scale=0.22]{img/v2I.pdf}
       \captionof{figure}{Grafo I, coloração 2}
       \label{fig:v2I}
     \end{minipage}%
     \begin{minipage}{.5\textwidth}
       \centering
-      \includegraphics[scale=0.25]{img/v3I.pdf}
+      \includegraphics[scale=0.22]{img/v3I.pdf}
       \captionof{figure}{Grafo I, coloração 3}
       \label{fig:v3I}
     \end{minipage}
@@ -893,7 +892,7 @@ A coloração obtida é a representada no seguinte grafo:
 
 \begin{figure}[H]
     \centering
-        \includegraphics[scale=0.25]{img/v2F.pdf}
+        \includegraphics[scale=0.22]{img/v2F.pdf}
     \caption{Grafo F, coloração 2}
     \label{fig:v2F}
 \end{figure}
@@ -904,13 +903,13 @@ Aplicando a versão 1 e 3 do algoritmo de coloração dos vértices, obtemos os 
     \centering
     \begin{minipage}{.5\textwidth}
       \centering
-      \includegraphics[scale=0.25]{img/v1F.pdf}
+      \includegraphics[scale=0.22]{img/v1F.pdf}
       \captionof{figure}{Grafo F, coloração 1}
       \label{fig:v1F}
     \end{minipage}%
     \begin{minipage}{.5\textwidth}
       \centering
-      \includegraphics[scale=0.25]{img/v3F.pdf}
+      \includegraphics[scale=0.22]{img/v3F.pdf}
       \captionof{figure}{Grafo F, coloração 3}
       \label{fig:v3F}
     \end{minipage}
@@ -941,7 +940,7 @@ Para o caso da matriz $P$ = $\begin{bmatrix}
 \end{bmatrix}$, o resultado obtido é:
 \begin{figure}[H]
     \centering
-        \includegraphics[scale=0.25]{img/dfsP.pdf}
+        \includegraphics[scale=0.22]{img/dfsP.pdf}
     \caption{Grafo P, pesquisa em profundidade}
     \label{fig:dfsP}
 \end{figure}
@@ -957,7 +956,7 @@ Para o caso da matriz $O$ = $\begin{bmatrix}
 \end{bmatrix}$, o resultado obtido é:
 \begin{figure}[H]
     \centering
-        \includegraphics[scale=0.25]{img/dfsO.pdf}
+        \includegraphics[scale=0.22]{img/dfsO.pdf}
     \caption{Grafo O, pesquisa em profundidade}
     \label{fig:dfsP}
 \end{figure}
@@ -977,7 +976,7 @@ Para o caso da matriz $A$=$\begin{bmatrix}
 \end{bmatrix}$, o resultado obtido é:
 \begin{figure}[H]
     \centering
-        \includegraphics[scale=0.25]{img/dfsA.pdf}
+        \includegraphics[scale=0.22]{img/dfsA.pdf}
     \caption{Grafo A, pesquisa em profundidade}
     \label{fig:dfsP}
 \end{figure}
@@ -997,7 +996,7 @@ Para o caso da matriz $Q$ = $\begin{bmatrix}
 \end{bmatrix}$, o resultado obtido é:
 \begin{figure}[H]
     \centering
-        \includegraphics[scale=0.25]{img/dfsQ.pdf}
+        \includegraphics[scale=0.22]{img/dfsQ.pdf}
     \caption{Grafo Q, pesquisa em profundidade}
     \label{fig:dfsP}
 \end{figure}
@@ -1009,7 +1008,7 @@ Neste caso temos um grafo não conexo, contudo todos os vértices contém uma or
 Para o caso da matriz $M25$, o resultado obtido é:
 \begin{figure}[H]
     \centering
-        \includegraphics[scale=0.25]{img/dfsM25.pdf}
+        \includegraphics[scale=0.22]{img/dfsM25.pdf}
     \caption{Grafo M25, pesquisa em profundidade}
     \label{fig:dfsP}
 \end{figure}
@@ -1031,7 +1030,7 @@ Analisando o ficheiro \textit{log\_dfs.txt} (em anexo) conseguimos ver o procedi
 Para o caso da matriz $M50$, o resultado obtido é:
 \begin{figure}[H]
     \centering
-        \includegraphics[scale=0.25]{img/dfsM50.pdf}
+        \includegraphics[scale=0.22]{img/dfsM50.pdf}
     \caption{Grafo M50, pesquisa em profundidade}
     \label{fig:dfsP}
 \end{figure}
@@ -1103,7 +1102,86 @@ No caso de se verificar a regularidade do grafo é retornado o grau de regularid
     endif
 \end{lstlisting}
 
+Aplicando este algoritmo às $H$, $J$ e $M$ verificamos que apenas a matriz $J$ representa um grafo regular com um grau de regularidade igual a $3$. Através das figuras \ref{fig:v1H}, \ref{fig:v1J} e \ref{fig:v1M} podemos assegurar esta conclusão.
+
+\begin{lstlisting}
+    isRegular =  1
+    regularDegree =  3
+\end{lstlisting}
+
 \subsection*{Alínea c)}
+
+Para verificar se um dado grafo é conexo é obtido o maior valor próprio, em valor absoluto, e verifica-se se o vetor próprio associado ao valor próprio é positivo.
+
+\begin{lstlisting}
+    maxAbs = max(max(abs(eigValues)));
+    for i = 1:size(eigValues)
+        if eigValues(i) == maxAbs
+          vector = eigVectors(1:size(eigVectors),i);
+        endif
+    endfor
+    isConnected = 1;
+    for i = 1:size(vector)
+        if (vector(i) <= 0)
+          isConnected = 0;
+          break;
+        endif
+    endfor
+\end{lstlisting}
+
+O resultado obtido quando foi verificado se os grafos $H$, $J$ e $M$ são conexos foi que apenas o grafo $H$ verifica esta condição. 
+
+\begin{lstlisting}
+    isConnected =  1
+\end{lstlisting}
+
+As figuras \ref{fig:v1H}, \ref{fig:v1J} e \ref{fig:v1M} sustentão esta conclusão.
+
+\subsection*{Alínea d)}
+
+Para verificar se um grafo é bipartido foi verificado se o vetor do espectro é simétrico, ou seja, se o vetor espectral invertido é igual ao vetor espectral.
+
+\begin{lstlisting}
+    isBipart = 0;
+    if all((spectrum(1:size(spectrum),2) == flip(spectrum(1:size(spectrum),2))))
+        isBipart = 1;
+    endif
+\end{lstlisting}
+
+Neste caso, aplicando o algoritmo às matrizes que representam os grafos $H$, $J$ e $M$, verificamos que apenas o grafo $H$ é bipartido. 
+
+\begin{lstlisting}
+    isBipart =  1
+\end{lstlisting}
+
+Através das colorações obtidas e representadas nas figuras \ref{fig:v1H}, \ref{fig:v1J} e \ref{fig:v1M} vemos que apenas a figura \ref{fig:v1H} contém duas cores, ou seja, apenas $H$ é bipartido.
+
+\subsection*{Alínea e)}
+
+Para verificar se o grafo pode ser um grafo linear verificou-se se o valor próprio mínimo é maior ou igual a $-2$. No caso de se verificar a desigualdade então o grafo pode ser um grafo linear.
+
+\begin{lstlisting}
+    isLinear = 0;
+    if (lambdaMin + 2 >= 0)
+        isLinear = 1;
+    endif
+\end{lstlisting}
+
+Quando aplicado o algoritmo à matriz $H$ vemos que o grafo representado por esta matriz não pode ser grafo linear.
+
+\subsection*{Alínea f)}
+
+Cálculo do majorante:
+
+\begin{lstlisting}
+    majorante = floor(lambdaMax + 1)
+\end{lstlisting}
+
+Cálculo do minorante:
+
+\begin{lstlisting}
+  minorante = ceil(-(lambdaMax/lambdaMin) + 1)
+\end{lstlisting}
 
 \chapter{Conclusão}
 
