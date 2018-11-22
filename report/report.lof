@@ -1,0 +1,40 @@
+\babel@toc {portuguese}{}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Ler linhas do ficheiro\relax }}{9}{figure.caption.3}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Definir sucessores e predecessores\relax }}{11}{figure.caption.4}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Ordenar os v\IeC {\'e}rtices por ordem crescente de grau\relax }}{13}{figure.caption.5}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Definir a cor do v\IeC {\'e}rtice\relax }}{18}{figure.caption.6}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Obter a primeira cor dispon\IeC {\'\i }vel\relax }}{19}{figure.caption.7}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Guardar as cores dos vizinhos\relax }}{20}{figure.caption.8}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Coloriza\IeC {\c c}\IeC {\~a}o do grafo, vers\IeC {\~a}o 1\relax }}{21}{figure.caption.10}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Coloriza\IeC {\c c}\IeC {\~a}o do grafo, vers\IeC {\~a}o 2\relax }}{23}{figure.caption.12}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Guardar as cores dos vizinhos, vers\IeC {\~a}o 3\relax }}{25}{figure.caption.13}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Coloriza\IeC {\c c}\IeC {\~a}o do grafo, vers\IeC {\~a}o 3\relax }}{26}{figure.caption.15}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Obter o primeiro v\IeC {\'e}rtice n\IeC {\~a}o visitado\relax }}{27}{figure.caption.16}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Verifica\IeC {\c c}\IeC {\~a}o da exist\IeC {\^e}ncia de v\IeC {\'e}rtices n\IeC {\~a}o visitados\relax }}{28}{figure.caption.17}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Verifica\IeC {\c c}\IeC {\~a}o da exist\IeC {\^e}ncia de predecessores n\IeC {\~a}o visitados\relax }}{30}{figure.caption.18}
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Algoritmo \textit {Depth First Search}\relax }}{32}{figure.caption.20}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Grafo H, colora\IeC {\c c}\IeC {\~a}o 1\relax }}{35}{figure.caption.22}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Grafo H, colora\IeC {\c c}\IeC {\~a}o 2\relax }}{35}{figure.caption.23}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Grafo H, colora\IeC {\c c}\IeC {\~a}o 3\relax }}{35}{figure.caption.23}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Grafo J, colora\IeC {\c c}\IeC {\~a}o 1\relax }}{36}{figure.caption.25}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Grafo J, colora\IeC {\c c}\IeC {\~a}o 2\relax }}{36}{figure.caption.26}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Grafo J, colora\IeC {\c c}\IeC {\~a}o 3\relax }}{36}{figure.caption.26}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Grafo M, colora\IeC {\c c}\IeC {\~a}o 1\relax }}{37}{figure.caption.28}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Grafo M, colora\IeC {\c c}\IeC {\~a}o 2\relax }}{37}{figure.caption.29}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Grafo M, colora\IeC {\c c}\IeC {\~a}o 3\relax }}{37}{figure.caption.29}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Grafo I, colora\IeC {\c c}\IeC {\~a}o 1\relax }}{38}{figure.caption.31}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Grafo I, colora\IeC {\c c}\IeC {\~a}o 2\relax }}{38}{figure.caption.32}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Grafo I, colora\IeC {\c c}\IeC {\~a}o 3\relax }}{38}{figure.caption.32}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Grafo F, colora\IeC {\c c}\IeC {\~a}o 2\relax }}{39}{figure.caption.34}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Grafo F, colora\IeC {\c c}\IeC {\~a}o 1\relax }}{40}{figure.caption.35}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Grafo F, colora\IeC {\c c}\IeC {\~a}o 3\relax }}{40}{figure.caption.35}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Grafo P, pesquisa em profundidade\relax }}{41}{figure.caption.37}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Grafo O, pesquisa em profundidade\relax }}{42}{figure.caption.39}
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Grafo A, pesquisa em profundidade\relax }}{43}{figure.caption.41}
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Grafo Q, pesquisa em profundidade\relax }}{44}{figure.caption.43}
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Grafo M25, pesquisa em profundidade\relax }}{44}{figure.caption.45}
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Grafo M50, pesquisa em profundidade\relax }}{45}{figure.caption.47}
+\addvspace {10\p@ }
